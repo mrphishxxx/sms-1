@@ -1,4 +1,4 @@
-News
+SMS
 ========
 
-This is my API Evangelist news API research.
+This is my API Evangelist SMS API research.
