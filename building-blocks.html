@@ -1,0 +1,146 @@
+---
+layout: page
+title: SMS APIs - Building Blocks
+---
+
+<style>
+
+    .buildingblocklistingcontainer{
+        padding-left: 10px; 
+        padding-right: 10px; 
+        width:550px;
+    }
+    .buildingblockcategorylistingul{
+        padding-left: 30px;
+    }  
+    .buildingblockcategorylistingul li{
+        list-style: none; 
+        padding: 10px 10px 20px 10px;
+        border: 0px solid #000;
+        font-size: 18px;
+        font-weight: bold;
+    }  
+    .buildingblocklistingul{
+        padding-left: 30px;
+    }  
+    .buildingblocklistingul li{
+        padding: 20px; 
+        border: 0px solid #000;
+        font-size: 14px;
+        font-weight: normal;
+    } 
+</style>
+
+
+{% raw  %}
+
+<script id="buildingblockcategoryTemplate" type="text/template">        
+    <tr>       
+        <td colspan="2" align="left"><span style="font-size: 18px;"><strong>{{category}}</strong></span><table id="{{slug}}" class="buildingblocklistingul" style="width: 90%; padding-left: 25px;padding-top: 5px; padding-bottom:5px;"></table></td>
+    </tr>                                                                                                 
+</script>
+
+<script id="buildingblockTemplate" type="text/template">     
+    <tr>       
+        <td colspan="2"></td>
+    </tr>        
+    <tr>       
+        <td width="60" align="center" valign="top"><img src="{{image}}" width="70" align="left" style="padding: 15px;" /></td>
+        <td align="left" valign="middle"><strong>{{name}}</strong> - {{details}}</td>
+    </tr> 
+    <tr>       
+        <td colspan="2"><br /></td>
+    </tr>                                                                                                  
+</script>
+{% endraw %}
+
+<div class="buildingblocklistingcontainter">
+	<h1 class="title" id="smsbuildingblocktitle"></h1>
+	<div id="defaultcopy" style="display:none;">
+    	<p><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-building-blocks-design.png" align="right" width="225" /></p>
+    	<p>When I look at any part of the API space, I'm always looking for the common building blocks used by API providers, in hopes of better understanding the approach of individual providers, but also across multiple providers in a single industry.</p>
+    	<p>There are some really interesting approaches being developed by leading companies, and my role is to identify the building blocks of these approaches, aggregate them into blueprints that other companies can emulate in the same space.</p>
+    	<p>My goal is to make as much of my content free and accessible to those who need it, but industry analysis like this is something that is of interest to VC's, and companies looking to start businesses in teh space, so I don't feel bad putting it behind a paywall.</p>
+    	<p>To access the building blocks for this research you will need to become a subscriber to the API Evnagelist network, and I will add you to the Github repository, which will allow you to see the building blocks, access white papers, and any other content ord data I may have published in the private portion of this Github repository.</p>
+    	<p>If you are alaready a subscriber, all you ahve to do is login with Github, and you will have access. if you are not already a subscriber contact me directly at <a href="mailto:info@apievangelist.com">info@apievangelist.com.</a>.</p>
+		<center>
+			<a href="github.html?login=1"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/github_login_icon.png" width="150" /></a><br />
+			<a href="github.html?login=1">Login w/ Github</a>
+		</center>    	
+    </div>
+    <table id="smsbuildingblockListing" class="buildingblocklistingul" style="width: 90%; padding-left: 25px;" cellpadding="5" cellspoacing="3"></table>
+    <h1 class="title" id="monetizationbuildingblocktitle"></h1>
+    <table id="monetizationbuildingblockListing" class="buildingblocklistingul" style="width: 90%; padding-left: 25px;" cellpadding="5" cellspoacing="3"></table>
+        
+</div> 
+
+  <script type="text/javascript">   
+
+	if($oAuth_Token!='')
+		{
+		console.log($oAuth_Token); 
+	    
+	    var github = new Github({
+	        token: $oAuth_Token,
+	        auth: "oauth"
+	            });
+            
+		var repo = github.getRepo('kinlane', 'sms');
+  
+		repo.read('master','data/buildingblockcategories.json',function(err, data){    
+	
+		//console.log(data);    
+	
+		$Categories = jQuery.parseJSON(data);
+		if($Categories!==null)
+			{
+	        $.each($Categories['buildingblockcategories'], function(key, val) {
+	             
+	           $type = val['type'];
+	           if($type=='SMS')  
+	             {
+	             var template = $('#buildingblockcategoryTemplate').html();
+	             var html = Mustache.to_html(template, val);
+	             $('#smsbuildingblockListing').append(html);
+	             }  
+	           else
+	             {
+	             var template = $('#buildingblockcategoryTemplate').html();
+	             var html = Mustache.to_html(template, val);
+	             $('#monetizationbuildingblockListing').append(html);
+	             }             
+	                                             
+	        });
+	        
+			repo.read('master','data/buildingblocks.json',function(err, data){    
+			
+				//console.log(data);   
+			
+				$BuildingBlocks = jQuery.parseJSON(data);
+		        $.each($BuildingBlocks['buildingblocks'], function(key, val) {
+		            categoryslug = val['categoryslug']; 
+		            var template = $('#buildingblockTemplate').html();
+		            var html = Mustache.to_html(template, val);
+		            $('#'+categoryslug).append(html);                                     
+		        }); 
+	        }); 
+	        
+		document.getElementById('smsbuildingblocktitle').innerHTML = "SMS Building Blocks";	
+		document.getElementById('monetizationbuildingblocktitle').innerHTML = "Monetization Building Blocks";	        
+	        	                         	
+		}
+	else
+		{
+		document.getElementById('smsbuildingblocktitle').innerHTML = "Building Blocks";
+		document.getElementById('defaultcopy').style.display = '';	
+		}	
+	
+	})
+	.fail(function (err) {
+	  //handle error with err
+		  console.log(err);
+		});	
+	
+	}
+    
+  </script> 

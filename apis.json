@@ -1,0 +1,53 @@
+{
+	"name": "News Stack",
+	"description": "This is a collection of APIs that are curated by the API Evangelist, as part of monitoring of the larger API space.",
+	"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
+	"tags": [["APIs"],
+	["Application Programming Interfaces"]],
+	"created": "2014-10-31",
+	"modified": "2014-10-31",
+	"url": "http://news.apievangelist.com/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [],
+	"includes": [{
+		"name": "Hearst Developers",
+		"url": "http://news.apievangelist.com/data/hearst-developers/apis.json"
+	},
+	{
+		"name": "Mynewsdesk",
+		"url": "http://news.apievangelist.com/data/mynewsdesk/apis.json"
+	},
+	{
+		"name": "NewsCred",
+		"url": "http://news.apievangelist.com/data/newscred/apis.json"
+	},
+	{
+		"name": "NewsWhip",
+		"url": "http://news.apievangelist.com/data/newswhip/apis.json"
+	},
+	{
+		"name": "NYT Developers",
+		"url": "http://news.apievangelist.com/data/nyt-developers/apis.json"
+	},
+	{
+		"name": "The Associated Press",
+		"url": "http://news.apievangelist.com/data/the-associated-press/apis.json"
+	},
+	{
+		"name": "The Guardian",
+		"url": "http://news.apievangelist.com/data/the-guardian/apis.json"
+	},
+	{
+		"name": "The NPR Tech Team",
+		"url": "http://news.apievangelist.com/data/the-npr-tech-team/apis.json"
+	},
+	{
+		"name": "USA TODAY",
+		"url": "http://news.apievangelist.com/data/usa-today/apis.json"
+	}],
+	"maintainers": [{
+		"FN": "Kin",
+		"X-twitter": "apievangelist",
+		"email": "kin@email.com"
+	}]
+}
