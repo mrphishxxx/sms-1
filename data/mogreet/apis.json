@@ -1,0 +1,56 @@
+{
+	"name": "Mogreet",
+	"description": "<p>Mogreet is a text message marketing platform focusing on the delivery of branded, rich media to mobile devices via MMS in over 175 countries. Migrate delivers SMS, MMS, media transcoding, and use lookup services via their API driven platform. Migrate also employs a pay as you go, unit based approach for charging for its services, allowing developers to scale based upon their needs.</p>",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/228_logo.jpg",
+	"tags": ["Media",
+	"Media-management",
+	"MMS",
+	"MMS API",
+	"SMS",
+	"SMS API",
+	"Stack",
+	"Tools",
+	"Transcoding"],
+	"created": "2014-11-15",
+	"modified": "2014-11-15",
+	"url": "http://sms.apievangelist.com/data/mogreet/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [{
+		"name": "Mogreet Messaging API",
+		"description": "",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/228_logo.jpg",
+		"humanURL": "https://developer.mogreet.com/docs",
+		"baseURL": "http:/api.mogreet.com/moms/",
+		"tags": ["MMS",
+		"MMS API",
+		"SMS",
+		"SMS API"],
+		"properties": [{
+			"type": "X-twitter",
+			"url": "https://twitter.com/mogreet"
+		},
+		{
+			"type": "X-blog",
+			"url": "http://blog.mogreet.com"
+		},
+		{
+			"type": "X-github",
+			"url": "https://github.com/mogreet"
+		},
+		{
+			"type": "Swagger",
+			"url": "http://sms.apievangelist.com/data/mogreet/mogreet-messaging-api.json"
+		}],
+		"contact": [{
+			"FN": "API Evangliest",
+			"email": "info@apievangelist.com",
+			"X-twitter": "apievangelist"
+		}]
+	}],
+	"includes": [],
+	"maintainers": [{
+		"FN": "Kin",
+		"X-twitter": "apievangelist",
+		"email": "kin@email.com"
+	}]
+}
