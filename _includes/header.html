@@ -11,7 +11,7 @@
             <li class="{% if page.title == 'SMS APIs - Home' %}page_item current_page_item{% else %}page_item page-item-2{% endif %}"><a href="/index.html" title="Home" id="home-nav">Home</a></li>
             <li class="{% if page.title == 'SMS APIs' %}page_item current_page_item{% else %}page_item page-item-2{% endif %}"><a href="/companies.html" title="Companies" id="companies-nav">SMS APIs</a></li>            
             <li class="{% if page.title == 'SMS APIs - Building Blocks' %}page_item current_page_item{% else %}page_item page-item-2{% endif %}"><a href="/building-blocks.html" title="Building Blocks" id="building-blocks-nav">Building Blocks</a></li>
-            <li class="{% if page.title == 'SMS APIs - White Paper' %}page_item current_page_item{% else %}page_item page-item-2{% endif %}"><a href="/white-paper.html" title="White Paper" id="white-paper-nav">White Paper</a></li>
+            <li class="{% if page.title == 'SMS APIs - Research Report' %}page_item current_page_item{% else %}page_item page-item-2{% endif %}"><a href="/research-report.html" title="Research Report" id="research-report-nav">Research Report</a></li>
             <li class="{% if page.title == 'Github' %}page_item current_page_item{% else %}page_item page-item-2{% endif %}"><a href="/github.html" title="Github" id="login-nav">Login w/ Github</a></li>
             <li class="{% if page.title == 'About' %}page_item current_page_item{% else %}page_item page-item-2{% endif %}"><a href="/about.html" title="About" id="about-nav">About this Site</a></li>
          </ul>
@@ -35,7 +35,7 @@
 			document.getElementById("home-nav").href = document.getElementById("home-nav").href + '?oAuth_Token=' + $oAuth_Token;
 			document.getElementById("companies-nav").href = document.getElementById("companies-nav").href + '?oAuth_Token=' + $oAuth_Token;		
 			document.getElementById("building-blocks-nav").href = document.getElementById("building-blocks-nav").href + '?oAuth_Token=' + $oAuth_Token;		
-			document.getElementById("white-paper-nav").href = document.getElementById("white-paper-nav").href + '?oAuth_Token=' + $oAuth_Token;		
+			document.getElementById("research-report-nav").href = document.getElementById("research-report-nav").href + '?oAuth_Token=' + $oAuth_Token;		
 			document.getElementById("login-nav").innerHTML = 'Logged In';			    	
 			    		
     		}
