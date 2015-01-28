@@ -1,25 +1,26 @@
-title : SMS
-
-markdown: kramdown
-
-safe: true
-lsi: false
-pygments: true
-auto: true
-
-source: sms
-destination: sms
+title:        {"SMS"}
+url:          http://sms.apievangelist.com
+version:      1.1.1
+author:
+  name:       'Kin Lane'
+  sms:      'info@apievangelist.com'
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
 
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
-paginate: 25
-paginate_path: "/blog/page:num"
+paginate: 50
+paginate_path: "/news/page:num"
 
 production_url : http://sms.apievangelist.com
 
 BASE_PATH : http://sms.apievangelist.com
 
-archive_path: /archive.html
 categories_path : /categories.html
 tags_path : /tags.html
+
+oauthio : I_TRiPFUBHSp-3DxS5RjS9ub8sg
+org : kinlane
+repo : sms

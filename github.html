@@ -6,7 +6,7 @@ title: Github
 <script type="text/javascript">  
 
 login = getUrlVar('login');
-//console.log(login);
+
 if(login=='1')
 	{
 
@@ -16,14 +16,14 @@ if(login=='1')
 	    }
 	}  
 
-	OAuth.initialize('I_TRiPFUBHSp-3DxS5RjS9ub8sg');
+	OAuth.initialize('{{ site.oauthio }}');
 	
 	OAuth.popup('github').done(function(result) {
 	
 	    $oAuth_Token = result.access_token;
 	    console.log($oAuth_Token); 
 	        
-       redirectURL = "http://news.apievangelist.com?oAuth_Token=" + $oAuth_Token;       
+       redirectURL = "http://{{ site.repo }}.apievangelist.com?oAuth_Token=" + $oAuth_Token;       
        setTimeout(callback(redirectURL), 500);  	        
 		        	         
 	    });                   			

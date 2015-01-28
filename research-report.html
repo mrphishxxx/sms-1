@@ -3,34 +3,34 @@ layout: page
 title: SMS APIs - Research Report
 ---
 
-<h1 class="title">API Stack Research - SMS APIs</h1>
+<h1 class="title">API Stack Research Report - SMS APIs</h1>
 
 <div id="subscribertext" style="display: none;">
     <table width="250" align="right">
         <tr>
-            <td align="center"> <a href="https://github.com/kinlane/sms/blob/master/whitepaper/api-evangelist-stack-report-sms.pdf?raw=true"><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-stack-report-sms-cover.png" width="200" style="border: 0px solid #000;" /></a></td>
+            <td align="center"> <a href="https://github.com/kinlane/SMS/blob/master/whitepaper/api-evangelist-stack-report-sms.pdf?raw=true"><img src="https://s3.amazonaws.com/kinlane-productions/whitepapers/api-evangelist-stack-report-sms-cover.png" width="200" style="border: 0px solid #000;" /></a></td>
         </tr>
         <tr>
-            <td align="center"><strong> <a href="https://github.com/kinlane/sms/blob/master/whitepaper/api-evangelist-stack-report-sms.pdf?raw=true">Download as PDF</a></strong></td>
+            <td align="center"><strong> <a href="https://github.com/kinlane/SMS/blob/master/whitepaper/api-evangelist-stack-report-sms.pdf?raw=true">Download as PDF</a></strong></td>
         </tr>
     </table> 
-	<p>This white paper represents my current research into how sms companies are using APIs. My goal is to look at all of the sms APIs available, identify the best of them, and document what the characteristics of these providers are.</p>
-	<p>As with all of my white papers I will profile each of the leading providers, and identify the common building blocks across them, in hopes of establishing a blueprint of each provider, as well as aggregate industry blueprint across all the leading providers.</p>
+	<p>This research report represents my current research into how SMS companies are using APIs. My goal is to look at all of the sms APIs available, identify the best of them, and document what the characteristics of these providers are.</p>
+	<p>As with all of my research reports I will profile each of the leading providers, and identify the common building blocks across them, in hopes of establishing a blueprint of each provider, as well as aggregate industry blueprint across all the leading providers.</p>
 	<p>As a subscriber, you can view the PDF available in the private repository of this research project. Just click on the image, and the PDF will load.</p>	
 </div>
 
 <div id="defaulttext" style="display: none;">
     <table width="250" align="right">
         <tr>
-            <td align="center"> <a href="https://gum.co/Jhwnx"><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-stack-report-sms-cover.png" width="200" style="border: 0px solid #000;" /></a></td>
+            <td align="center"> <a href="https://gum.co/hLIXY"><img src="https://s3.amazonaws.com/kinlane-productions/whitepapers/api-evangelist-stack-report-sms-cover.png" width="200" style="border: 0px solid #000;" /></a></td>
         </tr>
         <tr>
-            <td align="center"><strong> <a href="https://gum.co/Jhwnx">Download as PDF</a></strong></td>
+            <td align="center"><strong> <a href="https://gum.co/hLIXY">Download as PDF</a></strong></td>
         </tr>
     </table>                     
-	<p>This white paper represents my current research into how sms companies are using APIs. My goal is to look at all of the sms APIs available, identify the best of them, and document what the characteristics of these providers are.</p>
-	<p>As with all of my white papers I will profile each of the leading providers, and identify the common building blocks across them, in hopes of establishing a blueprint of each provider, as well as aggregate industry blueprint across all the leading providers.</p>
-	<p>You can purchase the white paper for $49.99. The sale of my white papers continues to fund my research, that goes into my paid white papers, as well as my overall writing across the API Evangelist network--thank you for your support.</p>	
+	<p>This research report represents my current research into how companies are using sms APIs. My goal is to look at all of the sms APIs available, identify the best of them, and document what the characteristics of these providers are.</p>
+	<p>As with all of my research reports I will profile each of the leading providers, and identify the common building blocks across them, in hopes of establishing a blueprint of each provider, as well as aggregate industry blueprint across all the leading providers.</p>
+	<p>You can purchase the research report for $49.99. The sale of my research reports continues to fund my research, that goes into my paid research reports, as well as my overall writing across the API Evangelist network--thank you for your support.</p>	
 </div>
 
 <script type="text/javascript">   
@@ -44,7 +44,7 @@ title: SMS APIs - Research Report
 	        auth: "oauth"
 	            });
             
-		var repo = github.getRepo('kinlane', 'sms');
+		var repo = github.getRepo('{{ site.org }}', '{{ site.repo }}');
   
 		repo.read('master','data/buildingblockcategories.json',function(err, data){	
 			
