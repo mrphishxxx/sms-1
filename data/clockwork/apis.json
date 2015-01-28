@@ -1,0 +1,61 @@
+{
+	"name": "Clockwork",
+	"description": "<p>Clockwork is SMS API focused on allowing developers to get up and running sending SMS as quickly as possible. Clockwork only focuses on sending and receiving of SMS for developers through a modern web API platform. Clockwork provides a pay as you go, SMS unit based pricing model for developers to access when building their applications.</p>",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clockwork-logo.png",
+	"tags": ["Bulk",
+	"Global",
+	"Messaging",
+	"SMS",
+	"SMS API",
+	"Stack",
+	"Telephony"],
+	"created": "2015-01-28",
+	"modified": "2015-01-28",
+	"url": "http://sms.apievangelist.com/data/clockwork/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [{
+		"name": "Clockwork SMS",
+		"description": "The Clockwork SMS API access to an SMS gateway allowing users to send messages through an application. Clockwork is a service that allows for the sending of bulk SMS. The API uses RESTful, SOAP and SMPP protocol. Responses are formatted in XML.",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clockwork-logo.png",
+		"humanURL": "http://www.clockworksms.com/doc/easy-stuff/http-interface/send-sms/",
+		"baseURL": "http:/api.clockworksms.com/http/",
+		"tags": ["Bulk",
+		"Global",
+		"Messaging",
+		"Sbweb",
+		"SMS",
+		"SMS API",
+		"Telephony"],
+		"properties": [{
+			"type": "X-twitter",
+			"url": "https://twitter.com/ClockworkSMS"
+		},
+		{
+			"type": "X-blog",
+			"url": "http://www.clockworksms.com/blog/"
+		},
+		{
+			"type": "X-blogrss",
+			"url": "http://www.clockworksms.com/feed/"
+		},
+		{
+			"type": "X-developer-portal",
+			"url": "http://www.clockworksms.com/doc/"
+		},
+		{
+			"type": "Swagger",
+			"url": "http://sms.apievangelist.com/data/clockwork/clockwork-sms.json"
+		}],
+		"contact": [{
+			"FN": "API Evangliest",
+			"email": "info@apievangelist.com",
+			"X-twitter": "apievangelist"
+		}]
+	}],
+	"includes": [],
+	"maintainers": [{
+		"FN": "Kin",
+		"X-twitter": "apievangelist",
+		"email": "kin@email.com"
+	}]
+}

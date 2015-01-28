@@ -4,38 +4,46 @@
 	"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
 	"tags": [["APIs"],
 	["Application Programming Interfaces"]],
-	"created": "2015-01-27",
-	"modified": "2015-01-27",
-	"url": "http://email.apievangelist.com/apis.json",
+	"created": "2015-01-28",
+	"modified": "2015-01-28",
+	"url": "http://sms.apievangelist.com/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [],
 	"includes": [{
-		"name": "Context.IO",
-		"url": "http://email.apievangelist.com/data/contextio/apis.json"
+		"name": "Clickatell",
+		"url": "http://sms.apievangelist.com/data/clickatell/apis.json"
 	},
 	{
-		"name": "Dyn",
-		"url": "http://email.apievangelist.com/data/dyn/apis.json"
+		"name": "Clockwork",
+		"url": "http://sms.apievangelist.com/data/clockwork/apis.json"
 	},
 	{
-		"name": "Elastic Email",
-		"url": "http://email.apievangelist.com/data/elastic-email/apis.json"
+		"name": "Developer Garden",
+		"url": "http://sms.apievangelist.com/data/developer-garden/apis.json"
 	},
 	{
-		"name": "Inbox",
-		"url": "http://email.apievangelist.com/data/inbox/apis.json"
+		"name": "Messente",
+		"url": "http://sms.apievangelist.com/data/messente/apis.json"
 	},
 	{
-		"name": "Mailgun",
-		"url": "http://email.apievangelist.com/data/mailgun/apis.json"
+		"name": "Mogreet",
+		"url": "http://sms.apievangelist.com/data/mogreet/apis.json"
 	},
 	{
-		"name": "Mailjet",
-		"url": "http://email.apievangelist.com/data/mailjet/apis.json"
+		"name": "Nexmo",
+		"url": "http://sms.apievangelist.com/data/nexmo/apis.json"
 	},
 	{
-		"name": "SendGrid",
-		"url": "http://email.apievangelist.com/data/sendgrid/apis.json"
+		"name": "Plivo",
+		"url": "http://sms.apievangelist.com/data/plivo/apis.json"
+	},
+	{
+		"name": "TelAPI",
+		"url": "http://sms.apievangelist.com/data/telapi/apis.json"
+	},
+	{
+		"name": "Twilio",
+		"url": "http://sms.apievangelist.com/data/twilio/apis.json"
 	}],
 	"maintainers": [{
 		"FN": "Kin",

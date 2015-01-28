@@ -1,0 +1,51 @@
+{
+	"name": "Messente",
+	"description": "<p>Messente is a dead-simple tool for sending text messages to customers, employees or friends, providing a SaaS for delivering messages to over 200 countries and to nearly a thousand different networks. Messente provides message APIs for sending and receiving of messaging, scheduling messages, and managing account information. Messente employees a straightforward pay as you go, message based unit pricing for monetizing of its messaging platform APIs.</p>",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/messente.png",
+	"tags": ["Messaging",
+	"SMS API"],
+	"created": "2015-01-28",
+	"modified": "2015-01-28",
+	"url": "http://sms.apievangelist.com/data/messente/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [{
+		"name": "Messente SMS API",
+		"description": "",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/messente.png",
+		"humanURL": "https://messente.com/docs/api/rest/sms/",
+		"baseURL": "http:/api2.messente.com/",
+		"tags": ["SMS",
+		"SMS API"],
+		"properties": [{
+			"type": "X-twitter",
+			"url": "http://www.twitter.com/messente"
+		},
+		{
+			"type": "X-blog",
+			"url": "http://messente.com/blog/"
+		},
+		{
+			"type": "X-blogrss",
+			"url": "http://messente.com/blog/feed/"
+		},
+		{
+			"type": "X-developer-portal",
+			"url": "https://messente.com/pages/api/"
+		},
+		{
+			"type": "Swagger",
+			"url": "http://sms.apievangelist.com/data/messente/messente-sms-api.json"
+		}],
+		"contact": [{
+			"FN": "API Evangliest",
+			"email": "info@apievangelist.com",
+			"X-twitter": "apievangelist"
+		}]
+	}],
+	"includes": [],
+	"maintainers": [{
+		"FN": "Kin",
+		"X-twitter": "apievangelist",
+		"email": "kin@email.com"
+	}]
+}

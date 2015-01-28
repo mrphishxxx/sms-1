@@ -1,0 +1,63 @@
+{
+	"name": "Nexmo",
+	"description": "<p>Nexmo provides communication APIs that bridge traditional voice and text services with cloud communications, enabling applications to make phone calls or send and receive text messages. Via the Nexmo platform users can send, receive and manage their SMS messaging, and account via an API. Next provides free trials, with a pay as you go, message unit based pricing models for developers when accessing the API.</p>",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/626_logo.jpg",
+	"tags": ["API-United-Kingdom",
+	"Bulk",
+	"Global",
+	"Messaging",
+	"SMPP",
+	"SMS",
+	"SMS API",
+	"Stack",
+	"Telephony"],
+	"created": "2015-01-28",
+	"modified": "2015-01-28",
+	"url": "http://sms.apievangelist.com/data/nexmo/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [{
+		"name": "Nexmo SMS API",
+		"description": "Nexmo lets you send and receive high volume of SMS at wholesale rates using web technologies that you already know.n",
+		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/626_logo.jpg",
+		"humanURL": "https://docs.nexmo.com/index.php/sms-api",
+		"baseURL": "http:/rest.nexmo.com/",
+		"tags": ["Bulk",
+		"Global",
+		"Messaging",
+		"SMPP",
+		"SMS",
+		"SMS API",
+		"Telephony"],
+		"properties": [{
+			"type": "X-twitter",
+			"url": "https://twitter.com/nexmo"
+		},
+		{
+			"type": "X-blog",
+			"url": "http://blog.nexmo.com"
+		},
+		{
+			"type": "X-github",
+			"url": "https://github.com/Nexmo"
+		},
+		{
+			"type": "X-developer-portal",
+			"url": "https://docs.nexmo.com/"
+		},
+		{
+			"type": "Swagger",
+			"url": "http://sms.apievangelist.com/data/nexmo/nexmo-sms-api.json"
+		}],
+		"contact": [{
+			"FN": "API Evangliest",
+			"email": "info@apievangelist.com",
+			"X-twitter": "apievangelist"
+		}]
+	}],
+	"includes": [],
+	"maintainers": [{
+		"FN": "Kin",
+		"X-twitter": "apievangelist",
+		"email": "kin@email.com"
+	}]
+}
