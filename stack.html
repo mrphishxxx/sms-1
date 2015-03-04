@@ -102,6 +102,14 @@ function apisJSONCollection()
             
             console.log(url); 
             
+			$.getJSON(url, function($apisjson2) { 
+				
+				$api_json_2_name = $apisjson2['name'];
+				console.log($api_json_2_name);
+	 
+		    	 	        
+		        });             
+            
     	 	}); 
     	 	        
         }); 
