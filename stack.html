@@ -138,7 +138,7 @@ function apisJSONCollection()
 	 					$api_json_2_api_property_type = pval['type'];
 	 					$api_json_2_api_property_url = pval['url'];
 	 					
-	 					//console.log("property: " + $api_json_2_api_property_type + " - " + $api_json_2_api_property_url);	
+	 					console.log("property1: " + $api_json_2_api_property_type + " - " + $api_json_2_api_property_url);	
 	 					
 	 					// Set Website
 	 					if($api_json_2_api_property_type=='X-github')
@@ -168,7 +168,7 @@ function apisJSONCollection()
 	 					if($api_json_2_api_property_type=='X-twitter')
 	 						{
 	 						console.log("property: " + $api_json_2_api_property_type + " - " + $api_json_2_api_property_url);		
-					        document.getElementById("twitter-icon-img--" + $api_json_2_url).style.display = "";	
+					        document.getElementById("twitter-icon-img-" + $api_json_2_url).style.display = "";	
 					        document.getElementById("twitter-icon-" + $api_json_2_url).href = $api_json_2_api_property_url;		 							
 	 						} 		 							 							 								 				   
 
