@@ -156,10 +156,10 @@ function apisJSONCollection()
 		 				
 			        var template = $('#apiListingDetail').html();
 			        var html = Mustache.to_html(template, aval);
-			        $row = '#apis-'+$api_json_2_url;
-			        console.log($row);
-			        $($row).append(html); 				            		 	 				
-		 				   
+			        // jquery didn't like id
+			        //$($row).append(html); 				            		 	 				
+		 			document.getElementById("apis-" + $api_json_2_url).appendChild(html);  
+		 				   		 				   
 	 				$.each($api_json_2_api_properties, function(pkey, pval) {
 	 				   
 	 					$api_json_2_api_property_type = pval['type'];
