@@ -158,7 +158,9 @@ function apisJSONCollection()
 			        var html = Mustache.to_html(template, aval);
 			        // jquery didn't like id
 			        //$($row).append(html); 				            		 	 				
-		 			document.getElementById("apis-" + $api_json_2_url).appendChild(html);  
+		 			$apis = document.getElementById("apis-" + $api_json_2_url); 
+					$apis.insertAdjacentHTML('beforeend', html);		 				   		 			
+		 				   		 			
 		 				   		 				   
 	 				$.each($api_json_2_api_properties, function(pkey, pval) {
 	 				   
