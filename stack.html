@@ -20,6 +20,23 @@ title: The API Stack
     </tr>       
 </script>
 
+<script id="apiHeader" type="text/template">       
+    <tr>
+        <td>
+        	<table>
+			    <tr>
+			        <td>
+			        	<img src="{{image}}" width="100" align="right" />
+			        </td>
+			        <td>
+			        	{{name}} - {{description}}
+			        </td>			        			        
+			    </tr>         		        		
+        	</table>	
+        </td>
+    </tr>       
+</script>
+
 {% endraw %}
 
 <table id="collectionTable" cellpadding="5" cellspacing="5" width="100%" border="1"></table>
@@ -50,6 +67,10 @@ function apisJSONCollection()
          $.each($api_json_includes, function(ikey, ival) {         	   
            
 			$.getJSON($api_json_url, function($apisjson2) { 
+				
+		        var template = $('#apiHeader').html();
+		        var html = Mustache.to_html(template, $apisjson2);
+		        $('#collectionTable').append(html); 				
 				
 				$api_json_2_name = $apisjson2['name'];
 				$api_json_2_description = $apisjson2['description'];
