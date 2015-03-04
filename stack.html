@@ -66,11 +66,7 @@ function apisJSONCollection()
 
          $.each($api_json_includes, function(ikey, ival) {         	   
            
-			$.getJSON($api_json_url, function($apisjson2) { 
-				
-		        var template = $('#apiHeader').html();
-		        var html = Mustache.to_html(template, $apisjson2);
-		        $('#collectionTable').append(html); 				
+			$.getJSON($api_json_url, function($apisjson2) { 							
 				
 				$api_json_2_name = $apisjson2['name'];
 				$api_json_2_description = $apisjson2['description'];
@@ -85,6 +81,10 @@ function apisJSONCollection()
 				console.log($api_json_2_name);
 	 
 	 			$.each($api_json_2_apis, function(akey, aval) {
+	 				
+			        var template = $('#apiHeader').html();
+			        var html = Mustache.to_html(template, aval);
+			        $('#collectionTable').append(html); 	 				
 	 				   
 	 				$api_json_2_api_name = aval['name'];
 	 				console.log("api: " + $api_json_2_api_name);	 
