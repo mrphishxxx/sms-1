@@ -68,6 +68,8 @@ function apisJSONCollection()
            
 			$.getJSON($api_json_url, function($apisjson2) { 							
 				
+				console.log($apisjson2);
+				
 				$api_json_2_name = $apisjson2['name'];
 				$api_json_2_description = $apisjson2['description'];
 				$api_json_2_image = $apisjson2['image'];
