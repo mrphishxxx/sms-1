@@ -24,7 +24,7 @@ title: The API Stack
     <tr>
         <td align="left" valign="top" colspan="2">
         	<a href="" id="apisjson-icon-{{url}}"><img id="apisjson-icon-img-{{url}}" src="" width="125" align="right" style="padding: 15px; display:none;" /></a>
-            <a href="" id="home-logo-link-{{url}}"><img src="{{image}}" width="100" align="left" style="padding: 15px;" /></a>
+            <a href="" id="home-logo-link-{{url}}"><img src="{{image}}" width="150" align="left" style="padding: 15px;" /></a>
             <a href="" id="home-name-link-{{url}}" style="color: #000;"><strong>{{name}}</strong></a><br />{{description}}
         </td>
     </tr>
@@ -109,6 +109,10 @@ function apisJSONCollection()
 		        var template = $('#apiHeader').html();
 		        var html = Mustache.to_html(template, $apisjson2);
 		        $('#collectionTable').append(html); 
+		        
+		        var template = $('#apiContact').html();
+		        var html = Mustache.to_html(template, $apisjson2);
+		        $('#collectionTable').append(html); 		        
 	 
 	 			$.each($api_json_2_apis, function(akey, aval) {	 					 				
 	 				   
