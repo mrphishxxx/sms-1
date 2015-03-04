@@ -1,6 +1,6 @@
 {
 	"name": "Nexmo",
-	"description": "<p>Nexmo provides communication APIs that bridge traditional voice and text services with cloud communications, enabling applications to make phone calls or send and receive text messages. Via the Nexmo platform users can send, receive and manage their SMS messaging, and account via an API. Next provides free trials, with a pay as you go, message unit based pricing models for developers when accessing the API.</p>",
+	"description": "Nexmo provides communication APIs that bridge traditional voice and text services with cloud communications, enabling applications to make phone calls or send and receive text messages. Via the Nexmo platform users can send, receive and manage their SMS messaging, and account via an API. Next provides free trials, with a pay as you go, message unit based pricing models for developers when accessing the API.	",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/626_logo.jpg",
 	"tags": ["API-United-Kingdom",
 	"Bulk",
