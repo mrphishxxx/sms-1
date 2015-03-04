@@ -1,6 +1,6 @@
 {
 	"name": "SMS API Stack",
-	"description": "This is a collection of APIs that are curated by the API Evangelist, as part of monitoring of the larger API space.",
+	"description": "This is a collection of MSS APIs that are curated by the API Evangelist, as part of monitoring of the larger message API space. This collection is managed as an APIs.json file, providing access to APIs, and their supporting platform, in a machine readable way.",
 	"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png",
 	"tags": [["APIs"],
 	["Application Programming Interfaces"]],
