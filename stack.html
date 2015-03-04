@@ -145,8 +145,11 @@ function apisJSONCollection()
 	 				
 	 				$api_json_2_api_human_url = aval['humanURL'];
 			
-			        document.getElementById("github-icon-img-" + $api_json_2_url).style.display = "";	
-			        document.getElementById("github-icon-" + $api_json_2_url).href = $api_json_2_api_human_url;	 				
+			        document.getElementById("website-icon-img-" + $api_json_2_url).style.display = "";	
+			        document.getElementById("website-icon-" + $api_json_2_url).href = $api_json_2_api_human_url;
+			        
+			        document.getElementById("api-website-icon-img-" + $api_json_2_api_human_url).style.display = "";	
+			        document.getElementById("api-website-icon-" + $api_json_2_api_human_url).href = $api_json_2_api_human_url;				        	 				
 			
 	 				$api_json_2_api_base_url = aval['baseURL'];
 	 				
@@ -159,8 +162,7 @@ function apisJSONCollection()
 			        // jquery didn't like id
 			        //$($row).append(html); 				            		 	 				
 		 			$apis = document.getElementById("apis-" + $api_json_2_url); 
-					$apis.insertAdjacentHTML('beforeend', html);		 				   		 			
-		 				   		 			
+					$apis.insertAdjacentHTML('beforeend', html);		 				   		 					 				   		 			
 		 				   		 				   
 	 				$.each($api_json_2_api_properties, function(pkey, pval) {
 	 				   
@@ -200,8 +202,8 @@ function apisJSONCollection()
 	 					// Set Twitter
 	 					if($api_json_2_api_property_type=='Swagger')
 	 						{	
-					        document.getElementById("swagger-icon-img-" + $api_json_2_url).style.display = "";	
-					        document.getElementById("swagger-icon-" + $api_json_2_url).href = $api_json_2_api_property_url;		 							
+					        document.getElementById("swagger-icon-img-" + $api_json_2_api_human_url).style.display = "";	
+					        document.getElementById("swagger-icon-" + $api_json_2_api_human_url).href = $api_json_2_api_property_url;		 							
 	 						} 	 								 							 							 								 				   
 
 		        		});		 				   
