@@ -88,10 +88,24 @@ function apisJSONCollection()
 		$api_json_description = $apisjson['description'];
 		$api_json_image = $apisjson['image'];
 		
+		$api_json_url = $apisjson['url'];
+		$api_json_tags = $apisjson['tags'];
+		
+		$api_json_apis = $apisjson['apis'];
+		$api_json_includes = $apisjson['includes'];
+		
 		console.log($api_json_name);
 
-        
-        });  	
+         $.each($api_json_includes, function(ikey, ival) {         	   
+           
+            url = ival['url'];  
+            
+            console.log(url); 
+            
+    	 	}); 
+    	 	        
+        }); 
+         	
     } 
     
 apisJSONCollection();
