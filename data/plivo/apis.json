@@ -1,6 +1,6 @@
 {
 	"name": "Plivo",
-	"description": "<p>Plivo is an API Platform for building voice and SMS features into web and mobile applications that are focused on running in the cloud. Plivo provides web APIs that allow developers to integrate voice and SMS sending, receiving, and account management features into any applications. Plivo provides a free tier for playing around with the API, as well as unit based, pay as you go pricing, which includes volume pricing for larger scale operations.</p>",
+	"description": "Plivo is an API Platform for building voice and SMS features into web and mobile applications that are focused on running in the cloud. Plivo provides web APIs that allow developers to integrate voice and SMS sending, receiving, and account management features into any applications. Plivo provides a free tier for playing around with the API, as well as unit based, pay as you go pricing, which includes volume pricing for larger scale operations.	",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1113_logo.png",
 	"tags": ["SMS API",
 	"Telephony"],
