@@ -48,9 +48,8 @@ title: The API Stack
 
 <script id="apiListing" type="text/template">  
     <tr>
-        <td align="center" id="apis-cell-{{id}}" colspan="2">
-        	<!--<p align="center" style="font-size: 16px; font-weight: bold; text-decoration: underline;">APIs</p>-->
-        	<table width="80%" align="center" cellpadding="3" id="apis-{{id}}" style="padding-left: 50px;">
+        <td align="center" id="apis-cell-{{url}}" colspan="2">
+        	<table width="80%" align="center" cellpadding="3" id="apis-{{url}}" style="padding-left: 50px;">
         	</table>
         </td>
     </tr> 
@@ -110,7 +109,15 @@ function apisJSONCollection()
 		        
 		        var template = $('#apiContact').html();
 		        var html = Mustache.to_html(template, $apisjson2);
-		        $('#collectionTable').append(html); 		        
+		        $('#collectionTable').append(html); 
+		        
+		        var template = $('#apiListing').html();
+		        var html = Mustache.to_html(template, $apisjson2);
+		        $('#collectionTable').append(html); 
+		        
+		        var template = $('#apiSeparator').html();
+		        var html = Mustache.to_html(template, $apisjson2);
+		        $('#collectionTable').append(html); 		        		        		        
 	 
 	 			$.each($api_json_2_apis, function(akey, aval) {	 					 				
 	 				   
