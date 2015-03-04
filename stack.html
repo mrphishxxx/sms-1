@@ -19,7 +19,7 @@ title: The API Stack
     <tr>
         <td align="left" valign="top" colspan="2">        	
             <a href="{{url}}" id="home-logo-link-{{url}}"><img src="{{image}}" width="150" align="left" style="padding: 15px;" /></a>
-            <a href="{{url}}" id="home-name-link-{{url}}" style="color: #000;"><strong>{{name}}</strong></a><br /><span style="font-size: 11px;">{{description}}</span>
+            <a href="{{url}}" id="home-name-link-{{url}}" style="color: #000;"><strong>{{name}}</strong></a><br /><span style="font-size: 12px;">{{description}}</span>
         </td>
     </tr>
 </script>
@@ -146,6 +146,9 @@ function apisJSONCollection()
 			
 			        document.getElementById("website-icon-img-" + $api_json_2_url).style.display = "";	
 			        document.getElementById("website-icon-" + $api_json_2_url).href = $api_json_2_api_human_url;			        			        	 				
+	
+			        document.getElementById("home-logo-link-" + $api_json_2_url).href = $api_json_2_api_human_url;
+			        document.getElementById("home-name-link-" + $api_json_2_url).href = $api_json_2_api_human_url;			        
 			
 	 				$api_json_2_api_base_url = aval['baseURL'];	 				
 	 				$api_json_2_api_tags = aval['tags'];	 				
