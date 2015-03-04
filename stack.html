@@ -100,22 +100,23 @@ function apisJSONCollection()
            
 			$.getJSON($api_json_url, function($apisjson2) { 
 				
-				$api_json_2_name = $apisjson['name'];
-				$api_json_2_description = $apisjson['description'];
-				$api_json_2_image = $apisjson['image'];
+				$api_json_2_name = $apisjson2['name'];
+				$api_json_2_description = $apisjson2['description'];
+				$api_json_2_image = $apisjson2['image'];
 				
-				$api_json_2_url = $apisjson['url'];
-				$api_json_2_tags = $apisjson['tags'];
+				$api_json_2_url = $apisjson2['url'];
+				$api_json_2_tags = $apisjson2['tags'];
 				
-				$api_json_2_apis = $apisjson['apis'];
-				$api_json_2_includes = $apisjson['includes'];
+				$api_json_2_apis = $apisjson2['apis'];
+				$api_json_2_includes = $apisjson2['includes'];
 				
 				console.log($api_json_2_name);
 	 
 	 			$.each($api_json_2_apis, function(akey, aval) {
 	 				   
 	 				$api_json_2_api_name = aval['name'];
-	 				console.log($api_json_2_api_name);	   
+	 				console.log("api: " + $api_json_2_api_name);	 
+	 				  
 	 				$api_json_2_api_description = aval['description'];
 	 				$api_json_2_api_image = aval['image'];
 	 				
@@ -130,7 +131,8 @@ function apisJSONCollection()
 	 				   
 	 					$api_json_2_api_property_type = pval['name'];
 	 					$api_json_2_api_property_url = pval['url'];
-	 					console.log($api_json_2_api_property_type + " - " + $api_json_2_api_property_url);	 			 				   
+	 					
+	 					console.log("property: " + $api_json_2_api_property_type + " - " + $api_json_2_api_property_url);	 			 				   
 
 		        		});		 				   
 		        	});		    	 	        
