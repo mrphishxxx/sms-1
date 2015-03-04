@@ -1,6 +1,6 @@
 {
 	"name": "Messente",
-	"description": "<p>Messente is a dead-simple tool for sending text messages to customers, employees or friends, providing a SaaS for delivering messages to over 200 countries and to nearly a thousand different networks. Messente provides message APIs for sending and receiving of messaging, scheduling messages, and managing account information. Messente employees a straightforward pay as you go, message based unit pricing for monetizing of its messaging platform APIs.</p>",
+	"description": "Messente is a dead-simple tool for sending text messages to customers, employees or friends, providing a SaaS for delivering messages to over 200 countries and to nearly a thousand different networks. Messente provides message APIs for sending and receiving of messaging, scheduling messages, and managing account information. Messente employees a straightforward pay as you go, message based unit pricing for monetizing of its messaging platform APIs.	",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/messente.png",
 	"tags": ["Messaging",
 	"SMS API"],
