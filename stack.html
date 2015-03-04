@@ -79,12 +79,6 @@ title: The API Stack
 
 <script type="text/javascript">
 
-function getUrlVar(key){
-    var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search); 
-    return result && unescape(result[1]) || ""; 
-}   
-
-
 function apisJSONCollection()
     {   
     	
@@ -100,5 +94,5 @@ function apisJSONCollection()
         });  	
     } 
     
-listCompanies();
+apisJSONCollection();
 </script>
