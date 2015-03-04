@@ -1,6 +1,6 @@
 {
 	"name": "Developer Garden",
-	"description": "<p>Developer Garden is the developer ecosystem of Deutsche Telekom, providing mobile focused services to developers. Developer Garden provides SMS and MMS messaging, voice call, speech-to-text transcription and location services via web APIs. Developer Garden provides free developer accounts, with a pay as you go, unit based model for purchase of API driven messaging services.</p>",
+	"description": "Developer Garden is the developer ecosystem of Deutsche Telekom, providing mobile focused services to developers. Developer Garden provides SMS and MMS messaging, voice call, speech-to-text transcription and location services via web APIs. Developer Garden provides free developer accounts, with a pay as you go, unit based model for purchase of API driven messaging services.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/developer-garden.jpeg",
 	"tags": ["MMS",
 	"MMS API",
