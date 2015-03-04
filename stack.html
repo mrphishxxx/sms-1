@@ -70,8 +70,6 @@ function apisJSONCollection()
            
 			$.getJSON($api_json_include_url, function($apisjson2) { 							
 				
-				console.log($apisjson2);
-				
 				$api_json_2_name = $apisjson2['name'];
 				$api_json_2_description = $apisjson2['description'];
 				$api_json_2_image = $apisjson2['image'];
@@ -82,14 +80,11 @@ function apisJSONCollection()
 				$api_json_2_apis = $apisjson2['apis'];
 				$api_json_2_includes = $apisjson2['includes'];
 				
-				//console.log("doing..");				
-				//console.log($apisjson2['apis']);
+		        var template = $('#apiHeader').html();
+		        var html = Mustache.to_html(template, $apisjson2);
+		        $('#collectionTable').append(html); 
 	 
-	 			$.each($api_json_2_apis, function(akey, aval) {
-	 				
-			        var template = $('#apiHeader').html();
-			        var html = Mustache.to_html(template, aval);
-			        $('#collectionTable').append(html); 	 				
+	 			$.each($api_json_2_apis, function(akey, aval) {	 					 				
 	 				   
 	 				$api_json_2_api_name = aval['name'];
 	 				console.log("api: " + $api_json_2_api_name);	 
@@ -106,7 +101,7 @@ function apisJSONCollection()
 	 				   
 	 				$.each($api_json_2_api_properties, function(pkey, pval) {
 	 				   
-	 					$api_json_2_api_property_type = pval['name'];
+	 					$api_json_2_api_property_type = pval['type'];
 	 					$api_json_2_api_property_url = pval['url'];
 	 					
 	 					console.log("property: " + $api_json_2_api_property_type + " - " + $api_json_2_api_property_url);	 			 				   
