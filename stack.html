@@ -156,15 +156,16 @@ function apisJSONCollection()
 		 				
 			        var template = $('#apiListingDetail').html();
 			        var html = Mustache.to_html(template, aval);
-			        console.log('#apis-'+$api_json_2_url);
-			        //$('#apis-'+$api_json_2_url).append(html); 				            		 	 				
+			        $row = '#apis-'+$api_json_2_url;
+			        console.log($row);
+			        $($row).append(html); 				            		 	 				
 		 				   
 	 				$.each($api_json_2_api_properties, function(pkey, pval) {
 	 				   
 	 					$api_json_2_api_property_type = pval['type'];
 	 					$api_json_2_api_property_url = pval['url'];
 	 					
-	 					console.log("property1: " + $api_json_2_api_property_type + " - " + $api_json_2_api_property_url);	
+	 					//console.log("property1: " + $api_json_2_api_property_type + " - " + $api_json_2_api_property_url);	
 	 					
 	 					// Set Website
 	 					if($api_json_2_api_property_type=='X-github')
