@@ -98,7 +98,7 @@ function apisJSONCollection()
 
          $.each($api_json_includes, function(ikey, ival) {         	   
            
-			$.getJSON(url, function($apisjson2) { 
+			$.getJSON($api_json_url, function($apisjson2) { 
 				
 				$api_json_2_name = $apisjson['name'];
 				$api_json_2_description = $apisjson['description'];
