@@ -73,9 +73,7 @@ title: The API Stack
 {% endraw %}
 
 <table id="collectionTable" cellpadding="5" cellspacing="5" width="100%" border="0">
-    <tr>
-        <td><hr /></td>
-    </tr> 	
+	
 </table>
 
 <script type="text/javascript">
@@ -87,7 +85,11 @@ function apisJSONCollection()
 		
         var template = $('#collectionHeader').html();
         var html = Mustache.to_html(template, $apisjson);
-        $('#collectionTable').append(html); 		
+        $('#collectionTable').append(html); 	
+        
+        var template = $('#apiSeparator').html();
+        var html = Mustache.to_html(template, $apisjson);
+        $('#collectionTable').append(html);        	
 		
 		$api_json_name = $apisjson['name'];
 		$api_json_description = $apisjson['description'];
