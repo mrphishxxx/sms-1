@@ -1,6 +1,6 @@
 {
 	"name": "Twilio",
-	"description": "<p>Twilio, the cloud communications company, is reinventing telecom by merging the worlds of cloud computing, web services and telecommunications. Twilio provides a telephony infrastructure web service in the cloud, allowing web developers to integrate phone calls, text messages and IP voice communications into their web, mobile and traditional phone applications. Twilio provides a pay as you go, unit based pricing for developers, including volume pricing for larger capacity applications.</p>",
+	"description": "Twilio, the cloud communications company, is reinventing telecom by merging the worlds of cloud computing, web services and telecommunications. Twilio provides a telephony infrastructure web service in the cloud, allowing web developers to integrate phone calls, text messages and IP voice communications into their web, mobile and traditional phone applications. Twilio provides a pay as you go, unit based pricing for developers, including volume pricing for larger capacity applications.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/143_logo.png",
 	"tags": ["Messaging",
 	"MMS",
