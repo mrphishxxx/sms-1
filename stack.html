@@ -64,9 +64,11 @@ function apisJSONCollection()
 		
 		console.log("collection: " + $api_json_name);
 
-         $.each($api_json_includes, function(ikey, ival) {         	   
+         $.each($api_json_includes, function(ikey, ival) {  
+         	
+         	$api_json_include_url = ival['url'];       	   
            
-			$.getJSON($api_json_url, function($apisjson2) { 							
+			$.getJSON($api_json_include_url, function($apisjson2) { 							
 				
 				console.log($apisjson2);
 				
