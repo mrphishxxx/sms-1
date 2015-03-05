@@ -9,7 +9,7 @@
 	"url": "http://sms.apievangelist.com/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [],
-	"includes": [{
+	"include": [{
 		"name": "Clickatell",
 		"url": "http://sms.apievangelist.com/data/clickatell/apis.json"
 	},
