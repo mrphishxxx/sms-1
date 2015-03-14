@@ -1,5 +1,5 @@
 {
-	"swagger": 2,
+	"swagger": "2.0",
 	"info": {
 		"title": "Developer Garden SMS API",
 		"description": "The Global SMS service allows sending SMS messages to mobile phones and receive text messages from a webservice for a specific number.",

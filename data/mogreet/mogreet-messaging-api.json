@@ -1,5 +1,5 @@
 {
-	"swagger": 2,
+	"swagger": "2.0",
 	"info": {
 		"title": "Mogreet Messaging API",
 		"description": "The Mogreet API lets you send and receive text or multimedia messages in minutes. ",
