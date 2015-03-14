@@ -1,5 +1,5 @@
 {
-	"swagger": 2,
+	"swagger": "2.0",
 	"info": {
 		"title": "Twilio Messaging API",
 		"description": "A Message instance resource represents an inbound or outbound message. When you send an SMS or MMS message via the REST API, use the <Message> verb in TwiML, or someone sends a message to one of your Twilio numbers Twilio creates a Message instance resource.",
