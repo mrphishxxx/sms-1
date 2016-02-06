@@ -1,13 +1,74 @@
 ---
 layout: page
-title: SMS APIs - Home
+title: {{ site.title }}
 ---
+<p style="font-size: 12px; padding:5px;">
+  <img src="{{ site.project_image }}" align="right" width="75" style="padding: 5px;" />
+  {{ site.project_summary }}
+</p>
 
- <h1>SMS APIs</h1>
-<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-sms.jpg" alt="" width="200" align="right" /></p>
-<p>SMS owes more to the telecom industry, and mobile phones, more than the API space, but when it comes to reducing valuable assets to its smallest possible unit of value, the SMS space is well suited for evolution via the API.  I think think that are many lessons for API providers when it comes to the SMS API space, and I enjoy spending time research how companies are innovating when it comes to the SMS, using APIs.</p>
-<p>For this research I looked at a lot of APIs, and settled in on the nine providers that are present in this report. I was looking for certain characteristics when it comes to an SMS API, and I think these companies provide interesting approaches, worth documenting, and aggregating into a blueprint for further review. The lessons available here apply to any provider looking to enter into the SMS API space, but also apply to other business sectors where API are being applied.</p>
-<p>In this research, I found variety of SMS APIs that range from more telecom focused like Developer Garden from Deutsche Telekom, to very progressive API providers like Twilio. This spread provides a nice landscape to evaluate where the SMS space has been, being born out of the telecom space, but also provides a nice blueprint for where things are going, led by potentially transformative API efforts like Twilio.</p>
-<p>Let&rsquo;s walk through the nine companies here, and take a look at the API resources they make available, and their approaches to the technology, business, and monetization of their APIs, then I can provide a little more summary on their approach, and potentially how this blueprint can be applied for other SMS providers, and potentially wider API providers in considering their own approach.</p>
-<p>&nbsp;</p>
-<p><img style="border: 3px solid #000000; display: block; margin-left: auto; margin-right: auto;" src="https://s3.amazonaws.com/kinlane-productions/africa/sms-aftica.png" alt="" width="550" align="middle" /></p>
+<center><hr style="padding: 5px 5px 5px 5px; margin: 5px; width: 85%;" /></center>
+<div class="row" style="vertical-align: top;" align="center">
+
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Top Links</strong></p>
+    <ul class="featurelist">
+      <li><a href="http://apis.how/hzp7kypxdw">Cloud Elements</a></li>
+      <li><a href="http://apis.how/d2wb7tqx27">Webshell</a></li>
+    </ul>
+
+  </div>
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
+    <ul class="newslist">
+      {% for post in site.posts limit:2 %}
+        <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+  </div>
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+
+    <script type="text/javascript">
+      $url = 'http://apievangelist.com/blog.xml';
+      var $listcount = 0;
+      $.get($url, function (data) {
+          $(data).find("item").each(function () {
+              var el = $(this);
+              $title = el.find("title").text();
+              $link = el.find("link").text();
+              if($listcount<2){
+                $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
+                $('#rssNews').append($listitem);
+                }
+              $listcount++;
+          });
+      });
+    </script>
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest Analysis</strong><a href="http://apievangelist.com/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
+    <ul class="newslist" id="rssNews"></ul>
+
+  </div>
+</div>
+<center><hr style="padding: 5px; margin: 5px; width: 85%;" /></center>
+
+<div class="row" align="center" style="">
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://shipping.stack.network"><strong><span style="font-size: 20px;">&#8666;</span>&nbsp;&nbsp;Visit My Research On Shipping APIs</strong></a></li>
+    </ul>
+
+  </div>
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://social.stack.network"><strong>Visit My Research On Social APIs&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+    </ul>
+
+  </div>
+
+</div>
