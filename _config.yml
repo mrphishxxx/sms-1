@@ -28,7 +28,7 @@ tags_path : /tags.html
 # Masthead title
 masthead_link: http://sms.stack.network
 masthead_font_size: 75
-masthead_title: '{"API Aggregation"}'
+masthead_title: '{"SMS APIs"}'
 
 # Feature
 feature_title: API Design Providers Guide
