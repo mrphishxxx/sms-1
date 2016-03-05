@@ -1,0 +1,105 @@
+{
+	"name": "Messente",
+	"description": "Messente is a dead-simple tool for sending text messages to customers, employees or friends, providing a SaaS for delivering messages to over 200 countries and to nearly a thousand different networks. Messente provides message APIs for sending and receiving of messaging, scheduling messages, and managing account information. Messente employees a straightforward pay as you go, message based unit pricing for monetizing of its messaging platform APIs.",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/messente.png",
+	"tags": [
+		"API",
+		"Application Programming Interfaces",
+		"messaging",
+		"plans",
+		"sms api"
+	],
+	"created": "2016-03-04",
+	"modified": "2016-03-04",
+	"url": "http://sms.apievangelist.com/data/messente/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Messente Account API",
+			"description": "Messente is a dead-simple tool for sending text messages to customers, employees or friends, providing a SaaS for delivering messages to over 200 countries and to nearly a thousand different networks. Messente provides message APIs for sending and receiving of messaging, scheduling messages, and managing account information. Messente employees a straightforward pay as you go, message based unit pricing for monetizing of its messaging platform APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/messente.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"messaging",
+				"plans",
+				"sms api"
+			],
+			"properties": [
+			]
+		},
+		{
+			"name": "Messente SMS API",
+			"description": "Messente is a dead-simple tool for sending text messages to customers, employees or friends, providing a SaaS for delivering messages to over 200 countries and to nearly a thousand different networks. Messente provides message APIs for sending and receiving of messaging, scheduling messages, and managing account information. Messente employees a straightforward pay as you go, message based unit pricing for monetizing of its messaging platform APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/messente.png",
+			"humanURL": "https://messente.com/docs/api/rest/sms/",
+			"baseURL": "https://messente.com/docs/api/rest/sms/",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"messaging",
+				"plans",
+				"sms api"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/messente/messente-sms-api-openapi-spec.json"
+				}
+			]
+		}
+	],
+	"x-common": [
+		{
+			"type": "X-blog",
+			"url": "http://messente.com/blog/"
+		},
+		{
+			"type": "X-blog-rss-feed",
+			"url": "http://messente.com/blog/feed/"
+		},
+		{
+			"type": "X-portal",
+			"url": "https://messente.com/pages/api/"
+		},
+		{
+			"type": "X-email",
+			"url": "support@messente.com"
+		},
+		{
+			"type": "X-faq",
+			"url": "https://messente.com/pages/faq"
+		},
+		{
+			"type": "X-",
+			"url": "https://messente.com/pricing/full"
+		},
+		{
+			"type": "X-",
+			"url": "https://messente.com/pages/terms"
+		},
+		{
+			"type": "X-twitter",
+			"url": "http://www.twitter.com/messente"
+		},
+		{
+			"type": "X-webinars",
+			"url": "https://messente.com"
+		}
+	],
+	"include": [
+		{
+			"name": "Parent",
+			"url": "http://sms.apievangelist.com/apis.json"
+		}
+	],
+	"maintainers": [
+		{
+			"FN": "Kin Lane",
+			"X-twitter": "apievangelist",
+			"email": "info@apievangelist.com"
+		}
+	]
+}
