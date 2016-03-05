@@ -1,0 +1,64 @@
+{
+	"name": "SMS",
+	"description": "SMS owes more to the telecom industry, and mobile phones, more than the API space, but when it comes to reducing valuable assets to its smallest possible unit of value, the SMS space is well suited for evolution via the API. I think think that are many lessons for API providers when it comes to the SMS API space, and I enjoy spending time research how companies are innovating when it comes to the SMS, using APIs.",
+	"image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-sms.jpg",
+	"created": "2016-03-04",
+	"modified": "2016-03-04",
+	"url": "http://sms.apievangelist.com/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+	],
+	"tags": [
+		"SMS API",
+		"SMS"
+	],
+	"include": [
+		{
+			"name": "Clickatell",
+			"url": "http://sms.apievangelist.com/data/clickatell/apis.json"
+		},
+		{
+			"name": "Clockwork",
+			"url": "http://sms.apievangelist.com/data/clockwork/apis.json"
+		},
+		{
+			"name": "Developer Garden",
+			"url": "http://sms.apievangelist.com/data/developer-garden/apis.json"
+		},
+		{
+			"name": "Messente",
+			"url": "http://sms.apievangelist.com/data/messente/apis.json"
+		},
+		{
+			"name": "Mogreet",
+			"url": "http://sms.apievangelist.com/data/mogreet/apis.json"
+		},
+		{
+			"name": "Nexmo",
+			"url": "http://sms.apievangelist.com/data/nexmo/apis.json"
+		},
+		{
+			"name": "Plivo",
+			"url": "http://sms.apievangelist.com/data/plivo/apis.json"
+		},
+		{
+			"name": "TelAPI",
+			"url": "http://sms.apievangelist.com/data/telapi/apis.json"
+		},
+		{
+			"name": "TigerText",
+			"url": "http://sms.apievangelist.com/data/tigertext/apis.json"
+		},
+		{
+			"name": "Twilio",
+			"url": "http://sms.apievangelist.com/data/twilio/apis.json"
+		}
+	],
+	"maintainers": [
+		{
+			"FN": "Kin",
+			"X-twitter": "apievangelist",
+			"email": "info@apievangelist.com"
+		}
+	]
+}
