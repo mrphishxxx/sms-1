@@ -1,0 +1,171 @@
+{
+	"name": "Twilio",
+	"description": "Twilio, the cloud communications company, providing a telephony infrastructure web service in the cloud, allowing web developers to integrate phone calls, text messages and IP voice communications into their web, mobile and traditional phone applications.",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png",
+	"tags": [
+		"API",
+		"Application Programming Interfaces",
+		"api lifeycle",
+		"messaging",
+		"mms",
+		"mms api",
+		"partners",
+		"plans",
+		"sms",
+		"sms api",
+		"telphony",
+		"voice"
+	],
+	"created": "2016-03-04",
+	"modified": "2016-03-04",
+	"url": "http://sms.apievangelist.com/data/twilio/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Twilio API",
+			"description": "Twilio, the cloud communications company, providing a telephony infrastructure web service in the cloud, allowing web developers to integrate phone calls, text messages and IP voice communications into their web, mobile and traditional phone applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png",
+			"humanURL": "https://www.twilio.com/",
+			"baseURL": "https://www.twilio.com/",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"api lifeycle",
+				"messaging",
+				"mms",
+				"mms api",
+				"partners",
+				"plans",
+				"sms",
+				"sms api",
+				"telphony",
+				"voice"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/twilio/twilio-api-openapi-spec.json"
+				}
+			]
+		}
+	],
+	"x-common": [
+		{
+			"type": "X-",
+			"url": "https://www.twilio.com/docs/csharp/install"
+		},
+		{
+			"type": "X-application-gallery",
+			"url": "https://www.twilio.com/showcase"
+		},
+		{
+			"type": "X-blog",
+			"url": "http://www.twilio.com/blog"
+		},
+		{
+			"type": "X-blog-rss-feed",
+			"url": "http://www.twilio.com/blog/feed"
+		},
+		{
+			"type": "X-community-supported-libraries",
+			"url": "https://www.twilio.com/docs/libraries"
+		},
+		{
+			"type": "X-contact-form",
+			"url": "https://www.twilio.com/help/contact"
+		},
+		{
+			"type": "X-documentation",
+			"url": "https://www.twilio.com/docs/api"
+		},
+		{
+			"type": "X-getting-started",
+			"url": "https://www.twilio.com/docs/quickstart"
+		},
+		{
+			"type": "X-github",
+			"url": "https://github.com/twilio"
+		},
+		{
+			"type": "X-howto-guides",
+			"url": "https://www.twilio.com/docs/howto"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.twilio.com/docs/java/install"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.twilio.com/docs/node/install"
+		},
+		{
+			"type": "X-paid-support-plans",
+			"url": "https://www.twilio.com/premium-support#features"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.twilio.com/partners"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.twilio.com/docs/php/install"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.twilio.com/pricing"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.twilio.com/docs/python/install"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.twilio.com/docs/ruby/install"
+		},
+		{
+			"type": "X-salesforce",
+			"url": "https://www.twilio.com/docs/salesforce/install"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.twilio.com/docs/security"
+		},
+		{
+			"type": "X-stack-overflow",
+			"url": "http://stackoverflow.com/questions/tagged/twilio"
+		},
+		{
+			"type": "X-status-dashboard",
+			"url": "http://status.twilio.com/"
+		},
+		{
+			"type": "X-status-rss",
+			"url": "http://status.twilio.com/rss"
+		},
+		{
+			"type": "X-twitter",
+			"url": "https://twitter.com/twilio"
+		},
+		{
+			"type": "X-webinars",
+			"url": "http://www.twilio.com"
+		},
+		{
+			"type": "X-portal",
+			"url": "http://www.twilio.com"
+		}
+	],
+	"include": [
+		{
+			"name": "Parent",
+			"url": "http://sms.apievangelist.com/apis.json"
+		}
+	],
+	"maintainers": [
+		{
+			"FN": "Kin Lane",
+			"X-twitter": "apievangelist",
+			"email": "info@apievangelist.com"
+		}
+	]
+}
