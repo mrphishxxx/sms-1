@@ -1,0 +1,129 @@
+{
+	"name": "Nexmo",
+	"description": "Nexmo provides communication APIs that bridge traditional voice and text services with cloud communications, enabling applications to make phone calls or send and receive text messages. Via the Nexmo platform users can send, receive and manage their SMS messaging, and account via an API. Next provides free trials, with a pay as you go, message unit based pricing models for developers when accessing the API.",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/626_logo.jpg",
+	"tags": [
+		"API",
+		"Application Programming Interfaces",
+		"api-united-kingdom",
+		"bulk",
+		"global",
+		"messaging",
+		"plans",
+		"smpp",
+		"sms",
+		"sms api",
+		"telephony"
+	],
+	"created": "2016-03-04",
+	"modified": "2016-03-04",
+	"url": "http://sms.apievangelist.com/data/nexmo/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Nexmo SMS API",
+			"description": "Nexmo lets you send and receive high volume of SMS at wholesale rates using web technologies that you already know.n",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/626_logo.jpg",
+			"humanURL": "https://docs.nexmo.com/index.php/sms-api",
+			"baseURL": "https://docs.nexmo.com/index.php/sms-api",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"api-united-kingdom",
+				"bulk",
+				"global",
+				"messaging",
+				"plans",
+				"smpp",
+				"sms",
+				"sms api",
+				"telephony"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/nexmo/nexmo-sms-api-openapi-spec.json"
+				}
+			]
+		}
+	],
+	"x-common": [
+		{
+			"type": "X-blog",
+			"url": "http://blog.nexmo.com"
+		},
+		{
+			"type": "X-case-studies",
+			"url": "http://www.nexmo.com/customers/#case"
+		},
+		{
+			"type": "X-portal",
+			"url": "https://docs.nexmo.com/"
+		},
+		{
+			"type": "X-github",
+			"url": "https://github.com/Nexmo"
+		},
+		{
+			"type": "X-",
+			"url": "https://labs.nexmo.com/download/nexmo-java-sdk-v1.5.zip"
+		},
+		{
+			"type": "X-",
+			"url": "https://github.com/pvela/nexmo"
+		},
+		{
+			"type": "X-",
+			"url": "https://github.com/prawnsalad/Nexmo-PHP-lib"
+		},
+		{
+			"type": "X-",
+			"url": "http://www.nexmo.com/pricing/"
+		},
+		{
+			"type": "X-",
+			"url": "http://www.nexmo.com/privacy-policy-2/"
+		},
+		{
+			"type": "X-",
+			"url": "https://github.com/marcuz/libpynexmo"
+		},
+		{
+			"type": "X-",
+			"url": "https://github.com/timcraft/nexmo"
+		},
+		{
+			"type": "X-selfservice-registration",
+			"url": "https://dashboard.nexmo.com/register"
+		},
+		{
+			"type": "X-linkedin",
+			"url": "https://www.linkedin.com/in/teljamou"
+		},
+		{
+			"type": "X-",
+			"url": "http://www.nexmo.com/terms-use/"
+		},
+		{
+			"type": "X-twitter",
+			"url": "https://twitter.com/nexmo"
+		},
+		{
+			"type": "X-webinars",
+			"url": "http://nexmo.com/"
+		}
+	],
+	"include": [
+		{
+			"name": "Parent",
+			"url": "http://sms.apievangelist.com/apis.json"
+		}
+	],
+	"maintainers": [
+		{
+			"FN": "Kin Lane",
+			"X-twitter": "apievangelist",
+			"email": "info@apievangelist.com"
+		}
+	]
+}
