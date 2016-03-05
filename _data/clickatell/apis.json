@@ -19,7 +19,7 @@
 	],
 	"created": "2016-03-04",
 	"modified": "2016-03-04",
-	"url": "http://sms.apievangelist.com/data/clickatell/apis.json",
+	"url": "http://sms.stack.network/data/clickatell/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -46,7 +46,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://sms.apievangelist.com/data/clickatell/clickatell-sms-openapi-spec.json"
+					"url": "http://sms.stack.network/data/clickatell/clickatell-sms-openapi-spec.json"
 				}
 			]
 		}
@@ -104,7 +104,7 @@
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://sms.apievangelist.com/apis.json"
+			"url": "http://sms.stack.network/apis.json"
 		}
 	],
 	"maintainers": [
