@@ -132,6 +132,8 @@ title: Includes
                     {% assign pathname = pathname | replace: '.json','' %}
                     {% assign openapi_spec_json = file | map: pathname %}
 
+{{ file }}<br /><br />
+
                   {% endif %}
 
                   {% if property.type == 'x-postman %}
@@ -146,7 +148,7 @@ title: Includes
 
                 <tr>
                   <td align="left">
-                    <strong>{{ api.name }}</strong>
+                    <strong>{{ api.name }}</strong> - {{ pathname }}
                   </td>
                   <td align="center">
                     {% if openapi_spec_url != null and openapi_spec_url != empty %}
