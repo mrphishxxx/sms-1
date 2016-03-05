@@ -1,0 +1,157 @@
+{
+	"name": "Plivo",
+	"description": "Plivo is an API Platform for building voice and SMS features into web and mobile applications that are focused on running in the cloud. Plivo provides web APIs that allow developers to integrate voice and SMS sending, receiving, and account management features into any applications. Plivo provides a free tier for playing around with the API, as well as unit based, pay as you go pricing, which includes volume pricing for larger scale operations.",
+	"image": "https://www.plivo.com/assets/dist/img/logo.png",
+	"tags": [
+		"API",
+		"Application Programming Interfaces",
+		"plans",
+		"sms api",
+		"telephony"
+	],
+	"created": "2016-03-04",
+	"modified": "2016-03-04",
+	"url": "http://sms.apievangelist.com/data/plivo/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Plivo SMS",
+			"description": "Plivo provides web developers with basic building blocks in the form of Plivo XML and HTTP API, to create telephony apps, so developers can completely do away with learning the nitty-gritty of the telephony plumbing.",
+			"image": "https://www.plivo.com/assets/dist/img/logo.png",
+			"humanURL": "https://www.plivo.com/sms-api/",
+			"baseURL": "https://www.plivo.com/sms-api/",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"plans",
+				"sms api",
+				"telephony"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/plivo/plivo-sms-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "Plivo Voice",
+			"description": "Plivo is an API Platform for building voice and SMS features into web and mobile applications that are focused on running in the cloud. Plivo provides web APIs that allow developers to integrate voice and SMS sending, receiving, and account management features into any applications. Plivo provides a free tier for playing around with the API, as well as unit based, pay as you go pricing, which includes volume pricing for larger scale operations.",
+			"image": "https://www.plivo.com/assets/dist/img/logo.png",
+			"humanURL": "",
+			"baseURL": "",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"plans",
+				"sms api",
+				"telephony"
+			],
+			"properties": [
+			]
+		}
+	],
+	"x-common": [
+		{
+			"type": "X-",
+			"url": "https://www.plivo.com/docs/helpers/dotnet/"
+		},
+		{
+			"type": "X-android-sdk",
+			"url": "https://www.plivo.com/docs/sdk/android/"
+		},
+		{
+			"type": "X-blog",
+			"url": "http://blog.plivo.com"
+		},
+		{
+			"type": "X-blog-rss-feed",
+			"url": "http://blog.plivo.com/rss"
+		},
+		{
+			"type": "X-documentation",
+			"url": "https://plivo.com/docs/"
+		},
+		{
+			"type": "X-faq",
+			"url": "https://plivo.com/faq/"
+		},
+		{
+			"type": "X-github",
+			"url": "https://github.com/plivo"
+		},
+		{
+			"type": "X-ios-sdk",
+			"url": "https://www.plivo.com/docs/sdk/ios/"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.plivo.com/docs/helpers/java/"
+		},
+		{
+			"type": "X-linkedin",
+			"url": "https://www.linkedin.com/in/bevenky"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.plivo.com/docs/helpers/node/"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.plivo.com/docs/helpers/php/"
+		},
+		{
+			"type": "X-",
+			"url": "https://plivo.com/pricing/"
+		},
+		{
+			"type": "X-",
+			"url": "https://plivo.com/privacy/"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.plivo.com/docs/helpers/python"
+		},
+		{
+			"type": "X-",
+			"url": "https://www.plivo.com/docs/helpers/ruby/"
+		},
+		{
+			"type": "X-selfservice-registration",
+			"url": "https://manage.plivo.com/accounts/register/"
+		},
+		{
+			"type": "X-status-dashboard",
+			"url": "https://status.plivo.com/"
+		},
+		{
+			"type": "X-",
+			"url": "https://plivo.com/terms/"
+		},
+		{
+			"type": "X-twitter",
+			"url": "https://twitter.com/#!/plivo"
+		},
+		{
+			"type": "X-webinars",
+			"url": "https://www.plivo.com"
+		},
+		{
+			"type": "X-portal",
+			"url": "https://www.plivo.com"
+		}
+	],
+	"include": [
+		{
+			"name": "Parent",
+			"url": "http://sms.apievangelist.com/apis.json"
+		}
+	],
+	"maintainers": [
+		{
+			"FN": "Kin Lane",
+			"X-twitter": "apievangelist",
+			"email": "info@apievangelist.com"
+		}
+	]
+}
