@@ -1,0 +1,334 @@
+[
+	{
+		"category_name": "Messages",
+		"building_blocks": [
+			{
+				"building_block_id": "123FLVJa7cDDNoPOHUhfxuhEaXSPGkzhntZgHXKvgyROE117",
+				"building_block_category_id": "YjwecGWBa5IIDatCxBf5Ykh8TU3wTE3zNfsWlfg41gE117",
+				"name": "Send Message",
+				"about": "Providing the ablity to send SMS to any mobile number via the API.",
+				"category_id": "147",
+				"category": "Messages",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-message-send.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "elrIFsZPC9116bhTOasmB7csKf8Y2L2YN5OS9g0vwacHU117",
+				"building_block_category_id": "YjwecGWBa5IIDatCxBf5Ykh8TU3wTE3zNfsWlfg41gE117",
+				"name": "Receive Message",
+				"about": "Providing the ability to receive SMS messages from any source.",
+				"category_id": "147",
+				"category": "Messages",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-message-receive.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "4jdIjh95o12399okUKmx8sFSlJlCS630QmbHZPsxdL6NM117",
+				"building_block_category_id": "YjwecGWBa5IIDatCxBf5Ykh8TU3wTE3zNfsWlfg41gE117",
+				"name": "Search Messages",
+				"about": "Provide the abilty to search SMS messages sent and received via the API.",
+				"category_id": "147",
+				"category": "Messages",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-magnifying-glass.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "90fDzm123yiLxB0qhzrk4MB2ftoBtVomy2Rg2Ho123IFLg4117",
+				"building_block_category_id": "YjwecGWBa5IIDatCxBf5Ykh8TU3wTE3zNfsWlfg41gE117",
+				"name": "List Messages",
+				"about": "Provide a listing of SMS messages sent and received via the API.",
+				"category_id": "147",
+				"category": "Messages",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Organization",
+		"building_blocks": [
+			{
+				"building_block_id": "7QE1xt48tLfBcQzyftw8ltI9IG58dkm4YepXWglHEe8117",
+				"building_block_category_id": "Y3123sb7LHSBj58IPM7oxkMIYdtH6bkUR0wOVVp116A123zQ4117",
+				"name": "Lists / Groups",
+				"about": "Provide the ability to manage lists of users, and send messages to these lists or groups.",
+				"category_id": "148",
+				"category": "Organization",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-team.jpg",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "8OlJy9XNU11169Y6bhY4YVPdS123BSDINXdtKYuPKwPt116Ig117",
+				"building_block_category_id": "Y3123sb7LHSBj58IPM7oxkMIYdtH6bkUR0wOVVp116A123zQ4117",
+				"name": "Keywords / Tags",
+				"about": "Provide the ability to manage keywords or tags and associate with SMS messages or the users who message are sent to or received from.",
+				"category_id": "148",
+				"category": "Organization",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-keyword.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Delivery",
+		"building_blocks": [
+			{
+				"building_block_id": "t8116679EnLKHkoKsHLijEtT4gDABNxanSSUGZ123ybkGpQ117",
+				"building_block_category_id": "7KXsZgYkq44ax6HtWJrip7U69rf21166kCFYghf116pSekE117",
+				"name": "Delivery Receipts",
+				"about": "The ability to receive confirmatons of delivery for SMS messages sent.",
+				"category_id": "149",
+				"category": "Delivery",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-deliver.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "j12344123zWgTpHDMRnzCxSnFpXGEmYtMOM123mI0xHvhkpHA117",
+				"building_block_category_id": "7KXsZgYkq44ax6HtWJrip7U69rf21166kCFYghf116pSekE117",
+				"name": "Number Validation",
+				"about": "Allowoing API users to validate phone numbers they are going to send SMS messages to, making sure they can receive SMS messages.",
+				"category_id": "149",
+				"category": "Delivery",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-clipboard-checkboxes.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "UMWFGx3UGV14N3DdGW116n116aNdmh8vLMkE2B82t2qpnlw117",
+				"building_block_category_id": "7KXsZgYkq44ax6HtWJrip7U69rf21166kCFYghf116pSekE117",
+				"name": "Scheduling",
+				"about": "Allow messages to be schedule and put into a queue, only sending messages when their schedule time has rolled over.",
+				"category_id": "149",
+				"category": "Delivery",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-timer.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "xbyOUElxi29HmPRzBzgPTIdLGl248s7Rh9mObVg2hOU117",
+				"building_block_category_id": "7KXsZgYkq44ax6HtWJrip7U69rf21166kCFYghf116pSekE117",
+				"name": "Short Codes",
+				"about": "Providing short codes for the delivery of messages, allowing simple messages to be delivered via a single number codes.",
+				"category_id": "149",
+				"category": "Delivery",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-telephone-keypad.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Account",
+		"building_blocks": [
+			{
+				"building_block_id": "rHEHDV6GRqG4p1237MYJ116PJkvLnyT9KVJtFyThK7iir1164117",
+				"building_block_category_id": "xGeOJ0OaO2XrczrsKYur17XqnnBAhMg0Rdr13KZf5OM117",
+				"name": "Account Balance",
+				"about": "Allow API access to check the balance of account to see where the budget is for sending or receiving of messages.",
+				"category_id": "150",
+				"category": "Account",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-account-balance.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "Q85rvYA1162Y8MX0d4uB123RGYmBAiKZulkfaFpOiTqv0qg117",
+				"building_block_category_id": "xGeOJ0OaO2XrczrsKYur17XqnnBAhMg0Rdr13KZf5OM117",
+				"name": "Quota",
+				"about": "Allowng API access for checking account quota to see how may messages have been sent or received.",
+				"category_id": "150",
+				"category": "Account",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-cache.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "Qfx4k5xXXGtC1htzInri4XdFoJCNG6kZdmyD1M4oFQM117",
+				"building_block_category_id": "xGeOJ0OaO2XrczrsKYur17XqnnBAhMg0Rdr13KZf5OM117",
+				"name": "Prices",
+				"about": "Allowing users to check the price for sending messages via the API and receive specific or all of the prices for messaging.",
+				"category_id": "150",
+				"category": "Account",
+				"category_about": null,
+				"category_image": null,
+				"category_hex": null,
+				"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-dollar-sign.png",
+				"image_width": "75",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	}
+]
