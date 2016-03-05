@@ -1,0 +1,145 @@
+{
+	"name": "Mogreet",
+	"description": "Mogreet is a text message marketing platform focusing on the delivery of branded, rich media to mobile devices via MMS in over 175 countries. Migrate delivers SMS, MMS, media transcoding, and use lookup services via their API driven platform. Migrate also employs a pay as you go, unit based approach for charging for its services, allowing developers to scale based upon their needs.",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/228_logo.jpg",
+	"tags": [
+		"API",
+		"Application Programming Interfaces",
+		"media",
+		"media-management",
+		"mms",
+		"mms api",
+		"sms",
+		"sms api",
+		"transcoding"
+	],
+	"created": "2016-03-04",
+	"modified": "2016-03-04",
+	"url": "http://sms.apievangelist.com/data/mogreet/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Mogreet Messaging API",
+			"description": "Mogreet is a text message marketing platform focusing on the delivery of branded, rich media to mobile devices via MMS in over 175 countries. Migrate delivers SMS, MMS, media transcoding, and use lookup services via their API driven platform. Migrate also employs a pay as you go, unit based approach for charging for its services, allowing developers to scale based upon their needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/228_logo.jpg",
+			"humanURL": "https://developer.mogreet.com/docs",
+			"baseURL": "https://developer.mogreet.com/docs",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"media",
+				"media-management",
+				"mms",
+				"mms api",
+				"sms",
+				"sms api",
+				"transcoding"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/mogreet/mogreet-messaging-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "Mogreet Transcoding API",
+			"description": "Mogreet is a SMS/MMS marketing service focusing on the delivery of high quality video, audio and images. Mogreet clients can create, manage, and track their text message marketing campaigns through Mogreet&#039;s platform and customer relationship manager (CRM).nnThe Mogreet platform is capable of ingesting various content such as audio, images and video and transcoding it to allow for use in mobile apps, web and messaging. The API lets users list all the content ingested, retrieve the Smart URL for a given content id, and to destroy a piece of content hosted in the system. The API uses RESTful calls and responses are formatted in XML and JSON.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/228_logo.jpg",
+			"humanURL": "https://developer.mogreet.com/docs/transcoding/overview",
+			"baseURL": "https://developer.mogreet.com/docs/transcoding/overview",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"media",
+				"media-management",
+				"mms",
+				"mms api",
+				"sms",
+				"sms api",
+				"transcoding"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/mogreet/mogreet-transcoding-api-openapi-spec.json"
+				}
+			]
+		}
+	],
+	"x-common": [
+		{
+			"type": "X-blog",
+			"url": "http://blog.mogreet.com"
+		},
+		{
+			"type": "X-contact-form",
+			"url": "https://developer.mogreet.com/contact"
+		},
+		{
+			"type": "X-crunchbase",
+			"url": "http://www.crunchbase.com/company/mogreet"
+		},
+		{
+			"type": "X-documentation",
+			"url": "https://developer.mogreet.com/docs"
+		},
+		{
+			"type": "X-email",
+			"url": "support.developer@mogreet.com"
+		},
+		{
+			"type": "X-error-response-codes",
+			"url": "https://developer.mogreet.com/docs/more/error-codes"
+		},
+		{
+			"type": "X-getting-started",
+			"url": "https://developer.mogreet.com/docs/getting-started/quick-start"
+		},
+		{
+			"type": "X-github",
+			"url": "https://github.com/mogreet"
+		},
+		{
+			"type": "X-",
+			"url": "https://developer.mogreet.com/pricing"
+		},
+		{
+			"type": "X-",
+			"url": "http://www.mogreet.com/legal/privacy/"
+		},
+		{
+			"type": "X-selfservice-registration",
+			"url": "https://developer.mogreet.com/users/sign_up"
+		},
+		{
+			"type": "X-linkedin",
+			"url": "https://www.linkedin.com/in/serenaehrlich"
+		},
+		{
+			"type": "X-",
+			"url": "http://www.mogreet.com/legal/terms/"
+		},
+		{
+			"type": "X-twitter",
+			"url": "https://twitter.com/mogreet"
+		},
+		{
+			"type": "X-portal",
+			"url": "https://developer.mogreet.com/docs?path=%2Ftranscoding%2Foverview"
+		}
+	],
+	"include": [
+		{
+			"name": "Parent",
+			"url": "http://sms.apievangelist.com/apis.json"
+		}
+	],
+	"maintainers": [
+		{
+			"FN": "Kin Lane",
+			"X-twitter": "apievangelist",
+			"email": "info@apievangelist.com"
+		}
+	]
+}
