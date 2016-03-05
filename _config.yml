@@ -20,8 +20,6 @@ paginate_path: "/news/page:num"
 
 production_url : http://sms.stack.network
 
-BASE_PATH : http://sms.stack.network
-
 categories_path : /categories.html
 tags_path : /tags.html
 
@@ -61,11 +59,11 @@ navigation:
     padding: 2
     decorate: 0
   - label1: Organizations
-    link1: /companies.html
+    link1: /organizations/
     size1: 80
     extend: 1
     label2: JSON
-    link2: /data/companies.json
+    link2: /data/organizations.json
     size2: 60
     padding: 0
     decorate: 0
