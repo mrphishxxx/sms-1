@@ -1,0 +1,300 @@
+{
+	"name": "TigerText",
+	"description": "TigerText is a multi-platform, secure, real-time messaging application for the enterprise that allows text messages to be deleted from both the senders and the receivers phones after expiration, which could be a set period of time or after reading. The messages cannot be saved, copied or forwarded by recipients. TigerText does this by storing the message on a company server, not the receiving and sending device, and deleting when the expiration conditions are met.",
+	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png",
+	"tags": [
+		"API",
+		"Application Programming Interfaces",
+		"messaging",
+		"secure",
+		"sms",
+		"sms api"
+	],
+	"created": "2016-03-04",
+	"modified": "2016-03-04",
+	"url": "http://sms.apievangelist.com/data/tigertext/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "TigerConnect Events API",
+			"description": "<p>The TigerConnect message platform events endpoint.</p>",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png",
+			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#receiving-events",
+			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#receiving-events",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"messaging",
+				"secure",
+				"sms",
+				"sms api"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-events-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "TigerConnect Group API",
+			"description": "<p>The TigerConnect message platform group endpoint.</p>",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png",
+			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#group",
+			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#group",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"messaging",
+				"secure",
+				"sms",
+				"sms api"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-group-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "TIgerConnect Message API",
+			"description": "<p>The TigerConnect message platform message endpoint.</p>",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png",
+			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#sending-a-message",
+			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#sending-a-message",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"messaging",
+				"secure",
+				"sms",
+				"sms api"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-message-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "TigerConnect Metadata API",
+			"description": "<p>The TigerConnect message platform metadata endpoint.</p>",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png",
+			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#metadata",
+			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#metadata",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"messaging",
+				"secure",
+				"sms",
+				"sms api"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-metadata-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "TigerConnect Roster API",
+			"description": "<p>The TigerConnect message platform roster endpoint.</p>",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png",
+			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#getting-conversations",
+			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#getting-conversations",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"messaging",
+				"secure",
+				"sms",
+				"sms api"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-roster-api-openapi-spec.json"
+				}
+			]
+		},
+		{
+			"name": "TigerConnect User API",
+			"description": "<p>The TigerConnect message platform user endpoint.</p>",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png",
+			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#user",
+			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#user",
+			"tags": [
+				"API",
+				"Application Programming Interfaces",
+				"messaging",
+				"secure",
+				"sms",
+				"sms api"
+			],
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-user-api-openapi-spec.json"
+				}
+			]
+		}
+	],
+	"x-common": [
+		{
+			"type": "X-android-sdk",
+			"url": "https://developer.tigertext.com/docs/sdk#android-sdk"
+		},
+		{
+			"type": "X-angellist",
+			"url": "https://angel.co/tigertext"
+		},
+		{
+			"type": "X-authentication-overview",
+			"url": "https://developer.tigertext.com/docs/tigerconnect-basics#authentication"
+		},
+		{
+			"type": "X-blog",
+			"url": "http://www.tigertext.com/blog/"
+		},
+		{
+			"type": "X-case-studies",
+			"url": "http://www.tigertext.com/secure-messaging-case-studies"
+		},
+		{
+			"type": "X-contact-form",
+			"url": "http://www.tigertext.com/supportform/"
+		},
+		{
+			"type": "X-crunchbase",
+			"url": "https://www.crunchbase.com/organization/tigertext"
+		},
+		{
+			"type": "X-portal",
+			"url": "https://developer.tigertext.com/"
+		},
+		{
+			"type": "X-documentation",
+			"url": "https://developer.tigertext.com/docs/rest-api-reference"
+		},
+		{
+			"type": "X-email",
+			"url": "mailto:info@tigertext.com"
+		},
+		{
+			"type": "X-events",
+			"url": "http://www.tigertext.com/event/"
+		},
+		{
+			"type": "X-facebook",
+			"url": "https://www.facebook.com/TigerText"
+		},
+		{
+			"type": "X-faq",
+			"url": "http://www.tigertext.com/faqs/"
+		},
+		{
+			"type": "X-getting-started",
+			"url": "https://developer.tigertext.com/docs"
+		},
+		{
+			"type": "X-github",
+			"url": "https://github.com/tigertext"
+		},
+		{
+			"type": "X-google",
+			"url": "https://plus.google.com/+TigertextApp/posts"
+		},
+		{
+			"type": "X-instagram",
+			"url": "https://instagram.com/tigertext/"
+		},
+		{
+			"type": "X-ios-sdk",
+			"url": "https://developer.tigertext.com/docs/sdk#ios-sdk"
+		},
+		{
+			"type": "X-",
+			"url": "https://developer.tigertext.com/docs/sdk#web-sdk"
+		},
+		{
+			"type": "X-",
+			"url": "http://reseller.tigertext.com/license/"
+		},
+		{
+			"type": "X-linkedin",
+			"url": "https://www.linkedin.com/company/tigertext"
+		},
+		{
+			"type": "X-",
+			"url": "http://reseller.tigertext.com/partner-signup"
+		},
+		{
+			"type": "X-",
+			"url": "http://www.tigertext.com/privacy-policy/"
+		},
+		{
+			"type": "X-",
+			"url": "http://reseller.tigertext.com/"
+		},
+		{
+			"type": "X-",
+			"url": "https://developer.tigertext.com/docs/tigerconnect-basics#security-and-compliance"
+		},
+		{
+			"type": "X-selfservice-registration",
+			"url": "https://developer.tigertext.com"
+		},
+		{
+			"type": "X-",
+			"url": "http://www.tigertext.com/developer-terms-of-use/"
+		},
+		{
+			"type": "X-",
+			"url": "http://www.tigertext.com/developer-terms-of-use"
+		},
+		{
+			"type": "X-twitter",
+			"url": "https://twitter.com/tigertext"
+		},
+		{
+			"type": "X-videos",
+			"url": "http://reseller.tigertext.com/videos/"
+		},
+		{
+			"type": "X-vimeo",
+			"url": "https://vimeo.com/tigertext"
+		},
+		{
+			"type": "X-webinars",
+			"url": "http://www.tigertext.com/webinars/"
+		},
+		{
+			"type": "X-white-papers",
+			"url": "http://www.tigertext.com/white-papers-case-studie"
+		},
+		{
+			"type": "X-windows-mobile-sdk",
+			"url": "https://developer.tigertext.com/docs/sdk#win-sdk"
+		},
+		{
+			"type": "X-youtube",
+			"url": "https://www.youtube.com/tigertext"
+		}
+	],
+	"include": [
+		{
+			"name": "Parent",
+			"url": "http://sms.apievangelist.com/apis.json"
+		}
+	],
+	"maintainers": [
+		{
+			"FN": "Kin Lane",
+			"X-twitter": "apievangelist",
+			"email": "info@apievangelist.com"
+		}
+	]
+}
