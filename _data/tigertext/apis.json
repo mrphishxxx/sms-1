@@ -12,7 +12,7 @@
 	],
 	"created": "2016-03-04",
 	"modified": "2016-03-04",
-	"url": "http://sms.apievangelist.com/data/tigertext/apis.json",
+	"url": "http://sms.stack.network/data/tigertext/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
@@ -32,7 +32,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-events-api-openapi-spec.json"
+					"url": "http://sms.stack.network/data/tigertext/tigerconnect-events-api-openapi-spec.json"
 				}
 			]
 		},
@@ -53,7 +53,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-group-api-openapi-spec.json"
+					"url": "http://sms.stack.network/data/tigertext/tigerconnect-group-api-openapi-spec.json"
 				}
 			]
 		},
@@ -74,7 +74,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-message-api-openapi-spec.json"
+					"url": "http://sms.stack.network/data/tigertext/tigerconnect-message-api-openapi-spec.json"
 				}
 			]
 		},
@@ -95,7 +95,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-metadata-api-openapi-spec.json"
+					"url": "http://sms.stack.network/data/tigertext/tigerconnect-metadata-api-openapi-spec.json"
 				}
 			]
 		},
@@ -116,7 +116,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-roster-api-openapi-spec.json"
+					"url": "http://sms.stack.network/data/tigertext/tigerconnect-roster-api-openapi-spec.json"
 				}
 			]
 		},
@@ -137,7 +137,7 @@
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "http://sms.apievangelist.com/data/tigertext/tigerconnect-user-api-openapi-spec.json"
+					"url": "http://sms.stack.network/data/tigertext/tigerconnect-user-api-openapi-spec.json"
 				}
 			]
 		}
@@ -287,7 +287,7 @@
 	"include": [
 		{
 			"name": "Parent",
-			"url": "http://sms.apievangelist.com/apis.json"
+			"url": "http://sms.stack.network/apis.json"
 		}
 	],
 	"maintainers": [
