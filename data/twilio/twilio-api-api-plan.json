@@ -5,65 +5,50 @@
 	"baseurl": "/",
 	"pages": [],
 	"elements": [{
-		"id": "SQ75gK09KZOdRihxMSjw0KYtU6nT9oHWd41231Y6Rt1lA117",
 		"name": "Free"
 	},
 	{
-		"id": "8X2FXA1piWfPRgxtMpb4QF39VmrlqhJOkbr1ZKC116TSc117",
 		"name": "API"
 	},
 	{
-		"id": "VuJYwTnz48hCLvp81234wVKRNpMw4qzq5bMHp53Im7Wbw117",
 		"name": "Sales"
 	},
 	{
-		"id": "HQuSsqv123tD116dHnq3K1OxzAlgGpkgd3vz3TvuAEqPjNE117",
 		"name": "Security"
 	},
 	{
-		"id": "6BeOBoPTED3DHuIWWo1ls7OungaPNTbNkievb6x116CYc117",
 		"name": "SLA"
 	}],
 	"timeframes": [{
-		"id": "xWsn8WNjJMgCIxZLn4VOkoTlgnuRPN0Q59VH4oiGcYI117",
 		"name": "Monthly"
 	}],
 	"metrics": [{
-		"id": "VQOJqJfy1ELyOxLik2StuoWud6gfgueeXjBOEZ1cPdI117",
 		"name": "Media"
 	},
 	{
-		"id": "P1mvfi53hUSTvuez5b3123bg7vD123UWYtPh9w19dwT9ih8117",
 		"name": "Storage"
 	},
 	{
-		"id": "TRmkyJN9ZtUyB116JVIAkXQ0Sxmt34k5iYi116bKbzBS3hg117",
 		"name": "Message"
 	},
 	{
-		"id": "DaMLAkuA2BMpqHLgdnibTx116LYhJyc8Lj6CjqowsBPbs117",
 		"name": "Support"
 	}],
 	"geo": [{
-		"id": "q0bvAPR9h116EEszNQapBKXrWFa1ioYN76wIlWIgMNzDM117",
 		"name": "Country"
 	}],
 	"limits": [{
-		"id": "116L116go8awb1164ZZhbem8A4UtTbhGYr2w116fSmbnPCzip1M117",
 		"name": "Unlimited"
 	},
 	{
-		"id": "G5d6yQL123IRzPRz9IKeK0feutkj8Ky3rPnUug1sEaqf0117",
 		"name": "Pay As You Go"
 	}],
 	"resources": [],
 	"extensions": [],
 	"plans": [{
-		"id": "R7dFlwriHpgyQAPrkEC4UjPjxde0HnxDinBdvx123Jjro117",
 		"name": "Default",
 		"description": "",
 		"entries": [{
-			"id": "UPJYX2MuNPu0jMeUGMXqwZ03JkE0geXDGZ33K123MTBPM117",
 			"label": "Send SMS",
 			"description": "Send SMS from local numbers",
 			"metric": "Message",
@@ -76,7 +61,6 @@
 			"unit": ".0075"
 		},
 		{
-			"id": "NsKs8lMMRsllwdm87zCSU7af1uSKjchrfq9tnul6YwU117",
 			"label": "Receive SMS",
 			"description": "Receive SMS to local numbers",
 			"metric": "Message",
@@ -89,7 +73,6 @@
 			"unit": ".0075"
 		},
 		{
-			"id": "Zz123PF6B55PiaWU0E37ymJKNkziewOHTVEL5UqsAH3cY117",
 			"label": "Send MMS",
 			"description": "Send MMS to local numbers",
 			"metric": "Message",
@@ -102,7 +85,6 @@
 			"unit": "0.02"
 		},
 		{
-			"id": "JOD0OILVREEJ08123vP116zxG1aN3VEpyLQagVPuE7rziwM117",
 			"label": "Receive MMS",
 			"description": "Receive MMS to local numbers",
 			"metric": "Message",
@@ -115,7 +97,6 @@
 			"unit": ".01"
 		},
 		{
-			"id": "R2AEHTioR445TMpV0QjwWqoWw7IPwXl2Rza116WoStYHg117",
 			"label": "Numbers",
 			"description": "Phone numbers with prefixes that indicate geography",
 			"metric": "Number",
@@ -128,7 +109,6 @@
 			"unit": "1.00"
 		},
 		{
-			"id": "votXgbhNAIsVD116LdZLG5MebyQiIq123i7SwX9UeN6jHwg117",
 			"label": "Send SMS",
 			"description": "Send SMS from short code numbers",
 			"metric": "Message",
@@ -141,7 +121,6 @@
 			"unit": ".01"
 		},
 		{
-			"id": "dx9z7JtXS8cdy27JzwfZfn8E116sTsD2r123SviCjr1R0BM117",
 			"label": "Receive SMS",
 			"description": "Receive SMS to short code numbers",
 			"metric": "Message",
@@ -154,7 +133,6 @@
 			"unit": ".005"
 		},
 		{
-			"id": "FiX3XJkAQYJsVdELCJz7FUFxTI869PqKo9tk116XrsiBo117",
 			"label": "Send MMS",
 			"description": "Send MMS from short code numbers",
 			"metric": "Message",
@@ -167,7 +145,6 @@
 			"unit": ".02"
 		},
 		{
-			"id": "Xb2splYJ0xZDFGHTASWfbThsZx8UdgP123BJIAiWLWwNg117",
 			"label": "Receive MMS",
 			"description": "Receive MMS to short code numbers",
 			"metric": "Message",
@@ -180,7 +157,6 @@
 			"unit": ".01"
 		},
 		{
-			"id": "32HVO7xVf4RIzW5NNQ123JAj1qGGrfF6Lw9BlGr76LJaw117",
 			"label": "Short Code Phone Numbers",
 			"description": "Short code phone numbers",
 			"metric": "Number",
@@ -193,7 +169,6 @@
 			"unit": "3,000.00"
 		},
 		{
-			"id": "mqjhVe9l7d7GVaVuYT1l6LW0eHQpKHHHEmUi1233mboE4117",
 			"label": "Send SMS",
 			"description": "Send SMS from toll free numbers",
 			"metric": "Message",
@@ -206,7 +181,6 @@
 			"unit": ".0075"
 		},
 		{
-			"id": "fK98N9eCNGPojUdnLAN2ddRAROXtGnwoY6PrOjGGdsA117",
 			"label": "Receive SMS",
 			"description": "Receive SMS to toll free numbers",
 			"metric": "Message",
@@ -219,7 +193,6 @@
 			"unit": ".0075"
 		},
 		{
-			"id": "oyHYgrh116ssd9tVQOr4stcxasWkUwZyobbYfpETaluGU117",
 			"label": "Toll Free Numbers",
 			"description": "Phone numbers that are free for callers, making them ideal for your business",
 			"metric": "Number",
@@ -232,7 +205,6 @@
 			"unit": "2.00"
 		},
 		{
-			"id": "xjIT6UYidg7sDhwWIgO3PXwZWL123o0123uqlmqNe5DTMA8117",
 			"label": "Media Storage",
 			"description": "Files transferred via MMS are stored until an HTTP DELETE is requested. ",
 			"metric": "Storage",
@@ -245,7 +217,6 @@
 			"unit": "0"
 		},
 		{
-			"id": "djGJYle5DkWhkambdl0K9r6r123rRM1xcomM4yWhcd116mE117",
 			"label": "Media Storage",
 			"description": "Files transferred via MMS are stored until an HTTP DELETE is requested. ",
 			"metric": "Storage",
@@ -258,15 +229,12 @@
 			"unit": ".20"
 		}],
 		"elements": [{
-			"id": "c52AdU1123fUPMLDjJ8116BmIJG4XlGRjuuMXGS116ynO116BpM117",
 			"name": "API"
 		},
 		{
-			"id": "R7dFlwriHpgyQAPrkEC4UjPjxde0HnxDinBdvx123Jjro117",
 			"name": "Sales"
 		},
 		{
-			"id": "q116CBDmeEWT6yVcDWkLQBLOKhXVZRm41vwj116ihljort4117",
 			"name": "Security"
 		}]
 	}]
