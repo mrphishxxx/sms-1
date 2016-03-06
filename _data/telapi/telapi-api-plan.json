@@ -6,37 +6,29 @@
 	"pages": [],
 	"elements": [],
 	"timeframes": [{
-		"id": "dE5cfTvpK0pAdD9123slDswRjrh6F4ro1excYk1GGCUSY117",
 		"name": "Monthly"
 	}],
 	"metrics": [{
-		"id": "AgFG9GDWOOVJ85MgOnNy3rnAOhL2L4swcYdcZQgmKCo117",
 		"name": "Message"
 	},
 	{
-		"id": "lgtjTXNDYqJ9cs4gL2bBiwhZLq5blrXFlt9DCuwEFMg117",
 		"name": "Number"
 	}],
 	"geo": [{
-		"id": "UiQsKxu7PM6nmpFk7uQA35KSRPIP5123KBY94tHWn8KYk117",
 		"name": "Country"
 	}],
 	"limits": [{
-		"id": "0GwZI8bM9LCsog5BMTazQnuufp249VbAtcY2CWNEaLI117",
 		"name": "Unlimited"
 	},
 	{
-		"id": "UiQsKxu7PM6nmpFk7uQA35KSRPIP5123KBY94tHWn8KYk117",
 		"name": "Unclear"
 	}],
 	"resources": [],
 	"extensions": [],
 	"plans": [{
-		"id": "DIPrBItZ86gS123k0s0CoKC4AJwwlv66tBvtvXoQE4NBM117",
 		"name": "Default",
 		"description": "",
 		"entries": [{
-			"id": "ffXl4u8cPHpi2LCReYqgtsmKkVK9JoxYAbv7laWGKjM117",
 			"label": "Outbound SMS",
 			"description": "Sending SMS",
 			"metric": "Message",
@@ -49,7 +41,6 @@
 			"unit": ".0035"
 		},
 		{
-			"id": "K123dzvxtrvwiBpdS116bUQkp1235jOQoFCv2T116NBZu8jBpS8117",
 			"label": "Incoming SMS",
 			"description": "Receiving SMS",
 			"metric": "Message",
@@ -62,7 +53,6 @@
 			"unit": "0"
 		},
 		{
-			"id": "NBA1NybW1i5YTjy2FIPmCy4h8S116tM7xG2OY4aZX0AbI117",
 			"label": "Shortcode Outbound SMS",
 			"description": "Sending SMS with shortcode",
 			"metric": "Message",
@@ -75,7 +65,6 @@
 			"unit": ".0040"
 		},
 		{
-			"id": "k5skEzCEtaB886Y6123Ip0d0098vWO654rnjnD1165XPOmA117",
 			"label": "Shortcode Inbound SMS",
 			"description": "Receiving SMS with shortcode",
 			"metric": "Message",
@@ -88,7 +77,6 @@
 			"unit": "0"
 		},
 		{
-			"id": "nRmCYUPpmwZBaU45M76WsZaMg4ykOdFQQTox5aLTL7U117",
 			"label": "Vanity Shortcodes",
 			"description": "Vanity shortcode numbers",
 			"metric": "Number",
@@ -101,7 +89,6 @@
 			"unit": "1500"
 		},
 		{
-			"id": "12343s2qQ64ES5rCSxwuMevpE123yXU8P1B1lQIk123JNQvNg117",
 			"label": "Random Shortcodes",
 			"description": "Random shortcode numbers",
 			"metric": "Number",
