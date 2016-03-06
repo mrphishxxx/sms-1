@@ -3,17 +3,7 @@
 	"description": "Nexmo provides communication APIs that bridge traditional voice and text services with cloud communications, enabling applications to make phone calls or send and receive text messages. Via the Nexmo platform users can send, receive and manage their SMS messaging, and account via an API. Next provides free trials, with a pay as you go, message unit based pricing models for developers when accessing the API.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/626_logo.jpg",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"api-united-kingdom",
-		"bulk",
-		"global",
-		"messaging",
-		"plans",
-		"smpp",
-		"sms",
-		"sms api",
-		"telephony"
+		"SMS"
 	],
 	"created": "2016-03-05",
 	"modified": "2016-03-05",
@@ -27,17 +17,7 @@
 			"humanURL": "https://docs.nexmo.com/index.php/sms-api",
 			"baseURL": "https://docs.nexmo.com/index.php/sms-api",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api-united-kingdom",
-				"bulk",
-				"global",
-				"messaging",
-				"plans",
-				"smpp",
-				"sms",
-				"sms api",
-				"telephony"
+				"SMS"
 			],
 			"properties": [
 				{
