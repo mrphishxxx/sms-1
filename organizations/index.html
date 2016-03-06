@@ -206,7 +206,6 @@ title: Includes
                     {% assign pathname = pathname | replace: '.json','' %}
                     {% assign api_plan_json = file | map: pathname %}
 
-                    HERE1: {{ api_plan_json }}<br /><br />
                     <table cellpadding="3" cellspacing="2">
                     {% for entry in api_plan_json %}
                         {% assign api_plan_json = entry[0] %}
