@@ -2,8 +2,8 @@
 	"name": "SMS",
 	"description": "SMS owes more to the telecom industry, and mobile phones, more than the API space, but when it comes to reducing valuable assets to its smallest possible unit of value, the SMS space is well suited for evolution via the API. I think think that are many lessons for API providers when it comes to the SMS API space, and I enjoy spending time research how companies are innovating when it comes to the SMS, using APIs.",
 	"image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-sms.jpg",
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-05",
+	"modified": "2016-03-05",
 	"url": "http://sms.stack.network/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -20,10 +20,6 @@
 		{
 			"name": "Clockwork",
 			"url": "http://sms.stack.network/data/clockwork/apis.json"
-		},
-		{
-			"name": "Developer Garden",
-			"url": "http://sms.stack.network/data/developer-garden/apis.json"
 		},
 		{
 			"name": "Messente",
