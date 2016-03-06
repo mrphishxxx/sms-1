@@ -114,7 +114,7 @@ title: Includes
           </tr>
           <tr>
             <td align="center">
-              <table cellpadding="3" cellspacing="2" width="70%">
+              <table cellpadding="3" cellspacing="2" width="80%">
               {% for api in apijson.apis %}
 
                 {% for property in api.properties %}
@@ -150,24 +150,21 @@ title: Includes
                   <td align="left">
                     <strong>{{ api.name }}</strong>
                   </td>
-                  <td align="center">
+                  <td align="right">
                     {% if openapi_spec_url != null and openapi_spec_url != empty %}
-                      <a href="{{ openapi_spec_url }}" target="_blank" title="OpenAPI Spec"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" /></a>
+                      <a href="{{ openapi_spec_url }}" target="_blank" title="OpenAPI Spec"><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" /></a>
                     {% endif %}
-                  </td>
-                  <td align="center">
                     {% if api_blueprint_url != null and api_blueprint_url != empty %}
-                      <a href="{{ api_blueprint_url }}" target="_blank" title="API Blueprint"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-blueprint-icon.png" width="25" /></a>
+                      <a href="{{ api_blueprint_url }}" target="_blank" title="API Blueprint"><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-blueprint-icon.png" width="25" /></a>
                     {% endif %}
-                  </td>
-                  <td align="center">
                     {% if postman_url != null and postman_url != empty %}
-                      <a href="{{ postman_url }}" target="_blank" title="API Blueprint"><img src="https://s3.amazonaws.com/kinlane-productions/building-blocks/x-postman.png" width="25" /></a>
+                      <a href="{{ postman_url }}" target="_blank" title="API Blueprint"><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/building-blocks/x-postman.png" width="25" /></a>
                     {% endif %}
                   </td>
                 </tr>
                 <tr>
-                  <td colspan="4" align="left">
+                  <td colspan="2" align="left">
+
                     <ul>
                       {% for spec in openapi_spec_json %}
 
@@ -213,7 +210,7 @@ title: Includes
                     {% assign pathname = pathname | replace: '.json','' %}
                     {% assign api_plan_json = file | map: pathname %}
 
-                    <table cellpadding="3" cellspacing="2" width="85%">
+                    <table cellpadding="3" cellspacing="2" width="100%">
 
                     {% for entry in api_plan_json %}
 
