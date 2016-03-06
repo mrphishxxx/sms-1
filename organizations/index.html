@@ -208,19 +208,11 @@ title: Includes
 
                     {% assign api_plan = api_plan_json %}
 
-                    {% for spec in api_plan %}
+                    HERE1: {{ api_plan }}<br />
 
-                      {% assign item = spec[1] %}
-
-                      HERE2 : {{ item }}
-
-                      {% for path in item.plans %}
-
-                        HERE3 : {{ path }}
-
-                      {% endfor %}
+                    {% for entry in api_plan[0].plans %}
+                      Here@{{ entry }}<br />
                     {% endfor %}
-
 
                   {% endif %}
 
