@@ -243,6 +243,10 @@
 		{
 			"type": "x-youtube",
 			"url": "https://www.youtube.com/tigertext"
+		},
+		{
+			"type": "x-api-plan",
+			"url": "http://sms.stack.network/data/tigertext/tigerconnect-user-api-api-plan.json"
 		}
 	],
 	"include": [
