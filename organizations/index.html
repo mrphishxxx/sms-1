@@ -216,17 +216,17 @@ title: Includes
                               <td colspan="10" style="font-size: 22px; font-weight: bold;">{{ plan.name }}</td>
                             </tr>
                             {% for entry in entries %}
-                              <tr style="background-color: #CCC; font-size: 12px;">
+                              <tr style="font-size: 12px;">
                                 <td>{{ entry.label }}</td>
-                                <td>{{ plan.description }}</td>
-                                <td>{{ plan.metric }}</td>
-                                <td>{{ plan.limit }}</td>
-                                <td>{{ plan.timeframe }}</td>
-                                <td>{{ plan.geo }}</td>
-                                <td>{{ plan.element }}</td>
-                                <td>{{ plan.one }}</td>
-                                <td>{{ plan.two }}</td>
-                                <td>{{ plan.unit }}</td>
+                                <td>{{ entry.description }}</td>
+                                <td>{{ entry.metric }}</td>
+                                <td>{{ entry.limit }}</td>
+                                <td>{{ entry.timeframe }}</td>
+                                <td>{{ entry.geo }}</td>
+                                <td>{{ entry.element }}</td>
+                                <td>{{ entry.one }}</td>
+                                <td>{{ entry.two }}</td>
+                                <td>{{ entry.unit }}</td>
                               </tr>
                             {% endfor %}
                         {% endfor %}
