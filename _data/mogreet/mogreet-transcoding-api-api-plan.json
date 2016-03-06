@@ -3,7 +3,9 @@
 	"name": "Mogreet",
 	"host": "api.mogreet.com",
 	"baseurl": "/",
-	"pages": [],
+	"pages": [{
+		"url": "https://developer.mogreet.com/pricing"
+	}],
 	"elements": [],
 	"timeframes": [{
 		"name": "Monthly"
