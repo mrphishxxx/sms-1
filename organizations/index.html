@@ -26,19 +26,19 @@ title: Includes
         {% assign website_url = '' %}
 
         {% for common in apijson.x-common %}
-          {% if common.type == 'X-blog' %}
+          {% if common.type == 'x-blog' %}
             {% assign blog_url = common.url %}
           {% endif %}
-          {% if common.type == 'X-blog-rss-feed' %}
+          {% if common.type == 'x-blog-rss-feed' %}
             {% assign blogrss_url = common.url %}
           {% endif %}
-          {% if common.type == 'X-portal' %}
+          {% if common.type == 'x-portal' %}
             {% assign portal_url = common.url %}
           {% endif %}
-          {% if common.type == 'X-github' %}
+          {% if common.type == 'x-github' %}
             {% assign gitub_url = common.url %}
           {% endif %}
-          {% if common.type == 'X-twitter' %}
+          {% if common.type == 'x-twitter' %}
             {% assign twitter_url = common.url %}
           {% endif %}
         {% endfor %}
@@ -206,15 +206,22 @@ title: Includes
                     {% assign pathname = pathname | replace: '.json','' %}
                     {% assign api_plan_json = file | map: pathname %}
 
-                    <table cellpadding="3" cellspacing="2">
+                    <table cellpadding="3" cellspacing="2" width="70%">
+
                     {% for entry in api_plan_json %}
+
                         {% assign api_plan_json = entry[0] %}
+
                         {% for plan in api_plan_json.plans %}
+
                             {% assign entries = plan.entries %}
+
                             <tr style="background-color: #CCC">
                               <td colspan="10" style="font-size: 22px; font-weight: bold;">{{ plan.name }}</td>
                             </tr>
+
                             {% for entry in entries %}
+
                               <tr style="font-size: 12px;">
                                 <td>{{ entry.label }}</td>
                                 <td>{{ entry.description }}</td>
@@ -227,9 +234,13 @@ title: Includes
                                 <td>{{ entry.two }}</td>
                                 <td>{{ entry.unit }}</td>
                               </tr>
+
                             {% endfor %}
+
                         {% endfor %}
+
                     {% endfor %}
+
                   </table>
 
                   {% endif %}
