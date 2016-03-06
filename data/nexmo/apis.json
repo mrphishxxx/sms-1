@@ -99,6 +99,10 @@
 		{
 			"type": "x-webinars",
 			"url": "http://www.nexmo.com/resources/webinars/"
+		},
+		{
+			"type": "x-api-plan",
+			"url": "http://sms.stack.network/data/nexmo/nexmo-sms-api-api-plan.json"
 		}
 	],
 	"include": [
