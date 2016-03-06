@@ -41,92 +41,96 @@
 	],
 	"x-common": [
 		{
-			"type": "X-c-sharp",
+			"type": "x-c-sharp",
 			"url": "https://www.plivo.com/docs/helpers/dotnet/"
 		},
 		{
-			"type": "X-android-sdk",
+			"type": "x-android-sdk",
 			"url": "https://www.plivo.com/docs/sdk/android/"
 		},
 		{
-			"type": "X-base-url-for-api",
+			"type": "x-base-url-for-api",
 			"url": "https://api.plivo.com"
 		},
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://blog.plivo.com"
 		},
 		{
-			"type": "X-blog-rss-feed",
+			"type": "x-blog-rss-feed",
 			"url": "http://blog.plivo.com/rss"
 		},
 		{
-			"type": "X-crunchbase",
+			"type": "x-crunchbase",
 			"url": "http://www.crunchbase.com/company/plivo"
 		},
 		{
-			"type": "X-documentation",
+			"type": "x-documentation",
 			"url": "https://plivo.com/docs/"
 		},
 		{
-			"type": "X-faq",
+			"type": "x-faq",
 			"url": "https://plivo.com/faq/"
 		},
 		{
-			"type": "X-github",
+			"type": "x-github",
 			"url": "https://github.com/plivo"
 		},
 		{
-			"type": "X-ios-sdk",
+			"type": "x-ios-sdk",
 			"url": "https://www.plivo.com/docs/sdk/ios/"
 		},
 		{
-			"type": "X-java",
+			"type": "x-java",
 			"url": "https://www.plivo.com/docs/helpers/java/"
 		},
 		{
-			"type": "X-linkedin",
+			"type": "x-linkedin",
 			"url": "https://www.linkedin.com/in/bevenky"
 		},
 		{
-			"type": "X-nodejs",
+			"type": "x-nodejs",
 			"url": "https://www.plivo.com/docs/helpers/node/"
 		},
 		{
-			"type": "X-php",
+			"type": "x-php",
 			"url": "https://www.plivo.com/docs/helpers/php/"
 		},
 		{
-			"type": "X-dedicated-plans--pricing-page",
+			"type": "x-dedicated-plans--pricing-page",
 			"url": "https://plivo.com/pricing/"
 		},
 		{
-			"type": "X-privacy-policy-page",
+			"type": "x-privacy-policy-page",
 			"url": "https://plivo.com/privacy/"
 		},
 		{
-			"type": "X-ruby",
+			"type": "x-ruby",
 			"url": "https://www.plivo.com/docs/helpers/python"
 		},
 		{
-			"type": "X-selfservice-registration",
+			"type": "x-selfservice-registration",
 			"url": "https://manage.plivo.com/accounts/register/"
 		},
 		{
-			"type": "X-status-dashboard",
+			"type": "x-status-dashboard",
 			"url": "https://status.plivo.com/"
 		},
 		{
-			"type": "X-terms-of-service-page",
+			"type": "x-terms-of-service-page",
 			"url": "https://plivo.com/terms/"
 		},
 		{
-			"type": "X-twitter",
+			"type": "x-twitter",
 			"url": "https://twitter.com/#!/plivo"
 		},
 		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "https://www.plivo.com"
+		},
+		{
+			"type": "x-api-plan",
+			"url": "http://sms.stack.network/data/plivo/plivo-voice-api-plan.json"
 		}
 	],
 	"include": [
@@ -138,7 +142,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
