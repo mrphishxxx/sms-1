@@ -3,7 +3,9 @@
 	"name": "Twilio",
 	"host": "api.twilio.com",
 	"baseurl": "/",
-	"pages": [],
+	"pages": [{
+		"url": "https://www.twilio.com/pricing"
+	}],
 	"elements": [{
 		"name": "Free"
 	},
