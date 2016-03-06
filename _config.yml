@@ -39,7 +39,7 @@ feature_image_width: 45
 
 # Project
 project_image: https://s3.amazonaws.com/kinlane-productions/api-stack/icons/bw-sms.png
-project_summary: Research into sms APIs.
+project_summary: Research into SMS APIs, trying to profile each provider, as well as the common building blocks, plans, and other elements of how they are operating their APIs.
 
 # Navigation
 navigation:
