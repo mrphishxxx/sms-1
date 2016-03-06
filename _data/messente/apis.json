@@ -41,39 +41,39 @@
 	],
 	"x-common": [
 		{
-			"type": "X-base-url-for-api",
+			"type": "x-base-url-for-api",
 			"url": "http://api2.messente.com"
 		},
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://messente.com/blog/"
 		},
 		{
-			"type": "X-blog-rss-feed",
+			"type": "x-blog-rss-feed",
 			"url": "http://messente.com/blog/feed/"
 		},
 		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "https://messente.com/pages/api/"
 		},
 		{
-			"type": "X-email",
+			"type": "x-email",
 			"url": "support@messente.com"
 		},
 		{
-			"type": "X-faq",
+			"type": "x-faq",
 			"url": "https://messente.com/pages/faq"
 		},
 		{
-			"type": "X-dedicated-plans--pricing-page",
+			"type": "x-dedicated-plans--pricing-page",
 			"url": "https://messente.com/pricing/full"
 		},
 		{
-			"type": "X-terms-of-service-page",
+			"type": "x-terms-of-service-page",
 			"url": "https://messente.com/pages/terms"
 		},
 		{
-			"type": "X-twitter",
+			"type": "x-twitter",
 			"url": "http://www.twitter.com/messente"
 		}
 	],
@@ -86,7 +86,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
