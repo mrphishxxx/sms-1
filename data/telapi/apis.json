@@ -11,8 +11,8 @@
 		"telephony",
 		"voice"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-05",
+	"modified": "2016-03-05",
 	"url": "http://sms.stack.network/data/telapi/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -41,6 +41,10 @@
 	],
 	"x-common": [
 		{
+			"type": "X-base-url-for-api",
+			"url": "https://api.telapi.com"
+		},
+		{
 			"type": "X-blog",
 			"url": "http://www.TelAPI.com/blog/"
 		},
@@ -51,6 +55,10 @@
 		{
 			"type": "X-contact-form",
 			"url": "http://www.telapi.com/contact"
+		},
+		{
+			"type": "X-crunchbase",
+			"url": "http://www.crunchbase.com/company/telapi"
 		},
 		{
 			"type": "X-portal",
@@ -65,11 +73,11 @@
 			"url": "https://github.com/TelAPI"
 		},
 		{
-			"type": "X-",
+			"type": "X-dedicated-plans--pricing-page",
 			"url": "http://www.telapi.com/pricing"
 		},
 		{
-			"type": "X-",
+			"type": "X-privacy-policy-page",
 			"url": "https://www.telapi.com/legal/privacy-policy"
 		},
 		{
@@ -81,16 +89,12 @@
 			"url": "http://status.telapi.com/"
 		},
 		{
-			"type": "X-",
+			"type": "X-terms-of-service-page",
 			"url": "https://www.telapi.com/legal/tos"
 		},
 		{
 			"type": "X-twitter",
 			"url": "https://twitter.com/TelAPI"
-		},
-		{
-			"type": "X-webinars",
-			"url": "http://www.telapi.com"
 		}
 	],
 	"include": [
