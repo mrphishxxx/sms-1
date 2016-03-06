@@ -52,7 +52,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
