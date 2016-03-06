@@ -6,13 +6,13 @@
 		"details": "Clickatell is a privately held mobile communications company founded in 2000 with a presence in US and Africa. Clickatell delivers short message service SMS services through its Clickatell Gateway to mobile phone users through more than 800 networks in more than 220 countries and territories. Clickatell provides a pay as you go, SMS unit based pricing model for developers to leverage when building applications.",
 		"website": "http://americas.clickatell.com/",
 		"twitter": "https://twitter.com/Clickatell",
-		"github": "https://github.com/clickatell",
+		"github": "https://github.com/Clickatell",
 		"blog": "",
 		"blogrss": "",
-		"logo": "https://avatars.githubusercontent.com/u/7206811?v=2",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickatell-logo.png",
 		"logo_width": "150",
-		"screenshot": "https://avatars.githubusercontent.com/u/7206811?v=2",
-		"tags": "API-Stack,Applications,Email,Email Marketing,File Transfer,Messaging,Messaging-Stack,Plans,SMPP,SMS,SMS API,Smtp,Telephony",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickatell-logo.png",
+		"tags": "Applications,Email,Email Marketing,File Transfer,Messaging,Plans,SMPP,SMS,SMS API,Smtp,Telephony",
 		"apis": [
 			{
 				"api_id": "fisgpp7dqnpKYINU1mORvFiVpHAlhMUgjZz123Wkxvc4w117",
@@ -48,45 +48,6 @@
 				"slug": "clockwork-sms",
 				"website": "http://www.clockworksms.com/doc/easy-stuff/http-interface/send-sms/",
 				"openapi-spec": "http://theapistack.com/data/clockwork/clockwork-sms-swagger.json",
-				"api-blueprint": "",
-				"postman": "",
-				"documentation": "",
-				"sdk-io": ""
-			}
-		]
-	},
-	{
-		"id": "M7mFs123DuE9qfPRsTfnAznpGFrvEMWhFh0KRtG5msj116A117",
-		"name": "Developer Garden",
-		"summary": "Developer Garden is the developer ecosystem of Deutsche Telekom, providing mobile focused services to developers. Developer Garden provides SMS and MMS messaging, voice call, speech-to-text transcription and location services via web APIs. Developer Garden provides free developer accounts, with a pay as you go, unit based model for purchase of API driven messaging services.",
-		"details": "Developer Garden is the developer ecosystem of Deutsche Telekom, providing mobile focused services to developers. Developer Garden provides SMS and MMS messaging, voice call, speech-to-text transcription and location services via web APIs. Developer Garden provides free developer accounts, with a pay as you go, unit based model for purchase of API driven messaging services.",
-		"website": "http://www.developergarden.com/",
-		"twitter": "https://twitter.com/developergarden",
-		"github": "https://github.com/developergarden",
-		"blog": "http://www.developergarden.com/en/apis/status/articles/",
-		"blogrss": "view-source:http://www.developergarden.com/en/apis/status/articles/rss.xml",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/developer-garden.jpeg",
-		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/developer-garden.jpeg",
-		"tags": "API-Stack,Messaging-Stack,MMS,MMS API,Mobile,SMS,SMS API,Telco,Telephony-Stack",
-		"apis": [
-			{
-				"api_id": "cBYRlBzmwJy116lO9uz116ABkLQ67G8daUGNOMnE123ffHwcY117",
-				"name": "Developer Garden MMS API",
-				"slug": "developer-garden-mms-api",
-				"website": "https://www.developergarden.com/apis/documentation/bundle/telekom-api-rest/html/sendmms.html",
-				"openapi-spec": "http://theapistack.com/data/developer-garden/developer-garden-mms-api-swagger.json",
-				"api-blueprint": "",
-				"postman": "",
-				"documentation": "",
-				"sdk-io": ""
-			},
-			{
-				"api_id": "TAjkk1z5nycfwitV2xtvPL9VRMXcXRnPt8k21ZwgJkU117",
-				"name": "Developer Garden SMS API",
-				"slug": "developer-garden-sms-api",
-				"website": "http://www.developergarden.com/apis/apis-sdks/global-sms-api/",
-				"openapi-spec": "http://theapistack.com/data/developer-garden/developer-garden-sms-api-swagger.json",
 				"api-blueprint": "",
 				"postman": "",
 				"documentation": "",
