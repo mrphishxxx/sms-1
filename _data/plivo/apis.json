@@ -9,8 +9,8 @@
 		"sms api",
 		"telephony"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-05",
+	"modified": "2016-03-05",
 	"url": "http://sms.stack.network/data/plivo/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -53,12 +53,16 @@
 	],
 	"x-common": [
 		{
-			"type": "X-",
+			"type": "X-c-sharp",
 			"url": "https://www.plivo.com/docs/helpers/dotnet/"
 		},
 		{
 			"type": "X-android-sdk",
 			"url": "https://www.plivo.com/docs/sdk/android/"
+		},
+		{
+			"type": "X-base-url-for-api",
+			"url": "https://api.plivo.com"
 		},
 		{
 			"type": "X-blog",
@@ -67,6 +71,10 @@
 		{
 			"type": "X-blog-rss-feed",
 			"url": "http://blog.plivo.com/rss"
+		},
+		{
+			"type": "X-crunchbase",
+			"url": "http://www.crunchbase.com/company/plivo"
 		},
 		{
 			"type": "X-documentation",
@@ -85,7 +93,7 @@
 			"url": "https://www.plivo.com/docs/sdk/ios/"
 		},
 		{
-			"type": "X-",
+			"type": "X-java",
 			"url": "https://www.plivo.com/docs/helpers/java/"
 		},
 		{
@@ -93,28 +101,24 @@
 			"url": "https://www.linkedin.com/in/bevenky"
 		},
 		{
-			"type": "X-",
+			"type": "X-nodejs",
 			"url": "https://www.plivo.com/docs/helpers/node/"
 		},
 		{
-			"type": "X-",
+			"type": "X-php",
 			"url": "https://www.plivo.com/docs/helpers/php/"
 		},
 		{
-			"type": "X-",
+			"type": "X-dedicated-plans--pricing-page",
 			"url": "https://plivo.com/pricing/"
 		},
 		{
-			"type": "X-",
+			"type": "X-privacy-policy-page",
 			"url": "https://plivo.com/privacy/"
 		},
 		{
-			"type": "X-",
+			"type": "X-ruby",
 			"url": "https://www.plivo.com/docs/helpers/python"
-		},
-		{
-			"type": "X-",
-			"url": "https://www.plivo.com/docs/helpers/ruby/"
 		},
 		{
 			"type": "X-selfservice-registration",
@@ -125,16 +129,12 @@
 			"url": "https://status.plivo.com/"
 		},
 		{
-			"type": "X-",
+			"type": "X-terms-of-service-page",
 			"url": "https://plivo.com/terms/"
 		},
 		{
 			"type": "X-twitter",
 			"url": "https://twitter.com/#!/plivo"
-		},
-		{
-			"type": "X-webinars",
-			"url": "https://www.plivo.com"
 		},
 		{
 			"type": "X-portal",
