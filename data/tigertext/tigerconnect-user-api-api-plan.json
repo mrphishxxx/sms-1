@@ -3,7 +3,9 @@
 	"name": "TigerText",
 	"host": "developer.tigertext.me",
 	"baseurl": "/",
-	"pages": [],
+	"pages": [{
+		"url": "http://www.tigertext.com/pricing/"
+	}],
 	"elements": [{
 		"name": "Free"
 	},
