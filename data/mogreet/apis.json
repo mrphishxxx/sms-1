@@ -45,63 +45,51 @@
 	],
 	"x-common": [
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://blog.mogreet.com"
 		},
 		{
-			"type": "X-contact-form",
+			"type": "x-contact-form",
 			"url": "https://developer.mogreet.com/contact"
 		},
 		{
-			"type": "X-crunchbase",
+			"type": "x-crunchbase",
 			"url": "http://www.crunchbase.com/company/mogreet"
 		},
 		{
-			"type": "X-documentation",
+			"type": "x-documentation",
 			"url": "https://developer.mogreet.com/docs"
 		},
 		{
-			"type": "X-email",
+			"type": "x-email",
 			"url": "support.developer@mogreet.com"
 		},
 		{
-			"type": "X-error-response-codes",
+			"type": "x-error-response-codes",
 			"url": "https://developer.mogreet.com/docs/more/error-codes"
 		},
 		{
-			"type": "X-getting-started",
+			"type": "x-getting-started",
 			"url": "https://developer.mogreet.com/docs/getting-started/quick-start"
 		},
 		{
-			"type": "X-github",
+			"type": "x-github",
 			"url": "https://github.com/mogreet"
 		},
 		{
-			"type": "X-",
-			"url": "https://developer.mogreet.com/pricing"
-		},
-		{
-			"type": "X-",
-			"url": "http://www.mogreet.com/legal/privacy/"
-		},
-		{
-			"type": "X-selfservice-registration",
+			"type": "x-selfservice-registration",
 			"url": "https://developer.mogreet.com/users/sign_up"
 		},
 		{
-			"type": "X-linkedin",
+			"type": "x-linkedin",
 			"url": "https://www.linkedin.com/in/serenaehrlich"
 		},
 		{
-			"type": "X-",
-			"url": "http://www.mogreet.com/legal/terms/"
-		},
-		{
-			"type": "X-twitter",
+			"type": "x-twitter",
 			"url": "https://twitter.com/mogreet"
 		},
 		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "https://developer.mogreet.com/docs?path=%2Ftranscoding%2Foverview"
 		}
 	],
@@ -114,7 +102,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
