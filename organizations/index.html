@@ -207,13 +207,31 @@ title: Includes
                     {% assign api_plan_json = file | map: pathname %}
 
                     HERE1: {{ api_plan_json }}<br /><br />
-
+                    <table cellpadding="3" cellspacing="2">
                     {% for entry in api_plan_json %}
-                        {% assign api_plan_json = entry[0] %}                      
+                        {% assign api_plan_json = entry[0] %}
                         {% for plan in api_plan_json.plans %}
-                            {{ plan.name }}<br />
+                            {% assign entries = plan.entries %}
+                            <tr style="background-color: #CCC">
+                              <td colspan="10" style="font-size: 22px; font-weight: bold;">{{ plan.name }}</td>
+                            </tr>
+                            {% for entry in entries %}
+                              <tr style="background-color: #CCC; font-size: 12px;">
+                                <td>{{ entry.label }}</td>
+                                <td>{{ plan.description }}</td>
+                                <td>{{ plan.metric }}</td>
+                                <td>{{ plan.limit }}</td>
+                                <td>{{ plan.timeframe }}</td>
+                                <td>{{ plan.geo }}</td>
+                                <td>{{ plan.element }}</td>
+                                <td>{{ plan.one }}</td>
+                                <td>{{ plan.two }}</td>
+                                <td>{{ plan.unit }}</td>
+                              </tr>
+                            {% endfor %}
                         {% endfor %}
                     {% endfor %}
+                  </table>
 
                   {% endif %}
 
