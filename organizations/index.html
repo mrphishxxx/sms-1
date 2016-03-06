@@ -213,7 +213,7 @@ title: Includes
 
                   {% if api.type == 'x-api-plan' %}
 
-                    {% assign api_plan_url = property.url %}
+                    {% assign api_plan_url = api.url %}
                     {% assign pathname = api_plan_url | replace: site.url,'' %}
                     {% assign pathname = pathname | replace: '/data/','' %}
 
