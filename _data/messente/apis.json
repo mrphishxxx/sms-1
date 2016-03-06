@@ -9,8 +9,8 @@
 		"plans",
 		"sms api"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-05",
+	"modified": "2016-03-05",
 	"url": "http://sms.stack.network/data/messente/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -53,6 +53,10 @@
 	],
 	"x-common": [
 		{
+			"type": "X-base-url-for-api",
+			"url": "http://api2.messente.com"
+		},
+		{
 			"type": "X-blog",
 			"url": "http://messente.com/blog/"
 		},
@@ -73,20 +77,16 @@
 			"url": "https://messente.com/pages/faq"
 		},
 		{
-			"type": "X-",
+			"type": "X-dedicated-plans--pricing-page",
 			"url": "https://messente.com/pricing/full"
 		},
 		{
-			"type": "X-",
+			"type": "X-terms-of-service-page",
 			"url": "https://messente.com/pages/terms"
 		},
 		{
 			"type": "X-twitter",
 			"url": "http://www.twitter.com/messente"
-		},
-		{
-			"type": "X-webinars",
-			"url": "https://messente.com"
 		}
 	],
 	"include": [
