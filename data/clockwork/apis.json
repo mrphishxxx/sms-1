@@ -87,6 +87,10 @@
 		{
 			"type": "x-wordpress",
 			"url": "http://wordpress.org/extend/plugins/booking-sms/"
+		},
+		{
+			"type": "x-api-plan",
+			"url": "http://sms.stack.network/data/clockwork/clockwork-sms-api-plan.json"
 		}
 	],
 	"include": [
