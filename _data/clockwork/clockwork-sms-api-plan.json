@@ -3,7 +3,9 @@
 	"name": "Clockwork SMS",
 	"host": "api.clockworksms.com",
 	"baseurl": "/",
-	"pages": [],
+	"pages": [{
+		"url": "http://www.clockworksms.com/pricing/"
+	}],
 	"elements": [{
 		"name": "Contact"
 	},
