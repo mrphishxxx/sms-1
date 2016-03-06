@@ -1,5 +1,4 @@
-
-                                              [{
+[{
 	"coupling": "2",
 	"name": "Clockwork SMS",
 	"host": "api.clockworksms.com",
@@ -45,7 +44,7 @@
 			"description": "Sending up to 1000 messages per month",
 			"metric": "Message",
 			"limit": "Range",
-			"timeframe": "Montly",
+			"timeframe": "Monthly",
 			"geo": "US",
 			"element": "",
 			"one": "0",
