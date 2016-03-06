@@ -12,11 +12,9 @@
 	"resources": [],
 	"extensions": [],
 	"plans": [{
-		"id": "DaMLAkuA2BMpqHLgdnibTx116LYhJyc8Lj6CjqowsBPbs117",
 		"name": "Default",
 		"description": "",
 		"entries": [{
-			"id": "brFvQDwTymTnf8uqMm8uQHrc0Jgx0wnTjoK123B7vXwR8117",
 			"label": "Outgoing SMS",
 			"description": "Sending SMS",
 			"metric": "Message",
@@ -29,7 +27,6 @@
 			"unit": ".0063"
 		},
 		{
-			"id": "0XzOvDwQK52LW7jmrE11663QlYP1vfZjZV2C1235116eiikxI117",
 			"label": "Incoming SMS",
 			"description": "Receiving SMS",
 			"metric": "Message",
@@ -42,7 +39,6 @@
 			"unit": "0"
 		},
 		{
-			"id": "Dv762wow8f2s6rPBss3P7ZGWqlSVjp4Nh9UbEAwqADU117",
 			"label": "Messaging Number",
 			"description": "Messaging number",
 			"metric": "Number",
