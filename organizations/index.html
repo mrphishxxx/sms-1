@@ -119,20 +119,23 @@ title: Includes
 
                 {% for property in api.properties %}
 
+                  {% assign thisname = apijson.name | downcase %}
+                  {% assign thisname = thisname | append:'/' %}
+                  {% assign thisname = thisname | replace: ' ','-' %}
+
                   {% if property.type == 'x-openapi-spec' %}
 
                     {% assign openapi_spec_url = property.url %}
                     {% assign pathname = openapi_spec_url | replace: site.url,'' %}
                     {% assign pathname = pathname | replace: '/data/','' %}
 
-                    {% assign thisname = apijson.name | downcase %}
-                    {% assign thisname = thisname | append:'/' %}
-                    {% assign thisname = thisname | replace: ' ','-' %}
-
                     {% assign pathname = pathname | replace: thisname,'' %}
                     {% assign pathname = pathname | replace: '/','' %}
                     {% assign pathname = pathname | replace: '.json','' %}
                     {% assign openapi_spec_json = file | map: pathname %}
+
+                    pathname: {{ pathname }}<br />
+                    file: {{ file }}<br />
 
                   {% endif %}
 
@@ -141,10 +144,6 @@ title: Includes
                     {% assign api_plan_url = property.url %}
                     {% assign pathname = api_plan_url | replace: site.url,'' %}
                     {% assign pathname = pathname | replace: '/data/','' %}
-
-                    {% assign thisname = apijson.name | downcase %}
-                    {% assign thisname = thisname | append:'/' %}
-                    {% assign thisname = thisname | replace: ' ','-' %}
 
                     {% assign pathname = pathname | replace: thisname,'' %}
                     {% assign pathname = pathname | replace: '/','' %}
