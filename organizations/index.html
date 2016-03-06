@@ -227,9 +227,18 @@ title: Includes
                     HERE1: {{ api_plan }}<br />
 
 
-                        {% for entry in api_plan[0].plans %}
-                          Here@: {{ entry }}<br />
+                    {% for spec in api_plan %}
+                      {% for path in spec.plans %}
+
+                        {% assign method_json = path[1] %}
+                        {% for method in method_json %}
+
+                        HERE2 : {{ method }}
+
                         {% endfor %}
+                      {% endfor %}
+                    {% endfor %}
+
 
                   {% endif %}
 
