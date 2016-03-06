@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Includes
+title: Plans
 ---
-
+<p>This is just the APIs, with a focus on the plans offered across them.</p>
 <table cellpadding="3" cellspacing="2" width="100%" border="0">
   <tr>
     <td colspan="2">
@@ -113,90 +113,6 @@ title: Includes
             </td>
           </tr>
           <tr>
-            <td align="center">
-              <table cellpadding="3" cellspacing="2" width="90%" border="0">
-              {% for api in apijson.apis %}
-
-                {% for property in api.properties %}
-
-                  {% assign thisname = apijson.name | downcase %}
-                  {% assign thisname = thisname | append:'/' %}
-                  {% assign thisname = thisname | replace: ' ','-' %}
-
-                  {% if property.type == 'x-openapi-spec' %}
-
-                    {% assign openapi_spec_url = property.url %}
-                    {% assign pathname = openapi_spec_url | replace: site.url,'' %}
-                    {% assign pathname = pathname | replace: '/data/','' %}
-
-                    {% assign pathname = pathname | replace: thisname,'' %}
-                    {% assign pathname = pathname | replace: '/','' %}
-                    {% assign pathname = pathname | replace: '.json','' %}
-                    {% assign openapi_spec_json = file | map: pathname %}
-
-                  {% endif %}
-
-                  {% if property.type == 'x-postman %}
-                    {% assign postman_url = property.url %}
-                  {% endif %}
-
-                  {% if property.type == 'x-api-blueprint' %}
-                    {% assign api_blueprint_url = property.url %}
-                  {% endif %}
-
-                {% endfor %}
-
-                <tr>
-                  <td align="left">
-                    <strong>{{ api.name }}</strong>
-                  </td>
-                  <td align="right">
-                    {% if openapi_spec_url != null and openapi_spec_url != empty %}
-                      <a href="{{ openapi_spec_url }}" target="_blank" title="OpenAPI Spec">
-                        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" align="right" />
-                      </a>
-                    {% endif %}
-                    {% if api_blueprint_url != null and api_blueprint_url != empty %}
-                      <a href="{{ api_blueprint_url }}" target="_blank" title="API Blueprint">
-                        <img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-blueprint-icon.png" width="25" align="right" />
-                      </a>
-                    {% endif %}
-                    {% if postman_url != null and postman_url != empty %}
-                      <a href="{{ postman_url }}" target="_blank" title="API Blueprint">
-                        <img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/building-blocks/x-postman.png" width="25" align="right" />
-                      </a>
-                    {% endif %}
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2" align="left">
-
-                    <ul>
-                      {% for spec in openapi_spec_json %}
-
-                        {% for path in spec.paths %}
-
-                          {% assign method_json = path[1] %}
-
-                          {% for method in method_json %}
-
-                            {% assign verb = method[0] | upcase %}
-                            {% assign summary = method[1].summary %}
-                            <li style="font-size: 12px;">{{ path[0] }} <strong>[{{ verb }}]</strong> {{ summary }}</li>
-
-                          {% endfor %}
-
-                        {% endfor %}
-
-                      {% endfor %}
-                    </ul>
-                  </td>
-                </tr>
-              {% endfor %}
-              </table>
-            </td>
-          </tr>
-          <tr>
             <td colspan="2" align="center">
 
               {% for api in apijson.x-common %}
@@ -240,7 +156,7 @@ title: Includes
                               <td>element</td>
                               <td>one</td>
                               <td>two</td>
-                              <td>unit</td>
+                              <td align="right">unit</td>
                             </tr>
 
                             {% for entry in entries %}
@@ -282,3 +198,4 @@ title: Includes
   {% endfor %}
 {% endfor %}
 </table>
+<p>API plans, the approach I use here is still work in progress, and very much in an alpha state. You can view it in <a href="/apis.json">the projects APIs.json file</a>.</p>

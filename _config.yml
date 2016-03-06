@@ -23,6 +23,9 @@ production_url : http://sms.stack.network
 categories_path : /categories.html
 tags_path : /tags.html
 
+github_user: api-stack
+github_repo: sms
+
 # Masthead title
 masthead_link: http://sms.stack.network
 masthead_font_size: 75
@@ -58,8 +61,8 @@ navigation:
     size2: 60
     padding: 2
     decorate: 0
-  - label1: Organizations
-    link1: /organizations/
+  - label1: APIs
+    link1: /apis/
     size1: 80
     extend: 1
     label2: JSON
