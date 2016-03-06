@@ -209,7 +209,8 @@ title: Includes
                     HERE1: {{ api_plan_json }}<br /><br />
 
                     {% for entry in api_plan_json %}
-                      Here2: {{ entry.coupling }}<br /><br />
+                      Here2: {{ entry[0] }}<br /><br />
+                      Here2: {{ entry[1] }}<br /><br />
                     {% endfor %}
 
                   {% endif %}
