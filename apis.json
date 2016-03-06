@@ -9,7 +9,6 @@
 	"apis": [
 	],
 	"tags": [
-		"SMS API",
 		"SMS"
 	],
 	"include": [
