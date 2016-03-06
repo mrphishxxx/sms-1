@@ -226,12 +226,10 @@ title: Includes
 
                     HERE1: {{ api_plan }}<br />
 
-                    {% for plan in api_plan %}
-                        HERE2: <strong>{{ plan }}</strong><br /><br />
-                        {% for entry in plan.plans %}
+
+                        {% for entry in api_plan[0].plans %}
                           {{ entry }}<br />
                         {% endfor %}
-                    {% endfor %}
 
                   {% endif %}
 
