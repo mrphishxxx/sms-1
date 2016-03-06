@@ -3,12 +3,7 @@
 	"description": "TigerText is a multi-platform, secure, real-time messaging application for the enterprise that allows text messages to be deleted from both the senders and the receivers phones after expiration, which could be a set period of time or after reading. The messages cannot be saved, copied or forwarded by recipients. TigerText does this by storing the message on a company server, not the receiving and sending device, and deleting when the expiration conditions are met.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"messaging",
-		"secure",
-		"sms",
-		"sms api"
+		"SMS"
 	],
 	"created": "2016-03-05",
 	"modified": "2016-03-05",
@@ -22,12 +17,7 @@
 			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#receiving-events",
 			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#receiving-events",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"messaging",
-				"secure",
-				"sms",
-				"sms api"
+				"SMS"
 			],
 			"properties": [
 				{
@@ -43,12 +33,7 @@
 			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#group",
 			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#group",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"messaging",
-				"secure",
-				"sms",
-				"sms api"
+				"SMS"
 			],
 			"properties": [
 				{
@@ -64,12 +49,7 @@
 			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#sending-a-message",
 			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#sending-a-message",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"messaging",
-				"secure",
-				"sms",
-				"sms api"
+				"SMS"
 			],
 			"properties": [
 				{
@@ -85,12 +65,7 @@
 			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#metadata",
 			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#metadata",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"messaging",
-				"secure",
-				"sms",
-				"sms api"
+				"SMS"
 			],
 			"properties": [
 				{
@@ -106,12 +81,7 @@
 			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#getting-conversations",
 			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#getting-conversations",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"messaging",
-				"secure",
-				"sms",
-				"sms api"
+				"SMS"
 			],
 			"properties": [
 				{
@@ -127,12 +97,7 @@
 			"humanURL": "https://developer.tigertext.com/docs/rest-api-reference#user",
 			"baseURL": "https://developer.tigertext.com/docs/rest-api-reference#user",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"messaging",
-				"secure",
-				"sms",
-				"sms api"
+				"SMS"
 			],
 			"properties": [
 				{
