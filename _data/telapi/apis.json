@@ -83,6 +83,10 @@
 		{
 			"type": "x-twitter",
 			"url": "https://twitter.com/TelAPI"
+		},
+		{
+			"type": "x-api-plan",
+			"url": "http://sms.stack.network/data/telapi/telapi-api-plan.json"
 		}
 	],
 	"include": [
