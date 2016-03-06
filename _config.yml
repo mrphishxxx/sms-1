@@ -70,6 +70,15 @@ navigation:
     size2: 60
     padding: 0
     decorate: 0
+  - label1: Plans
+    link1: /plans/
+    size1: 80
+    extend: 0
+    label2: JSON
+    link2: /data/organizations.json
+    size2: 60
+    padding: 0
+    decorate: 0
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
     size1: 80
