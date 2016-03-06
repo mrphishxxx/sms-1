@@ -198,20 +198,44 @@ title: Includes
                     </ul>
                   </td>
                 </tr>
-                <tr>
-                  <td colspan="4" align="left">
-                    HERE: {{ api_plan_json }}
-                    <ul>
+              {% endfor %}
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+
+              {% for api in apijson.x-common %}
+
+                  {% assign thisname = apijson.name | downcase %}
+                  {% assign thisname = thisname | append:'/' %}
+                  {% assign thisname = thisname | replace: ' ','-' %}
+
+                  {% if api.type == 'x-api-plan' %}
+
+                    {% assign api_plan_url = property.url %}
+                    {% assign pathname = api_plan_url | replace: site.url,'' %}
+                    {% assign pathname = pathname | replace: '/data/','' %}
+
+                    {% assign pathname = pathname | replace: thisname,'' %}
+                    {% assign pathname = pathname | replace: '/','' %}
+                    {% assign pathname = pathname | replace: '.json','' %}
+                    {% assign api_plan_json = file | map: pathname %}
+
+                    pathname: {{ pathname }}<br />
+                    file: {{ file }}<br />
+
+                    HERE:
                     {% for api_plan in api_plan_json %}
                       {% for plans in api_plan.plans %}
                           <li style="font-size: 12px;">{{ plans.name }}</li>
                       {% endfor %}
                     {% endfor %}
-                    </ul>
-                  </td>
-                </tr>
+
+                  {% endif %}
+
               {% endfor %}
-              </table>
+
             </td>
           </tr>
           <tr>
