@@ -5,51 +5,40 @@
 	"baseurl": "/",
 	"pages": [],
 	"elements": [{
-		"id": "268nBd9Xf116EwV7a7Xwcws9L0j6ZoUJN1X0KqVRVr8m8117",
 		"name": "Free"
 	},
 	{
-		"id": "V2xf126NwcPwIdBAzhSdbovEJLwFYMmdqBon8yMOh8o117",
 		"name": "Quote"
 	},
 	{
-		"id": "5BLeygRL0ZpPYIKdPgadniIbG24lskfDtutv16iTvyE117",
 		"name": "Reporting"
 	},
 	{
-		"id": "IzLSsR116yo12347njzoDjYvw116UQpPyNj1169SDleehpcg6oA117",
 		"name": "Archive"
 	}],
 	"timeframes": [],
 	"metrics": [{
-		"id": "123123rVNhG7igr0XxrIuW5GHSz55Qu4y116aGj6mxO4YSE5c117",
 		"name": "Message"
 	},
 	{
-		"id": "fV0ZeBPj2fR7DdLY2vCXoqvPLnTusxpETQ123PBmO116sIs117",
 		"name": "Support"
 	},
 	{
-		"id": "h9l35Gw5kQfLHaFVg2xrKFSRg123jqjMYh123Nbcypb0v2w117",
 		"name": "Notifications"
 	},
 	{
-		"id": "Loc29kQReUEcO0j91s4md6zH116LJmIEnpxOdeaVW6gYA117",
 		"name": "Groups"
 	}],
 	"geo": [],
 	"limits": [{
-		"id": "q0bvAPR9h116EEszNQapBKXrWFa1ioYN76wIlWIgMNzDM117",
 		"name": "Unlimited"
 	}],
 	"resources": [],
 	"extensions": [],
 	"plans": [{
-		"id": "wgjhHjEQ4qV9Vm18ns5E06WXx1163kRimTG5nRvqCHpes117",
 		"name": "Basic Edition",
 		"description": "",
 		"entries": [{
-			"id": "XsFnxyJjcryswdXgqTf6ra59VAUCghwujQBMW3ZFcgw117",
 			"label": "Messaging",
 			"description": "Unlimited messaging",
 			"metric": "Message",
@@ -62,20 +51,16 @@
 			"unit": "0"
 		}],
 		"elements": [{
-			"id": "DaMLAkuA2BMpqHLgdnibTx116LYhJyc8Lj6CjqowsBPbs117",
 			"name": "Support"
 		},
 		{
-			"id": "DIPrBItZ86gS123k0s0CoKC4AJwwlv66tBvtvXoQE4NBM117",
 			"name": "Free"
 		}]
 	},
 	{
-		"id": "s1L7TZg3JcdTfoDC0V116PANs2a6OLtiqRAEPQbfYRCms117",
 		"name": "Team Edition",
 		"description": "",
 		"entries": [{
-			"id": "7brllYC605123KPLW3MrwPvcjlKGtQvJJ9XjEJfq05gXU117",
 			"label": "Messaging",
 			"description": "Unlimited messaging",
 			"metric": "Message",
@@ -88,20 +73,16 @@
 			"unit": "0"
 		}],
 		"elements": [{
-			"id": "wgjhHjEQ4qV9Vm18ns5E06WXx1163kRimTG5nRvqCHpes117",
 			"name": "Free"
 		},
 		{
-			"id": "s1L7TZg3JcdTfoDC0V116PANs2a6OLtiqRAEPQbfYRCms117",
 			"name": "Support"
 		}]
 	},
 	{
-		"id": "c52AdU1123fUPMLDjJ8116BmIJG4XlGRjuuMXGS116ynO116BpM117",
 		"name": "Enterprise Edition",
 		"description": "",
 		"entries": [{
-			"id": "7V8vUvzCHidUjyzQQwSkEJLzXSTydHiJ116kmC78THbLk117",
 			"label": "Messaging",
 			"description": "Unlimited messaging",
 			"metric": "Message",
