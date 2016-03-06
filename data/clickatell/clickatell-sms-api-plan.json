@@ -3,7 +3,9 @@
 	"name": "Clicaktell",
 	"host": "api.clickatell.com",
 	"baseurl": "/",
-	"pages": [],
+	"pages": [{
+		"url": "https://www.clickatell.com/pricing-and-coverage/message-pricing/"
+	}],
 	"elements": [{
 		"name": ""
 	},
