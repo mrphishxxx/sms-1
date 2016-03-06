@@ -227,8 +227,11 @@ title: Includes
                     file: {{ api_plan_json }}<br />
 
                     {% for api_plan in api_plan_json %}
+
+                      HERE1: {{ api_plan }}<br />
+
                       {% for plans in api_plan.plans %}
-                          HERE: <strong>{{ plans.name }}</strong><br />
+                          HERE2: <strong>{{ plans.name }}</strong><br />
                       {% endfor %}
                     {% endfor %}
 
