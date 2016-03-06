@@ -6,41 +6,32 @@
 	"pages": [],
 	"elements": [],
 	"timeframes": [{
-		"id": "xog9x294TKnWHsNuvGuW6oqIUoAapXNVwyvAciH26jk117",
 		"name": "Monthly"
 	}],
 	"metrics": [{
-		"id": "yg123LNDZ116mBwpfbvTcZMadRnzGzf3L123zbLKGxh5jKH48117",
 		"name": "Message"
 	},
 	{
-		"id": "uKbmq40SwWLtrlHYds7JDy9Z123WQs5WJbSD6pz7qA4gE117",
 		"name": "Keyword"
 	},
 	{
-		"id": "wN2P35qKjWXNhY9dz6ctbq85eQifQAxBA46fxa3123FDQ117",
 		"name": "Number"
 	}],
 	"geo": [{
-		"id": "0GwZI8bM9LCsog5BMTazQnuufp249VbAtcY2CWNEaLI117",
 		"name": "Country"
 	}],
 	"limits": [{
-		"id": "dE5cfTvpK0pAdD9123slDswRjrh6F4ro1excYk1GGCUSY117",
 		"name": "Unclear"
 	},
 	{
-		"id": "xWsn8WNjJMgCIxZLn4VOkoTlgnuRPN0Q59VH4oiGcYI117",
 		"name": "Unlimited"
 	}],
 	"resources": [],
 	"extensions": [],
 	"plans": [{
-		"id": "TRmkyJN9ZtUyB116JVIAkXQ0Sxmt34k5iYi116bKbzBS3hg117",
 		"name": "Default",
 		"description": "",
 		"entries": [{
-			"id": "R0LBcX123Ty6dvpdAUFmm11611KugsSP123NUXAk123erp0cj116U117",
 			"label": "Outgoing SMS",
 			"description": "Sending SMS",
 			"metric": "Message",
@@ -53,7 +44,6 @@
 			"unit": ".0075"
 		},
 		{
-			"id": "rK19uB8n4BOr123yHuxO1FR84soZX4OQP5116mPkbHIhSeg117",
 			"label": "Incoming SMS",
 			"description": "Receiving SMS",
 			"metric": "Message",
@@ -66,7 +56,6 @@
 			"unit": ".0075"
 		},
 		{
-			"id": "0k0uGWS4dpwOtUn06pk23123hOyhZK7ILhWXSQA7AFISI117",
 			"label": "Outgoing MMS",
 			"description": "Sending MMS",
 			"metric": "Message",
@@ -79,7 +68,6 @@
 			"unit": ".01"
 		},
 		{
-			"id": "fbN123uN9Xd1KGWcGObCpNiPH9THaCGjjC7OPyFgCfN04117",
 			"label": "Incoming MMS",
 			"description": "Receiving MMS",
 			"metric": "Message",
@@ -92,7 +80,6 @@
 			"unit": ".01"
 		},
 		{
-			"id": "123FDrqOYgOKI7jzlbvjCBFG7OJxQd2uHj9FSliTHD2fQ117",
 			"label": "Vanity Keyword",
 			"description": "The keyword is the first word of incoming messages",
 			"metric": "Keyword",
@@ -105,7 +92,6 @@
 			"unit": "$1.00"
 		},
 		{
-			"id": "TpraXWWbaPcYqtkcmk5C0b2Nuzdif116GyM6wRhInyZyY117",
 			"label": "Random Keyword",
 			"description": "The keyword is the first word of incoming messages",
 			"metric": "Keyword",
@@ -118,7 +104,6 @@
 			"unit": "1.00"
 		},
 		{
-			"id": "CLV9116X0xFn9mKMGgQsS8KV7M9FWmg1Nb2d9n6WLxAaI117",
 			"label": "Vanity Shortcodes",
 			"description": "Special telephone numbers, significantly shorter than full telephone numbers",
 			"metric": "Number",
@@ -131,7 +116,6 @@
 			"unit": "4,500.00"
 		},
 		{
-			"id": "awwQZopLw2123FOhcE3tKBFzZRVhG6QFqmXYDXlycVee4117",
 			"label": "Random Shortcodes",
 			"description": "Special telephone numbers, significantly shorter than full telephone numbers",
 			"metric": "Number",
