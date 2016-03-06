@@ -5,33 +5,26 @@
 	"baseurl": "/",
 	"pages": [],
 	"elements": [{
-		"id": "oUruUv1LSKzVWqBtbZi123c3YHLZdHWIH0ShWxYY116bO1Q117",
 		"name": "Quote"
 	}],
 	"timeframes": [{
-		"id": "scKCvgrFGDDgsgaGnPzKoIOsWSFM5DY116a7Gl116swPAIA117",
 		"name": "Monthly"
 	}],
 	"metrics": [{
-		"id": "3rEz116Cnfu8116l5b036Lm9Z5XjEC5ZyPAvKSKXj0Kcm4s117",
 		"name": "Message"
 	}],
 	"geo": [{
-		"id": "xWsn8WNjJMgCIxZLn4VOkoTlgnuRPN0Q59VH4oiGcYI117",
 		"name": "Country"
 	}],
 	"limits": [{
-		"id": "xog9x294TKnWHsNuvGuW6oqIUoAapXNVwyvAciH26jk117",
 		"name": "Unclear"
 	}],
 	"resources": [],
 	"extensions": [],
 	"plans": [{
-		"id": "P1mvfi53hUSTvuez5b3123bg7vD123UWYtPh9w19dwT9ih8117",
 		"name": "Default",
 		"description": "",
 		"entries": [{
-			"id": "2wi123C5NEQ5Dxkv8KwBAxBRJfFb8NzB21gXN9l84AjV0117",
 			"label": "Send Messages",
 			"description": "Sending messages",
 			"metric": "Message",
@@ -44,7 +37,6 @@
 			"unit": ".0062"
 		},
 		{
-			"id": "fkwXu4CEJCeKW123ro1PhGkADt123in2W9JLDZ116xwdZxNcA117",
 			"label": "Send Messages",
 			"description": "Sending high volumes",
 			"metric": "Message",
