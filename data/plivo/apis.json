@@ -127,6 +127,10 @@
 		{
 			"type": "x-portal",
 			"url": "https://www.plivo.com"
+		},
+		{
+			"type": "x-api-plan",
+			"url": "http://sms.stack.network/data/plivo/plivo-voice-api-plan.json"
 		}
 	],
 	"include": [
