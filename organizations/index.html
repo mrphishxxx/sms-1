@@ -206,17 +206,10 @@ title: Includes
                     {% assign pathname = pathname | replace: '.json','' %}
                     {% assign api_plan_json = file | map: pathname %}
 
-                    {% assign api_plan = api_plan_json %}
+                    HERE1: {{ api_plan_json }}<br /><br />
 
-                    HERE1: {{ api_plan }}<br /><br />
-
-                    {% for entry in api_plan %}
-                      Here2: {{ entry[1] }}<br /><br />
-
-                        {% for item in entry[1] %}
-                          Here3: {{ item[0] }}<br /><br />
-                        {% endfor %}
-
+                    {% for entry in api_plan_json %}
+                      Here2: {{ entry }}<br /><br />
                     {% endfor %}
 
                   {% endif %}
