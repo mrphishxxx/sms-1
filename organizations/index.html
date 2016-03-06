@@ -136,22 +136,6 @@ title: Includes
 
                   {% endif %}
 
-                  {% if property.type == 'x-api-plan' %}
-
-                    {% assign api_plan_url = property.url %}
-                    {% assign pathname = api_plan_url | replace: site.url,'' %}
-                    {% assign pathname = pathname | replace: '/data/','' %}
-
-                    {% assign pathname = pathname | replace: thisname,'' %}
-                    {% assign pathname = pathname | replace: '/','' %}
-                    {% assign pathname = pathname | replace: '.json','' %}
-                    {% assign api_plan_json = file | map: pathname %}
-
-                    pathname: {{ pathname }}<br />
-                    file: {{ file }}<br />
-
-                  {% endif %}
-
                   {% if property.type == 'x-postman %}
                     {% assign postman_url = property.url %}
                   {% endif %}
@@ -224,18 +208,16 @@ title: Includes
 
                     {% assign api_plan = api_plan_json %}
 
-                    HERE1: {{ api_plan }}<br />
-
-
                     {% for spec in api_plan %}
-                      {% for path in spec.plans %}
 
-                        {% assign method_json = path[1] %}
-                        {% for method in method_json %}
+                      {% assign item = spec[1] %}
 
-                        HERE2 : {{ method }}
+                      HERE2 : {{ item }}
 
-                        {% endfor %}
+                      {% for path in item.plans %}
+
+                        HERE3 : {{ path }}
+
                       {% endfor %}
                     {% endfor %}
 
