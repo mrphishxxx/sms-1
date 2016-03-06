@@ -29,59 +29,59 @@
 	],
 	"x-common": [
 		{
-			"type": "X-base-url-for-api",
+			"type": "x-base-url-for-api",
 			"url": "https://api.telapi.com"
 		},
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://www.TelAPI.com/blog/"
 		},
 		{
-			"type": "X-blog-rss-feed",
+			"type": "x-blog-rss-feed",
 			"url": "http://www.telapi.com/blog/feed/"
 		},
 		{
-			"type": "X-contact-form",
+			"type": "x-contact-form",
 			"url": "http://www.telapi.com/contact"
 		},
 		{
-			"type": "X-crunchbase",
+			"type": "x-crunchbase",
 			"url": "http://www.crunchbase.com/company/telapi"
 		},
 		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "http://www.telapi.com/docs/"
 		},
 		{
-			"type": "X-email",
+			"type": "x-email",
 			"url": "support@telapi.com"
 		},
 		{
-			"type": "X-github",
+			"type": "x-github",
 			"url": "https://github.com/TelAPI"
 		},
 		{
-			"type": "X-dedicated-plans--pricing-page",
+			"type": "x-dedicated-plans--pricing-page",
 			"url": "http://www.telapi.com/pricing"
 		},
 		{
-			"type": "X-privacy-policy-page",
+			"type": "x-privacy-policy-page",
 			"url": "https://www.telapi.com/legal/privacy-policy"
 		},
 		{
-			"type": "X-selfservice-registration",
+			"type": "x-selfservice-registration",
 			"url": "https://www.telapi.com/signup"
 		},
 		{
-			"type": "X-status-dashboard",
+			"type": "x-status-dashboard",
 			"url": "http://status.telapi.com/"
 		},
 		{
-			"type": "X-terms-of-service-page",
+			"type": "x-terms-of-service-page",
 			"url": "https://www.telapi.com/legal/tos"
 		},
 		{
-			"type": "X-twitter",
+			"type": "x-twitter",
 			"url": "https://twitter.com/TelAPI"
 		}
 	],
@@ -94,7 +94,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
