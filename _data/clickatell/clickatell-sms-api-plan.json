@@ -1,0 +1,339 @@
+
+                                              [{
+	"coupling": "2",
+	"name": "Clicaktell",
+	"host": "api.clickatell.com",
+	"baseurl": "/",
+	"pages": [],
+	"elements": [{
+		"id": "q116CBDmeEWT6yVcDWkLQBLOKhXVZRm41vwj116ihljort4117",
+		"name": ""
+	},
+	{
+		"id": "gm39m1kmh4H116L9OYvaA5dWXZjgUELIWpNMW4bdEckMg117",
+		"name": "Routing"
+	}],
+	"timeframes": [{
+		"id": "3CNZUM123j1UfLWC3123mNct3ap77dX1Snjd9PXcAME7Ws0117",
+		"name": "Monthly"
+	}],
+	"metrics": [{
+		"id": "q0bvAPR9h116EEszNQapBKXrWFa1ioYN76wIlWIgMNzDM117",
+		"name": "Message"
+	},
+	{
+		"id": "116L116go8awb1164ZZhbem8A4UtTbhGYr2w116fSmbnPCzip1M117",
+		"name": "Fees"
+	},
+	{
+		"id": "G5d6yQL123IRzPRz9IKeK0feutkj8Ky3rPnUug1sEaqf0117",
+		"name": "Number"
+	}],
+	"geo": [{
+		"id": "xog9x294TKnWHsNuvGuW6oqIUoAapXNVwyvAciH26jk117",
+		"name": "Country"
+	}],
+	"limits": [{
+		"id": "3CNZUM123j1UfLWC3123mNct3ap77dX1Snjd9PXcAME7Ws0117",
+		"name": "Unlimited"
+	},
+	{
+		"id": "by4XHYejfAQbKkLYD45KLtwE8L9VMp61239QvauNRrjKg117",
+		"name": "Timeframe"
+	}],
+	"resources": [],
+	"extensions": [{
+		"id": "yAvxxnbZyUKdOn26PTqOgeVVIIeOfvcN123s4SzFoPIGk117",
+		"name": ""
+	}],
+	"plans": [{
+		"id": "lgtjTXNDYqJ9cs4gL2bBiwhZLq5blrXFlt9DCuwEFMg117",
+		"name": "Americas Two Way SMS For 1 month",
+		"description": "",
+		"entries": [{
+			"id": "pUlWK6Xj6DX3ggz8siP1HSvKmN5dToPYcZx8hmETrMY117",
+			"label": "Setup",
+			"description": "One time setup fee",
+			"metric": "Fees",
+			"limit": "Fixed",
+			"timeframe": null,
+			"geo": "US",
+			"element": null,
+			"one": "1",
+			"two": "0",
+			"unit": "6.95"
+		},
+		{
+			"id": "lpqibYH5iMHHhq22TRfhGQYbQUoYYNt0NDWZ116SOqM2s117",
+			"label": "Outgoing Messages",
+			"description": "The base range for pricing of outgoing messages",
+			"metric": "Message",
+			"limit": "Range",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": null,
+			"one": "0",
+			"two": "500",
+			"unit": "0"
+		},
+		{
+			"id": "dgfHlMVTTETDf55xnmCuIszc9Uh5YmWMGIwqyZ123uUy8117",
+			"label": "Outgoing Messages",
+			"description": "The overage range for pricing of outgoing messages",
+			"metric": "Message",
+			"limit": "Range",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": null,
+			"one": "501",
+			"two": "10,000",
+			"unit": ".010"
+		},
+		{
+			"id": "jYfGnwCCqB116wxDMdWjaipjbbDwXLt123voq8123eINMELZw117",
+			"label": "Incoming Messages",
+			"description": "The price for incoming messages",
+			"metric": "Message",
+			"limit": "Range",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": "",
+			"one": "0",
+			"two": "600,000",
+			"unit": "0"
+		}],
+		"elements": []
+	},
+	{
+		"id": "123123rVNhG7igr0XxrIuW5GHSz55Qu4y116aGj6mxO4YSE5c117",
+		"name": "Americas Two Way SMS For 3 months",
+		"description": "",
+		"entries": [{
+			"id": "XpZs94ZK11Mc1HxZEuCCxWABitrEGsyduhj6FewEtWQ117",
+			"label": "Setup",
+			"description": "One time setup fee",
+			"metric": "Fees",
+			"limit": "Fixed",
+			"timeframe": null,
+			"geo": "US",
+			"element": null,
+			"one": "1",
+			"two": "0",
+			"unit": "39.95"
+		},
+		{
+			"id": "uQH7Y2J6yramqUaxqruv5HQ5hdDsqjitre6trCpAdWo117",
+			"label": "Outgoing Messages",
+			"description": "The base range for pricing of outgoing messages",
+			"metric": "Message",
+			"limit": "Range",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": null,
+			"one": "0",
+			"two": "1,500",
+			"unit": "0"
+		},
+		{
+			"id": "HRkb4n0F5lNhRbS123l0YRmudaV2X8N123Il8MuqF4qryLE117",
+			"label": "Outgoing Messages",
+			"description": "The overage range for pricing of outgoing messages",
+			"metric": "Message",
+			"limit": "Range",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": null,
+			"one": "1,501",
+			"two": "10,000",
+			"unit": ".010"
+		},
+		{
+			"id": "Smaex8wtHGnHysMAAiMgNPVSKdh0semzrYtkHERKL8Y117",
+			"label": "Incoming Messages",
+			"description": "The price for incoming messages",
+			"metric": "Message",
+			"limit": "Range",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": "",
+			"one": "0",
+			"two": "600,000",
+			"unit": "0"
+		}],
+		"elements": []
+	},
+	{
+		"id": "fV0ZeBPj2fR7DdLY2vCXoqvPLnTusxpETQ123PBmO116sIs117",
+		"name": "Americas Two Way SMS For 12 months",
+		"description": "",
+		"entries": [{
+			"id": "b3nGr5xZhPWk8gQ7SXglMUZKK0N1WL6J2fj116qLNhThE117",
+			"label": "Setup",
+			"description": "One time setup fee",
+			"metric": "Fees",
+			"limit": "Fixed",
+			"timeframe": null,
+			"geo": null,
+			"element": null,
+			"one": "1",
+			"two": "0",
+			"unit": "279.95"
+		},
+		{
+			"id": "C9gjaEnOSuNQG1dfCQN1231ZuzanVOjl6WN0z2iXfPojw117",
+			"label": "Outgoing Messages",
+			"description": "The base range for pricing of outgoing messages",
+			"metric": "Message",
+			"limit": "Range",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": null,
+			"one": "0",
+			"two": "3,500",
+			"unit": "0"
+		},
+		{
+			"id": "sWZS3eCfLifW6123YNtjEYfGsWow7Xr7gcYktGnzirPys117",
+			"label": "Outgoing Messages",
+			"description": "The overage range for pricing of outgoing messages",
+			"metric": "Message",
+			"limit": "Range",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": null,
+			"one": "3,501",
+			"two": "10,000",
+			"unit": ".010"
+		},
+		{
+			"id": "VkJJH3En116V8LBgJLT67JtrQNh2J76MeoLnlyfNuSDUM117",
+			"label": "Incoming Messages",
+			"description": "The price for incoming messages",
+			"metric": "Message",
+			"limit": "Range",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": "",
+			"one": "0",
+			"two": "600,000",
+			"unit": "0"
+		}],
+		"elements": []
+	},
+	{
+		"id": "h9l35Gw5kQfLHaFVg2xrKFSRg123jqjMYh123Nbcypb0v2w117",
+		"name": "US Short Code - Vanity",
+		"description": "Choose your own short number",
+		"entries": [{
+			"id": "KgzyEZPIoi4OTOvsoRDAuJl0JuBiSQxjUHXYXuBsPK8117",
+			"label": "Setup",
+			"description": "One time setup fee",
+			"metric": "Fees",
+			"limit": "Fixed",
+			"timeframe": null,
+			"geo": null,
+			"element": null,
+			"one": "1",
+			"two": "0",
+			"unit": "2,325.00"
+		},
+		{
+			"id": "8sTIGyTt7DMZXx8LGtvVzn123b123xJW3F242qMUhCS84t0117",
+			"label": "Number Rental",
+			"description": "Monthly number rental",
+			"metric": "Number",
+			"limit": "Fixed",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": null,
+			"one": "1",
+			"two": "0",
+			"unit": "800.00"
+		},
+		{
+			"id": "WefWWUJrTku116a0izHLOHxer4CXTWMZhffoSsJHUkqm8117",
+			"label": "Outgoing Messages",
+			"description": "The price for outgoing messages",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "Montly",
+			"geo": "US",
+			"element": "",
+			"one": "0",
+			"two": "0",
+			"unit": ".010"
+		},
+		{
+			"id": "0l116cfY4swfeG4s7dKrS77116IOe47yjJIt9EG3bI80zzA117",
+			"label": "Incoming Messages",
+			"description": "The price for incoming messages",
+			"metric": "Message",
+			"limit": "Range",
+			"timeframe": "Montly",
+			"geo": "US",
+			"element": "",
+			"one": "0",
+			"two": "600,000",
+			"unit": "0"
+		}],
+		"elements": []
+	},
+	{
+		"id": "Loc29kQReUEcO0j91s4md6zH116LJmIEnpxOdeaVW6gYA117",
+		"name": "US Short Code - Random",
+		"description": "Random 6-digit number will be allocated to you",
+		"entries": [{
+			"id": "Vv6bOsJRq5CuS116XUrcrm4QoYaRRWAdcWDbuh7rtg3Pc117",
+			"label": "Setup",
+			"description": "One time setup fee",
+			"metric": "Fees",
+			"limit": "Fixed",
+			"timeframe": null,
+			"geo": null,
+			"element": null,
+			"one": "1",
+			"two": "0",
+			"unit": "2,325"
+		},
+		{
+			"id": "QAbn8PsY9BtKHT1x8bw4KrsX0QPAJcCIobkaBczKXfE117",
+			"label": "Number Rental",
+			"description": "Monthly number rental",
+			"metric": "Number",
+			"limit": "Unlimited",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": "",
+			"one": "1",
+			"two": "0",
+			"unit": "800.00"
+		},
+		{
+			"id": "edRkOYCGFPHAmUl1EQAajxO3O3e0123RTXCOYe3wIYc123A117",
+			"label": "Outgoing Messages",
+			"description": "The price for outgoing messages",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": "",
+			"one": "0",
+			"two": "0",
+			"unit": ".010"
+		},
+		{
+			"id": "T116aofV86KZPI0U0KyL0Mcx123upP2exJgc2Scfu3We3Pg117",
+			"label": "Incoming Messages",
+			"description": "The price for incoming messages",
+			"metric": "Message",
+			"limit": "Range",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": "",
+			"one": "0",
+			"two": "600,000",
+			"unit": "0"
+		}],
+		"elements": []
+	}]
+}]
