@@ -5,15 +5,12 @@
 	"baseurl": "/",
 	"pages": [],
 	"elements": [{
-		"id": "5dZuVhGPd3GKD8mPm4GvAoA0TnqSKAa0L5grmtY123pFI117",
 		"name": "Free"
 	},
 	{
-		"id": "Q5lxQt7S92AElLd71l123wZH116PKckBV99eNtyVRCiWyyY117",
 		"name": "Logging"
 	},
 	{
-		"id": "qamRRcoYtsxBfpx3dglx123FvizJkJNwb123BmfAqbM3SYc117",
 		"name": "Reporting"
 	}],
 	"timeframes": [],
@@ -23,11 +20,9 @@
 	"resources": [],
 	"extensions": [],
 	"plans": [{
-		"id": "q116CBDmeEWT6yVcDWkLQBLOKhXVZRm41vwj116ihljort4117",
 		"name": "Default",
 		"description": "",
 		"entries": [{
-			"id": "vjQgmAsmXZ4E0LpxFJNhmwZiNcqXzTI3vGo23S4mYW8117",
 			"label": "Outgoing SMS",
 			"description": "Send SMS",
 			"metric": "Message",
@@ -40,7 +35,6 @@
 			"unit": ".0035"
 		},
 		{
-			"id": "T3q1xfFJB8Fe116O0PUZVDq7aFwl5OyN3VwxHd2LSe5U4117",
 			"label": "Incoming SMS",
 			"description": "Receiving SMS",
 			"metric": "Message",
@@ -53,7 +47,6 @@
 			"unit": "0"
 		},
 		{
-			"id": "kYBLpULRI116VXUORsoAF5A3pHX0cYHhRoJcrQP9CtnV8117",
 			"label": "Number",
 			"description": "Number for sending and receiving SMS",
 			"metric": "Message",
@@ -66,7 +59,6 @@
 			"unit": "0"
 		},
 		{
-			"id": "snPMwQf116FLkY0d4A9OJx0Y1160w46DARx7DDegglSSrWQ117",
 			"label": "Outgoing SMS",
 			"description": "Send SMS from short code numbers",
 			"metric": "Message",
@@ -79,7 +71,6 @@
 			"unit": ".0040"
 		},
 		{
-			"id": "EPiwfg69wxBZqvbJA19iLROsfz0XHjsw1RqP9Ir6utw117",
 			"label": "Incoming SMS",
 			"description": "Receive SMS to short code numbers",
 			"metric": "Message",
@@ -92,7 +83,6 @@
 			"unit": "0"
 		},
 		{
-			"id": "1hXpHUFRImSIzT123A8SDC123E116fc0eqMs5KJ123Yq9UDFapU117",
 			"label": "Random Shortcodes",
 			"description": "Random shortcode numbers",
 			"metric": "Number",
@@ -105,7 +95,6 @@
 			"unit": "1000"
 		},
 		{
-			"id": "AFA0yVYK9TxzPQH53vCekCK6cK7WRL9Kk9lkRubuutM117",
 			"label": "Vanity Shortcodes",
 			"description": "Vanity shortcode numbers",
 			"metric": "Message",
@@ -118,11 +107,9 @@
 			"unit": "1500"
 		}],
 		"elements": [{
-			"id": "gm39m1kmh4H116L9OYvaA5dWXZjgUELIWpNMW4bdEckMg117",
 			"name": "Logging"
 		},
 		{
-			"id": "uxC5mxpfRFRi6lEYFkHfdrspx9saupzY6ehHWqCkCA0117",
 			"name": "Reporting"
 		}]
 	}]
