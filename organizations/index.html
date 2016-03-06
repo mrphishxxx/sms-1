@@ -226,7 +226,7 @@ title: Includes
                     pathname: {{ pathname }}<br />
                     file: {{ api_plan_json }}<br />
 
-                    {% for api_plan in api_plan_json %}
+                    {% for api_plan in api_plan_json.plans %}
                       {% for plans in api_plan.plans %}
                           <li style="font-size: 12px;">{{ plans.name }}</li>
                       {% endfor %}
