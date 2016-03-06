@@ -29,111 +29,111 @@
 	],
 	"x-common": [
 		{
-			"type": "X-c-sharp",
+			"type": "x-c-sharp",
 			"url": "https://www.twilio.com/docs/csharp/install"
 		},
 		{
-			"type": "X-application-gallery",
+			"type": "x-application-gallery",
 			"url": "https://www.twilio.com/showcase"
 		},
 		{
-			"type": "X-base-url-for-api",
+			"type": "x-base-url-for-api",
 			"url": "https://api.twilio.com"
 		},
 		{
-			"type": "X-blog",
+			"type": "x-blog",
 			"url": "http://www.twilio.com/blog"
 		},
 		{
-			"type": "X-blog-rss-feed",
+			"type": "x-blog-rss-feed",
 			"url": "http://www.twilio.com/blog/feed"
 		},
 		{
-			"type": "X-community-supported-libraries",
+			"type": "x-community-supported-libraries",
 			"url": "https://www.twilio.com/docs/libraries"
 		},
 		{
-			"type": "X-contact-form",
+			"type": "x-contact-form",
 			"url": "https://www.twilio.com/help/contact"
 		},
 		{
-			"type": "X-crunchbase",
+			"type": "x-crunchbase",
 			"url": "http://www.crunchbase.com/company/twilio"
 		},
 		{
-			"type": "X-documentation",
+			"type": "x-documentation",
 			"url": "https://www.twilio.com/docs/api"
 		},
 		{
-			"type": "X-getting-started",
+			"type": "x-getting-started",
 			"url": "https://www.twilio.com/docs/quickstart"
 		},
 		{
-			"type": "X-github",
+			"type": "x-github",
 			"url": "https://github.com/twilio"
 		},
 		{
-			"type": "X-howto-guides",
+			"type": "x-howto-guides",
 			"url": "https://www.twilio.com/docs/howto"
 		},
 		{
-			"type": "X-java",
+			"type": "x-java",
 			"url": "https://www.twilio.com/docs/java/install"
 		},
 		{
-			"type": "X-nodejs",
+			"type": "x-nodejs",
 			"url": "https://www.twilio.com/docs/node/install"
 		},
 		{
-			"type": "X-paid-support-plans",
+			"type": "x-paid-support-plans",
 			"url": "https://www.twilio.com/premium-support#features"
 		},
 		{
-			"type": "X-landing-page",
+			"type": "x-landing-page",
 			"url": "https://www.twilio.com/partners"
 		},
 		{
-			"type": "X-php",
+			"type": "x-php",
 			"url": "https://www.twilio.com/docs/php/install"
 		},
 		{
-			"type": "X-dedicated-plans--pricing-page",
+			"type": "x-dedicated-plans--pricing-page",
 			"url": "https://www.twilio.com/pricing"
 		},
 		{
-			"type": "X-python",
+			"type": "x-python",
 			"url": "https://www.twilio.com/docs/python/install"
 		},
 		{
-			"type": "X-python",
+			"type": "x-python",
 			"url": "https://www.twilio.com/docs/ruby/install"
 		},
 		{
-			"type": "X-salesforce",
+			"type": "x-salesforce",
 			"url": "https://www.twilio.com/docs/salesforce/install"
 		},
 		{
-			"type": "X-security-practices-page",
+			"type": "x-security-practices-page",
 			"url": "https://www.twilio.com/docs/security"
 		},
 		{
-			"type": "X-stack-overflow",
+			"type": "x-stack-overflow",
 			"url": "http://stackoverflow.com/questions/tagged/twilio"
 		},
 		{
-			"type": "X-status-dashboard",
+			"type": "x-status-dashboard",
 			"url": "http://status.twilio.com/"
 		},
 		{
-			"type": "X-status-rss",
+			"type": "x-status-rss",
 			"url": "http://status.twilio.com/rss"
 		},
 		{
-			"type": "X-twitter",
+			"type": "x-twitter",
 			"url": "https://twitter.com/twilio"
 		},
 		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "http://www.twilio.com"
 		}
 	],
@@ -146,7 +146,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
