@@ -12,8 +12,8 @@
 		"sms api",
 		"telephony"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-05",
+	"modified": "2016-03-05",
 	"url": "http://sms.stack.network/data/clockwork/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -43,6 +43,10 @@
 	],
 	"x-common": [
 		{
+			"type": "X-base-url-for-api",
+			"url": "http://api.clockworksms.com"
+		},
+		{
 			"type": "X-blog",
 			"url": "http://www.clockworksms.com/blog/"
 		},
@@ -71,7 +75,7 @@
 			"url": "http://www.clockworksms.com/faqs/"
 		},
 		{
-			"type": "X-",
+			"type": "X-dedicated-plans--pricing-page",
 			"url": "http://www.clockworksms.com/pricing/"
 		},
 		{
@@ -79,7 +83,7 @@
 			"url": "https://app3.clockworksms.com/signup"
 		},
 		{
-			"type": "X-",
+			"type": "X-terms-of-service-page",
 			"url": "http://www.clockworksms.com/terms-and-conditions/"
 		},
 		{
