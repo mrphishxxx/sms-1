@@ -169,16 +169,23 @@ title: Includes
                 <tr>
                   <td colspan="4" align="left">
                     <ul>
-                    {% for spec in openapi_spec_json %}
-                      {% for path in spec.paths %}
-                        {% assign method_json = path[1] %}
-                        {% for method in method_json %}
-                          {% assign verb = method[0] | upcase %}
-                          {% assign summary = method[1].summary %}
-                          <li style="font-size: 12px;">{{ path[0] }} <strong>[{{ verb }}]</strong> {{ summary }}</li>
+                      {% for spec in openapi_spec_json %}
+
+                        {% for path in spec.paths %}
+
+                          {% assign method_json = path[1] %}
+
+                          {% for method in method_json %}
+
+                            {% assign verb = method[0] | upcase %}
+                            {% assign summary = method[1].summary %}
+                            <li style="font-size: 12px;">{{ path[0] }} <strong>[{{ verb }}]</strong> {{ summary }}</li>
+
+                          {% endfor %}
+
                         {% endfor %}
+
                       {% endfor %}
-                    {% endfor %}
                     </ul>
                   </td>
                 </tr>
@@ -206,7 +213,7 @@ title: Includes
                     {% assign pathname = pathname | replace: '.json','' %}
                     {% assign api_plan_json = file | map: pathname %}
 
-                    <table cellpadding="3" cellspacing="2" width="70%">
+                    <table cellpadding="3" cellspacing="2" width="85%">
 
                     {% for entry in api_plan_json %}
 
@@ -217,7 +224,7 @@ title: Includes
                             {% assign entries = plan.entries %}
 
                             <tr style="background-color: #CCC">
-                              <td colspan="10" style="font-size: 22px; font-weight: bold;">{{ plan.name }}</td>
+                              <td colspan="10" style="font-size: 18px; font-weight: bold;">{{ plan.name }}</td>
                             </tr>
 
                             {% for entry in entries %}
