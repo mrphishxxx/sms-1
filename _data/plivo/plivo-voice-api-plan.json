@@ -3,7 +3,9 @@
 	"name": "Plivo",
 	"host": "api.plivo.com",
 	"baseurl": "/",
-	"pages": [],
+	"pages": [{
+		"url": "https://plivo.com/pricing/"
+	}],
 	"elements": [{
 		"name": "Free"
 	},
@@ -14,9 +16,16 @@
 		"name": "Reporting"
 	}],
 	"timeframes": [],
-	"metrics": [],
+	"metrics": [{
+		"name": "Message"
+	},
+	{
+		"name": "Number"
+	}],
 	"geo": [],
-	"limits": [],
+	"limits": [{
+		"name": "Unlimited"
+	}],
 	"resources": [],
 	"extensions": [],
 	"plans": [{
