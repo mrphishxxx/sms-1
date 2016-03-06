@@ -91,6 +91,10 @@
 		{
 			"type": "x-portal",
 			"url": "https://developer.mogreet.com/docs?path=%2Ftranscoding%2Foverview"
+		},
+		{
+			"type": "x-api-plan",
+			"url": "http://sms.stack.network/data/mogreet/mogreet-transcoding-api-api-plan.json"
 		}
 	],
 	"include": [
