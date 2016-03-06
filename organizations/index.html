@@ -124,13 +124,32 @@ title: Includes
                     {% assign openapi_spec_url = property.url %}
                     {% assign pathname = openapi_spec_url | replace: site.url,'' %}
                     {% assign pathname = pathname | replace: '/data/','' %}
+
                     {% assign thisname = apijson.name | downcase %}
                     {% assign thisname = thisname | append:'/' %}
                     {% assign thisname = thisname | replace: ' ','-' %}
+
                     {% assign pathname = pathname | replace: thisname,'' %}
                     {% assign pathname = pathname | replace: '/','' %}
                     {% assign pathname = pathname | replace: '.json','' %}
                     {% assign openapi_spec_json = file | map: pathname %}
+
+                  {% endif %}
+
+                  {% if property.type == 'x-api-plan' %}
+
+                    {% assign api_plan_url = property.url %}
+                    {% assign pathname = api_plan_url | replace: site.url,'' %}
+                    {% assign pathname = pathname | replace: '/data/','' %}
+
+                    {% assign thisname = apijson.name | downcase %}
+                    {% assign thisname = thisname | append:'/' %}
+                    {% assign thisname = thisname | replace: ' ','-' %}
+
+                    {% assign pathname = pathname | replace: thisname,'' %}
+                    {% assign pathname = pathname | replace: '/','' %}
+                    {% assign pathname = pathname | replace: '.json','' %}
+                    {% assign api_plan_json = file | map: pathname %}
 
                   {% endif %}
 
@@ -175,6 +194,17 @@ title: Includes
                           {% assign summary = method[1].summary %}
                           <li style="font-size: 12px;">{{ path[0] }} <strong>[{{ verb }}]</strong> {{ summary }}</li>
                         {% endfor %}
+                      {% endfor %}
+                    {% endfor %}
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" align="left">
+                    <ul>
+                    {% for api_plan in api_plan_json %}
+                      {% for plans in api_plan.plans %}
+                          <li style="font-size: 12px;">{{ plans.name }}</li>
                       {% endfor %}
                     {% endfor %}
                     </ul>
