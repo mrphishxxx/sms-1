@@ -71,6 +71,10 @@
 		{
 			"type": "x-white-papers",
 			"url": "http://americas.clickatell.com/resources/white-papers-guides/"
+		},
+		{
+			"type": "x-api-plan",
+			"url": "http://sms.stack.network/data/clickatell/clickatell-sms-api-plan.json"
 		}
 	],
 	"include": [
