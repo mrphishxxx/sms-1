@@ -226,8 +226,21 @@ title: Includes
 
                             {% assign entries = plan.entries %}
 
-                            <tr style="background-color: #CCC">
-                              <td colspan="10" style="font-size: 18px; font-weight: bold;">{{ plan.name }}</td>
+                            <tr>
+                              <td colspan="10"><strong>Plan Name: {{ plan.name }}</strong></td>
+                            </tr>
+
+                            <tr style="font-size: 12px; font-weight: bold;">
+                              <td>label</td>
+                              <td>description</td>
+                              <td>metric</td>
+                              <td>limit</td>
+                              <td>timeframe</td>
+                              <td>geo</td>
+                              <td>element</td>
+                              <td>one</td>
+                              <td>two</td>
+                              <td>unit</td>
                             </tr>
 
                             {% for entry in entries %}
