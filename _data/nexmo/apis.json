@@ -15,8 +15,8 @@
 		"sms api",
 		"telephony"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-05",
+	"modified": "2016-03-05",
 	"url": "http://sms.stack.network/data/nexmo/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -49,12 +49,20 @@
 	],
 	"x-common": [
 		{
+			"type": "X-base-url-for-api",
+			"url": "https://rest.nexmo.com/"
+		},
+		{
 			"type": "X-blog",
 			"url": "http://blog.nexmo.com"
 		},
 		{
 			"type": "X-case-studies",
 			"url": "http://www.nexmo.com/customers/#case"
+		},
+		{
+			"type": "X-crunchbase",
+			"url": "http://www.crunchbase.com/company/nexmo"
 		},
 		{
 			"type": "X-portal",
@@ -65,31 +73,31 @@
 			"url": "https://github.com/Nexmo"
 		},
 		{
-			"type": "X-",
+			"type": "X-java",
 			"url": "https://labs.nexmo.com/download/nexmo-java-sdk-v1.5.zip"
 		},
 		{
-			"type": "X-",
+			"type": "X-nodejs",
 			"url": "https://github.com/pvela/nexmo"
 		},
 		{
-			"type": "X-",
+			"type": "X-php",
 			"url": "https://github.com/prawnsalad/Nexmo-PHP-lib"
 		},
 		{
-			"type": "X-",
+			"type": "X-dedicated-plans--pricing-page",
 			"url": "http://www.nexmo.com/pricing/"
 		},
 		{
-			"type": "X-",
+			"type": "X-privacy-policy-page",
 			"url": "http://www.nexmo.com/privacy-policy-2/"
 		},
 		{
-			"type": "X-",
+			"type": "X-python",
 			"url": "https://github.com/marcuz/libpynexmo"
 		},
 		{
-			"type": "X-",
+			"type": "X-ruby",
 			"url": "https://github.com/timcraft/nexmo"
 		},
 		{
@@ -101,7 +109,7 @@
 			"url": "https://www.linkedin.com/in/teljamou"
 		},
 		{
-			"type": "X-",
+			"type": "X-terms-of-service-page",
 			"url": "http://www.nexmo.com/terms-use/"
 		},
 		{
@@ -110,7 +118,7 @@
 		},
 		{
 			"type": "X-webinars",
-			"url": "http://nexmo.com/"
+			"url": "http://www.nexmo.com/resources/webinars/"
 		}
 	],
 	"include": [
