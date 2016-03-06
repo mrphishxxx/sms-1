@@ -3,12 +3,33 @@
 	"name": "Nexmo",
 	"host": "rest.nexmo.com",
 	"baseurl": "/",
-	"pages": [],
-	"elements": [],
-	"timeframes": [],
-	"metrics": [],
-	"geo": [],
-	"limits": [],
+	"pages": [{
+		"url": "http://www.nexmo.com/pricing/"
+	}],
+	"elements": [{
+		"name": "Free"
+	}],
+	"timeframes": [{
+		"name": "Monthly"
+	}],
+	"metrics": [{
+		"name": "Message"
+	},
+	{
+		"name": "Number"
+	}],
+	"geo": [{
+		"name": "Country"
+	}],
+	"limits": [{
+		"name": "Unlimited"
+	},
+	{
+		"name": "Unclear"
+	},
+	{
+		"name": "Pay As You Go"
+	}],
 	"resources": [],
 	"extensions": [],
 	"plans": [{
