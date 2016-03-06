@@ -3,19 +3,7 @@
 	"description": "Clickatell is a privately held mobile communications company founded in 2000 with a presence in US and Africa. Clickatell delivers short message service SMS services through its Clickatell Gateway to mobile phone users through more than 800 networks in more than 220 countries and territories. Clickatell provides a pay as you go, SMS unit based pricing model for developers to leverage when building applications.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickatell-logo.png",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"applications",
-		"email",
-		"email marketing",
-		"file transfer",
-		"messaging",
-		"plans",
-		"smpp",
-		"sms",
-		"sms api",
-		"smtp",
-		"telephony"
+		"SMS"
 	],
 	"created": "2016-03-05",
 	"modified": "2016-03-05",
@@ -29,19 +17,7 @@
 			"humanURL": "http://americas.clickatell.com/apis-scripts/apis/http-s/",
 			"baseURL": "http://americas.clickatell.com/apis-scripts/apis/http-s/",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"applications",
-				"email",
-				"email marketing",
-				"file transfer",
-				"messaging",
-				"plans",
-				"smpp",
-				"sms",
-				"sms api",
-				"smtp",
-				"telephony"
+				"SMS"
 			],
 			"properties": [
 				{
