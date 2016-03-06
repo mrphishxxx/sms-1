@@ -16,8 +16,8 @@
 		"telphony",
 		"voice"
 	],
-	"created": "2016-03-04",
-	"modified": "2016-03-04",
+	"created": "2016-03-05",
+	"modified": "2016-03-05",
 	"url": "http://sms.stack.network/data/twilio/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -51,12 +51,16 @@
 	],
 	"x-common": [
 		{
-			"type": "X-",
+			"type": "X-c-sharp",
 			"url": "https://www.twilio.com/docs/csharp/install"
 		},
 		{
 			"type": "X-application-gallery",
 			"url": "https://www.twilio.com/showcase"
+		},
+		{
+			"type": "X-base-url-for-api",
+			"url": "https://api.twilio.com"
 		},
 		{
 			"type": "X-blog",
@@ -75,6 +79,10 @@
 			"url": "https://www.twilio.com/help/contact"
 		},
 		{
+			"type": "X-crunchbase",
+			"url": "http://www.crunchbase.com/company/twilio"
+		},
+		{
 			"type": "X-documentation",
 			"url": "https://www.twilio.com/docs/api"
 		},
@@ -91,11 +99,11 @@
 			"url": "https://www.twilio.com/docs/howto"
 		},
 		{
-			"type": "X-",
+			"type": "X-java",
 			"url": "https://www.twilio.com/docs/java/install"
 		},
 		{
-			"type": "X-",
+			"type": "X-nodejs",
 			"url": "https://www.twilio.com/docs/node/install"
 		},
 		{
@@ -103,23 +111,23 @@
 			"url": "https://www.twilio.com/premium-support#features"
 		},
 		{
-			"type": "X-",
+			"type": "X-landing-page",
 			"url": "https://www.twilio.com/partners"
 		},
 		{
-			"type": "X-",
+			"type": "X-php",
 			"url": "https://www.twilio.com/docs/php/install"
 		},
 		{
-			"type": "X-",
+			"type": "X-dedicated-plans--pricing-page",
 			"url": "https://www.twilio.com/pricing"
 		},
 		{
-			"type": "X-",
+			"type": "X-python",
 			"url": "https://www.twilio.com/docs/python/install"
 		},
 		{
-			"type": "X-",
+			"type": "X-python",
 			"url": "https://www.twilio.com/docs/ruby/install"
 		},
 		{
@@ -127,7 +135,7 @@
 			"url": "https://www.twilio.com/docs/salesforce/install"
 		},
 		{
-			"type": "X-",
+			"type": "X-security-practices-page",
 			"url": "https://www.twilio.com/docs/security"
 		},
 		{
@@ -145,10 +153,6 @@
 		{
 			"type": "X-twitter",
 			"url": "https://twitter.com/twilio"
-		},
-		{
-			"type": "X-webinars",
-			"url": "http://www.twilio.com"
 		},
 		{
 			"type": "X-portal",
