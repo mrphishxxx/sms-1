@@ -75,6 +75,10 @@
 		{
 			"type": "x-twitter",
 			"url": "http://www.twitter.com/messente"
+		},
+		{
+			"type": "x-api-plan",
+			"url": "http://sms.stack.network/data/messente/messente-sms-api-api-plan.json"
 		}
 	],
 	"include": [
