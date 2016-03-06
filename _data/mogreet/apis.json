@@ -3,15 +3,7 @@
 	"description": "Mogreet is a text message marketing platform focusing on the delivery of branded, rich media to mobile devices via MMS in over 175 countries. Migrate delivers SMS, MMS, media transcoding, and use lookup services via their API driven platform. Migrate also employs a pay as you go, unit based approach for charging for its services, allowing developers to scale based upon their needs.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/228_logo.jpg",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"media",
-		"media-management",
-		"mms",
-		"mms api",
-		"sms",
-		"sms api",
-		"transcoding"
+		"SMS"
 	],
 	"created": "2016-03-05",
 	"modified": "2016-03-05",
@@ -25,15 +17,7 @@
 			"humanURL": "https://developer.mogreet.com/docs",
 			"baseURL": "https://developer.mogreet.com/docs",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"media",
-				"media-management",
-				"mms",
-				"mms api",
-				"sms",
-				"sms api",
-				"transcoding"
+				"SMS"
 			],
 			"properties": [
 				{
@@ -49,15 +33,7 @@
 			"humanURL": "https://developer.mogreet.com/docs/transcoding/overview",
 			"baseURL": "https://developer.mogreet.com/docs/transcoding/overview",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"media",
-				"media-management",
-				"mms",
-				"mms api",
-				"sms",
-				"sms api",
-				"transcoding"
+				"SMS"
 			],
 			"properties": [
 				{
