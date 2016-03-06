@@ -3,18 +3,7 @@
 	"description": "Twilio, the cloud communications company, providing a telephony infrastructure web service in the cloud, allowing web developers to integrate phone calls, text messages and IP voice communications into their web, mobile and traditional phone applications.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png",
 	"tags": [
-		"API",
-		"Application Programming Interfaces",
-		"api lifeycle",
-		"messaging",
-		"mms",
-		"mms api",
-		"partners",
-		"plans",
-		"sms",
-		"sms api",
-		"telphony",
-		"voice"
+		"SMS"
 	],
 	"created": "2016-03-05",
 	"modified": "2016-03-05",
@@ -28,18 +17,7 @@
 			"humanURL": "https://www.twilio.com/",
 			"baseURL": "https://www.twilio.com/",
 			"tags": [
-				"API",
-				"Application Programming Interfaces",
-				"api lifeycle",
-				"messaging",
-				"mms",
-				"mms api",
-				"partners",
-				"plans",
-				"sms",
-				"sms api",
-				"telphony",
-				"voice"
+				"SMS"
 			],
 			"properties": [
 				{
