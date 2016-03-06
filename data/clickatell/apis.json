@@ -29,51 +29,47 @@
 	],
 	"x-common": [
 		{
-			"type": "X-c-sharp",
+			"type": "x-c-sharp",
 			"url": "http://americas.clickatell.com/apis-scripts/scripts/c-scripts/"
 		},
 		{
-			"type": "X-",
-			"url": "http://americas.clickatell.com/apis-scripts/scripts/cold-fusion/"
-		},
-		{
-			"type": "X-portal",
+			"type": "x-portal",
 			"url": "http://americas.clickatell.com/apis-scripts/"
 		},
 		{
-			"type": "X-github",
+			"type": "x-github",
 			"url": "https://github.com/Clickatell"
 		},
 		{
-			"type": "X-php",
+			"type": "x-php",
 			"url": "http://americas.clickatell.com/apis-scripts/scripts/php/"
 		},
 		{
-			"type": "X-dedicated-plans--pricing-page",
+			"type": "x-dedicated-plans--pricing-page",
 			"url": "http://americas.clickatell.com/products/sms-gateway-cmnext/international-text-pricing/"
 		},
 		{
-			"type": "X-privacy-policy-page",
+			"type": "x-privacy-policy-page",
 			"url": "https://www.clickatell.com/about-us/privacy-policy/?_ga=1.185583465.1120142809.1413957851"
 		},
 		{
-			"type": "X-selfservice-registration",
+			"type": "x-selfservice-registration",
 			"url": "http://americas.clickatell.com/register/"
 		},
 		{
-			"type": "X-terms-of-service-page",
+			"type": "x-terms-of-service-page",
 			"url": "https://www.clickatell.com/about-us/terms-and-conditions/?_ga=1.205319120.1120142809.1413957851"
 		},
 		{
-			"type": "X-twitter",
+			"type": "x-twitter",
 			"url": "https://twitter.com/Clickatell"
 		},
 		{
-			"type": "X-webinars",
+			"type": "x-webinars",
 			"url": "http://americas.clickatell.com/"
 		},
 		{
-			"type": "X-white-papers",
+			"type": "x-white-papers",
 			"url": "http://americas.clickatell.com/resources/white-papers-guides/"
 		}
 	],
@@ -86,7 +82,7 @@
 	"maintainers": [
 		{
 			"FN": "Kin Lane",
-			"X-twitter": "apievangelist",
+			"x-twitter": "apievangelist",
 			"email": "info@apievangelist.com"
 		}
 	]
