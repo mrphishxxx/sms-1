@@ -5,41 +5,32 @@
 	"baseurl": "/",
 	"pages": [],
 	"elements": [{
-		"id": "uxC5mxpfRFRi6lEYFkHfdrspx9saupzY6ehHWqCkCA0117",
 		"name": "Contact"
 	},
 	{
-		"id": "116qdw5tn3iEWLEk18ruAtco2knnwAUwLqZ1mWoDr0eCA117",
 		"name": "Quote"
 	}],
 	"timeframes": [{
-		"id": "by4XHYejfAQbKkLYD45KLtwE8L9VMp61239QvauNRrjKg117",
 		"name": "Monthly"
 	}],
 	"metrics": [{
-		"id": "AmdYC8zBDn1pSNGBvZTrx79MtcwUERcQrU90pRFrKVs117",
 		"name": "Message"
 	}],
 	"geo": [{
-		"id": "dE5cfTvpK0pAdD9123slDswRjrh6F4ro1excYk1GGCUSY117",
 		"name": "Country"
 	}],
 	"limits": [{
-		"id": "scKCvgrFGDDgsgaGnPzKoIOsWSFM5DY116a7Gl116swPAIA117",
 		"name": "Range"
 	},
 	{
-		"id": "jlFFJRo123ZUI4y116zj123Zejz80nVdq6CU8PKDofhXM567E117",
 		"name": "Timeframe"
 	}],
 	"resources": [],
 	"extensions": [],
 	"plans": [{
-		"id": "VQOJqJfy1ELyOxLik2StuoWud6gfgueeXjBOEZ1cPdI117",
 		"name": "Default",
 		"description": "",
 		"entries": [{
-			"id": "U97b9MSF2O0iJeJjtCkJ116cHcJqr2sKyQ9e7nF0UQBMg117",
 			"label": "Send Messages",
 			"description": "Sending up to 1000 messages per month",
 			"metric": "Message",
@@ -52,7 +43,6 @@
 			"unit": ".03"
 		},
 		{
-			"id": "0ZhKGWLQGdmHybY3x96uIP3BmPmqvRjcIUOaCLnwoiA117",
 			"label": "Send Messages",
 			"description": "Sending more than 1000 messages per month",
 			"metric": "Message",
