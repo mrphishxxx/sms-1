@@ -3,8 +3,12 @@
 	"name": "TelAPI",
 	"host": "api.telapi.com",
 	"baseurl": "/",
-	"pages": [],
-	"elements": [],
+	"pages": [{
+		"url": "http://www.telapi.com/pricing"
+	}],
+	"elements": [{
+		"name": "Free"
+	}],
 	"timeframes": [{
 		"name": "Monthly"
 	}],
