@@ -3,7 +3,9 @@
 	"name": "Messente",
 	"host": "api2.messente.com",
 	"baseurl": "/",
-	"pages": [],
+	"pages": [{
+		"url": "https://messente.com/pricing/full"
+	}],
 	"elements": [{
 		"name": "Quote"
 	}],
