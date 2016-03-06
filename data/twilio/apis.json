@@ -135,6 +135,10 @@
 		{
 			"type": "x-portal",
 			"url": "http://www.twilio.com"
+		},
+		{
+			"type": "x-api-plan",
+			"url": "http://sms.stack.network/data/twilio/twilio-api-api-plan.json"
 		}
 	],
 	"include": [
