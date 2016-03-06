@@ -1,5 +1,4 @@
-
-                                              [{
+[{
 	"coupling": "2",
 	"name": "Clicaktell",
 	"host": "api.clickatell.com",
@@ -256,7 +255,7 @@
 			"description": "The price for outgoing messages",
 			"metric": "Message",
 			"limit": "Unlimited",
-			"timeframe": "Montly",
+			"timeframe": "Monthly",
 			"geo": "US",
 			"element": "",
 			"one": "0",
@@ -269,7 +268,7 @@
 			"description": "The price for incoming messages",
 			"metric": "Message",
 			"limit": "Range",
-			"timeframe": "Montly",
+			"timeframe": "Monthly",
 			"geo": "US",
 			"element": "",
 			"one": "0",
