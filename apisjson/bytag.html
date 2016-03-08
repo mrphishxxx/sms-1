@@ -24,8 +24,8 @@ var loadIt = $.getJSON($apisjsonURL, function(apisJSON) {
   $masterLogo = apisJSON['image'];
   $masterURL = apisJSON['url'];
 
-    $masterTags = apisJSON['tags'];
-    $masterIncludes = apisJSON['include'];
+  $masterTags = apisJSON['tags'];
+  $masterIncludes = apisJSON['include'];
 
      $.each($masterIncludes, function(masterKey, masterValue) {
 
@@ -37,6 +37,8 @@ var loadIt = $.getJSON($apisjsonURL, function(apisJSON) {
      var loadIt2 = $.getJSON($includeRootUrl, function(apisJSON) {
 
       $singleName = apisJSON['name'];
+
+      console.log($singleName);
 
       $singleDesc = apisJSON['description'];
       $singleLogo = apisJSON['image'];
@@ -193,6 +195,7 @@ $.each(ordered, function(tagKey, tagValue) {
 
 
 $apisjsonURL = "{{ site.url}}/apis.json";
+console.log("loading..." + $apisjsonURL);
 processAPIsJSON($apisjsonURL);
 
 </script>
