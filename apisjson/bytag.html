@@ -38,7 +38,7 @@ var loadIt = $.getJSON($apisjsonURL, function(apisJSON) {
 
       $singleName = apisJSON['name'];
 
-      console.log($singleName);
+      //console.log($singleName);
 
       $singleDesc = apisJSON['description'];
       $singleLogo = apisJSON['image'];
@@ -168,7 +168,7 @@ $.each(ordered, function(tagKey, tagValue) {
   ordered[tagKey] = $thisvalue;
 
   });
-console.log(ordered);
+
 $.each(ordered, function(tagKey, tagValue) {
 
   $tag = tagKey;
@@ -195,7 +195,7 @@ $.each(ordered, function(tagKey, tagValue) {
 
 
 $apisjsonURL = "{{ site.url}}/apis.json";
-console.log("loading..." + $apisjsonURL);
+//console.log("loading..." + $apisjsonURL);
 processAPIsJSON($apisjsonURL);
 
 </script>

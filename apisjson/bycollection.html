@@ -54,7 +54,7 @@ var jqxhr = $.getJSON($apisjsonURL, function(apisJSON) {
                 $type = propertyValue['type'];
                 $url = propertyValue['url'];
 
-                if($type=='x-oadf')
+                if($type=='x-openapi-spec')
                   {
                   var jqxhr3 = $.getJSON($url, function($oadf) {
 
