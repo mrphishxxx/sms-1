@@ -8,68 +8,67 @@ var $apiurl = "";
 var $Pallette = {};
 var $FullCount = 0;
 
-
 function processAPIsJSON($apisjsonURL)
   {
 
-$apiHumanURL = "";
+  $apiHumanURL = "";
 
-$FullCount = $FullCount + 1;
+  $FullCount = $FullCount + 1;
 
-var loadIt = $.getJSON($apisjsonURL, function(apisJSON) {
+  var loadIt = $.getJSON($apisjsonURL, function(apisJSON) {
 
-  $masterName = apisJSON['name'];
+    $masterName = apisJSON['name'];
 
-  $masterDesc = apisJSON['description'];
-  $masterLogo = apisJSON['image'];
-  $masterURL = apisJSON['url'];
+    $masterDesc = apisJSON['description'];
+    $masterLogo = apisJSON['image'];
+    $masterURL = apisJSON['url'];
 
-  $masterTags = apisJSON['tags'];
-  $masterIncludes = apisJSON['include'];
+    $masterTags = apisJSON['tags'];
+    $masterIncludes = apisJSON['include'];
 
-     $.each($masterIncludes, function(masterKey, masterValue) {
+    $.each($masterIncludes, function(masterKey, masterValue) {
 
        $includeName = masterValue['name'];
        $includeRootUrl = masterValue['url'];
 
        $FullCount = $FullCount + 1;
 
-     var loadIt2 = $.getJSON($includeRootUrl, function(apisJSON) {
+       var loadIt2 = $.getJSON($includeRootUrl, function(apisJSON) {
 
-      $singleName = apisJSON['name'];
+        $singleName = apisJSON['name'];
 
-      //console.log($singleName);
+        //console.log($singleName);
 
-      $singleDesc = apisJSON['description'];
-      $singleLogo = apisJSON['image'];
-      $singleURL = apisJSON['url'];
+        $singleDesc = apisJSON['description'];
+        $singleLogo = apisJSON['image'];
+        $singleURL = apisJSON['url'];
 
         $singleTags = apisJSON['tags'];
         $singleAPIs = apisJSON['apis'];
 
         $.each($singleAPIs, function(apiKey, apiVal) {
 
-        $apiName = apiVal['name'];
-        $apiDesc = apiVal['description'];
-        $apiLogo = apiVal['image'];
-        $apiHumanURL = apiVal['humanURL'];
-        $apiBaseURL = apiVal['baseURL'];
+          $apiName = apiVal['name'];
+          $apiDesc = apiVal['description'];
+          $apiLogo = apiVal['image'];
+          $apiHumanURL = apiVal['humanURL'];
+          $apiBaseURL = apiVal['baseURL'];
 
-        $apiProperties = apiVal['properties'];
+          $apiProperties = apiVal['properties'];
 
-            $.each($apiProperties, function(propertyKey, propertyValue) {
+          $.each($apiProperties, function(propertyKey, propertyValue) {
 
-                $type = propertyValue['type'];
-                $url = propertyValue['url'];
+            $type = propertyValue['type'];
+            $url = propertyValue['url'];
 
-                if($type=='x-openapi-spec')
-                  {
-            $FullCount = $FullCount + 1;
+            if($type=='x-openapi-spec')
+              {
+              $FullCount = $FullCount + 1;
+              console.log("loading 3(" + type + "): " + url);
+              var loadIt3 = $.getJSON($url, function($openapi spec) {
 
-                  var loadIt3 = $.getJSON($url, function($openapi spec) {
-
-                    $paths = $openapi spec['paths'];
-                    $title = $openapi spec['info']['title'];
+              $paths = $openapi spec['paths'];
+              $title = $openapi spec['info']['title'];
 
               $apiSlug = $title.replace(/ /g,"-");
               $apiSlug = $apiSlug.toLowerCase();
