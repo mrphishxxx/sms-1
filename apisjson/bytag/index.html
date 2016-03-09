@@ -63,8 +63,11 @@ function processAPIsJSON($apisjsonURL)
 
             if($type=='x-openapi-spec')
               {
+
               $FullCount = $FullCount + 1;
-              console.log("loading 3(" + type + "): " + url);
+              console.log("loading 3 " + type);
+              console.log("loading 3 " + url);
+              
               var loadIt3 = $.getJSON($url, function($openapi spec) {
 
               $paths = $openapi spec['paths'];
