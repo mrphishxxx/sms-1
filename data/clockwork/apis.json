@@ -2,11 +2,12 @@
 	"name": "Clockwork",
 	"description": "Clockwork is SMS API focused on allowing developers to get up and running sending SMS as quickly as possible. Clockwork only focuses on sending and receiving of SMS for developers through a modern web API platform. Clockwork provides a pay as you go, SMS unit based pricing model for developers to access when building their applications.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clockwork-logo.png",
+	"x-open-ranking": "0",
 	"tags": [
 		"SMS"
 	],
-	"created": "2016-03-06",
-	"modified": "2016-03-06",
+	"created": "2016-03-10",
+	"modified": "2016-03-10",
 	"url": "http://sms.stack.network/data/clockwork/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
