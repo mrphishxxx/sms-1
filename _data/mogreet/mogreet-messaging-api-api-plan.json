@@ -1,0 +1,134 @@
+[{
+	"coupling": "2",
+	"name": "Mogreet",
+	"host": "api.mogreet.com",
+	"baseurl": "/",
+	"pages": [{
+		"url": "https://developer.mogreet.com/pricing"
+	}],
+	"elements": [],
+	"timeframes": [{
+		"name": "Monthly"
+	}],
+	"metrics": [{
+		"name": "Message"
+	},
+	{
+		"name": "Keyword"
+	},
+	{
+		"name": "Number"
+	}],
+	"geo": [{
+		"name": "Country"
+	}],
+	"limits": [{
+		"name": "Unclear"
+	},
+	{
+		"name": "Unlimited"
+	}],
+	"resources": [],
+	"extensions": [],
+	"plans": [{
+		"name": "Default",
+		"description": "",
+		"entries": [{
+			"label": "Outgoing SMS",
+			"description": "Sending SMS",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "",
+			"geo": "US",
+			"element": "",
+			"one": "1",
+			"two": "0",
+			"unit": ".0075"
+		},
+		{
+			"label": "Incoming SMS",
+			"description": "Receiving SMS",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "",
+			"geo": "US",
+			"element": "",
+			"one": "1",
+			"two": "0",
+			"unit": ".0075"
+		},
+		{
+			"label": "Outgoing MMS",
+			"description": "Sending MMS",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "",
+			"geo": "US",
+			"element": "",
+			"one": "1",
+			"two": "0",
+			"unit": ".01"
+		},
+		{
+			"label": "Incoming MMS",
+			"description": "Receiving MMS",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "",
+			"geo": "US",
+			"element": "",
+			"one": "1",
+			"two": "0",
+			"unit": ".01"
+		},
+		{
+			"label": "Vanity Keyword",
+			"description": "The keyword is the first word of incoming messages",
+			"metric": "Keyword",
+			"limit": "Unclear",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": "",
+			"one": "1",
+			"two": "0",
+			"unit": "$1.00"
+		},
+		{
+			"label": "Random Keyword",
+			"description": "The keyword is the first word of incoming messages",
+			"metric": "Keyword",
+			"limit": "Unclear",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": "",
+			"one": "1",
+			"two": "",
+			"unit": "1.00"
+		},
+		{
+			"label": "Vanity Shortcodes",
+			"description": "Special telephone numbers, significantly shorter than full telephone numbers",
+			"metric": "Number",
+			"limit": "Unclear",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": "",
+			"one": "1",
+			"two": "",
+			"unit": "4,500.00"
+		},
+		{
+			"label": "Random Shortcodes",
+			"description": "Special telephone numbers, significantly shorter than full telephone numbers",
+			"metric": "Number",
+			"limit": "Unclear",
+			"timeframe": "Monthly",
+			"geo": "US",
+			"element": "",
+			"one": "1",
+			"two": "",
+			"unit": "3,000.00"
+		}],
+		"elements": []
+	}]
+}]
