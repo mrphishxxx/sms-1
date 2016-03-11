@@ -1,0 +1,125 @@
+[{
+	"coupling": "2",
+	"name": "Plivo",
+	"host": "api.plivo.com",
+	"baseurl": "/",
+	"pages": [{
+		"url": "https://plivo.com/pricing/"
+	}],
+	"elements": [{
+		"name": "Free"
+	},
+	{
+		"name": "Logging"
+	},
+	{
+		"name": "Reporting"
+	}],
+	"timeframes": [],
+	"metrics": [{
+		"name": "Message"
+	},
+	{
+		"name": "Number"
+	}],
+	"geo": [],
+	"limits": [{
+		"name": "Unlimited"
+	}],
+	"resources": [],
+	"extensions": [],
+	"plans": [{
+		"name": "Default",
+		"description": "",
+		"entries": [{
+			"label": "Outgoing SMS",
+			"description": "Send SMS",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "",
+			"geo": "",
+			"element": "",
+			"one": "1",
+			"two": "",
+			"unit": ".0035"
+		},
+		{
+			"label": "Incoming SMS",
+			"description": "Receiving SMS",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "",
+			"geo": "",
+			"element": "",
+			"one": "1",
+			"two": "",
+			"unit": "0"
+		},
+		{
+			"label": "Number",
+			"description": "Number for sending and receiving SMS",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "",
+			"geo": "",
+			"element": "",
+			"one": "1",
+			"two": "",
+			"unit": "0"
+		},
+		{
+			"label": "Outgoing SMS",
+			"description": "Send SMS from short code numbers",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "",
+			"geo": "",
+			"element": "",
+			"one": "1",
+			"two": "",
+			"unit": ".0040"
+		},
+		{
+			"label": "Incoming SMS",
+			"description": "Receive SMS to short code numbers",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "",
+			"geo": "",
+			"element": "",
+			"one": "1",
+			"two": "",
+			"unit": "0"
+		},
+		{
+			"label": "Random Shortcodes",
+			"description": "Random shortcode numbers",
+			"metric": "Number",
+			"limit": "Unlimited",
+			"timeframe": "",
+			"geo": "",
+			"element": "",
+			"one": "1",
+			"two": "",
+			"unit": "1000"
+		},
+		{
+			"label": "Vanity Shortcodes",
+			"description": "Vanity shortcode numbers",
+			"metric": "Message",
+			"limit": "Unlimited",
+			"timeframe": "",
+			"geo": "",
+			"element": "",
+			"one": "1",
+			"two": "",
+			"unit": "1500"
+		}],
+		"elements": [{
+			"name": "Logging"
+		},
+		{
+			"name": "Reporting"
+		}]
+	}]
+}]
