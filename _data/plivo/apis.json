@@ -2,11 +2,12 @@
 	"name": "Plivo",
 	"description": "Plivo is an API Platform for building voice and SMS features into web and mobile applications that are focused on running in the cloud. Plivo provides web APIs that allow developers to integrate voice and SMS sending, receiving, and account management features into any applications. Plivo provides a free tier for playing around with the API, as well as unit based, pay as you go pricing, which includes volume pricing for larger scale operations.",
 	"image": "https://www.plivo.com/assets/dist/img/logo.png",
+	"x-open-ranking": "0",
 	"tags": [
 		"SMS"
 	],
-	"created": "2016-03-06",
-	"modified": "2016-03-06",
+	"created": "2016-03-10",
+	"modified": "2016-03-10",
 	"url": "http://sms.stack.network/data/plivo/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
@@ -24,18 +25,6 @@
 					"type": "x-openapi-spec",
 					"url": "http://sms.stack.network/data/plivo/plivo-sms-openapi-spec.json"
 				}
-			]
-		},
-		{
-			"name": "Plivo Voice",
-			"description": "Plivo is an API Platform for building voice and SMS features into web and mobile applications that are focused on running in the cloud. Plivo provides web APIs that allow developers to integrate voice and SMS sending, receiving, and account management features into any applications. Plivo provides a free tier for playing around with the API, as well as unit based, pay as you go pricing, which includes volume pricing for larger scale operations.",
-			"image": "https://www.plivo.com/assets/dist/img/logo.png",
-			"humanURL": "",
-			"baseURL": "",
-			"tags": [
-				"SMS"
-			],
-			"properties": [
 			]
 		}
 	],
@@ -130,7 +119,7 @@
 		},
 		{
 			"type": "x-api-plan",
-			"url": "http://sms.stack.network/data/plivo/plivo-voice-api-plan.json"
+			"url": "http://sms.stack.network/data/plivo/plivo-sms-api-plan.json"
 		}
 	],
 	"include": [
