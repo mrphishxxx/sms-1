@@ -146,8 +146,9 @@ function processAPIsJSON($apisjsonURL)
 
                 $FullCount = $FullCount - 1;
                 if($FullCount==0){
-                  $viewer = JSON.stringify($Pallette, null, 4);
-                  document.getElementById("jsonViewerDetails").value = $viewer;
+
+                  //$viewer = JSON.stringify($Pallette, null, 4);
+                  //document.getElementById("jsonViewerDetails").value = $viewer;
 
                   $.each(tagsforcloud['tags'], function(key, val) {
 
