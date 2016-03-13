@@ -157,7 +157,7 @@ function processAPIsJSON($apisjsonURL)
             				name = val['name'];
             				slug = val['slug'];
             				tagcount = val['count'];
-
+                    console.log(name + ' - ' + tagcount);
             				html = '<span data-weight="' + tagcount + '"><a href="stack.html?tag=' + slug + '">' + name + '</a></span>';
             				$('#stack-cloud').append(html);
 
