@@ -161,6 +161,7 @@ function processAPIsJSON($apisjsonURL)
 
             				html = '<span data-weight="' + tagcount + '"><a href="stack.html?tag=' + slug + '" title="used ' + tagcount + ' times">' + name + '</a></span>';
             				$('#stack-cloud').append(html);
+                    $('#stack-cloud').append(html);
 
             			});
 
@@ -209,6 +210,7 @@ processAPIsJSON($apisjsonURL);
 
 </script>
 <div id="stack-cloud-wrapper" style="width 75%; height: 350px; border: 0px solid #000; margin-left: 50px; margin-right: 50px;">
+  <div id="stack-toc" style="text-align;center; width=100%; border: 1px solid #000;"></div>
   <div id="stack-cloud" class="wordcloud" style="height: 350px;"></div>
 </div>
 <p>This is a simple example of how APIs.json can be used to better understand the often large surface area of the APIs we are increasingly depending on.</p>
