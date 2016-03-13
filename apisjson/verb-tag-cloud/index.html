@@ -159,7 +159,7 @@ function processAPIsJSON($apisjsonURL)
             				slug = val['slug'];
             				tagcount = val['count'];
 
-            				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + tagcount + ' times">' + name + '</a></span>';
+            				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + tagcount + ' times">' + name + '</a> (' + tagcount + ' times)</span>';
             				$('#stack-toc').append(html);
                     html = '<span data-weight="' + tagcount + '"><a href="#" title="used ' + tagcount + ' times">' + name + '</a></span>';
                     $('#stack-cloud').append(html);
