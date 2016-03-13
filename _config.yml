@@ -70,33 +70,6 @@ navigation:
     size2: 60
     padding: 0
     decorate: 0
-  - label1: By Collection
-    link1: /apisjson/bycollection/
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 60
-    padding: 5
-    decorate: 0
-  - label1: By Tag
-    link1: /apisjson/bytag/
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 60
-    padding: 5
-    decorate: 0
-  - label1: Verb Tag Cloud
-    link1: /apisjson/verb-tag-cloud/
-    size1: 80
-    extend: 0
-    label2:
-    link2:
-    size2: 60
-    padding: 5
-    decorate: 0
   - label1: Plans
     link1: /plans/
     size1: 80
