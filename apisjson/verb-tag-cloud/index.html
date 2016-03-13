@@ -9,6 +9,7 @@ var $apiurl = "";
 var $Pallette = {};
 var $FullCount = 0;
 var $tagsforcloud = {};
+var $tagsforcloud['tags'] = [];
 
 function processAPIsJSON($apisjsonURL)
 {
@@ -94,7 +95,7 @@ function processAPIsJSON($apisjsonURL)
                     $M['name'] = $method;
                     $M['slug'] = $methodslug;
 
-                    $tagsforcloud.push($M);
+                    $tagsforcloud['tags'].push($M);
 
                     $method_summary = methodValue['summary'];
                     $tags = methodValue['tags'];
@@ -106,9 +107,9 @@ function processAPIsJSON($apisjsonURL)
                       $tagslug = $tagslug.toLowerCase();
 
                       if(!Array.isArray($Pallette[$tag]))
-                      {
-                        $Pallette[$tag] = [];
-                      }
+                        {
+                          $Pallette[$tag] = [];
+                        }
 
                       $T = {};
                       $T['summary'] = $method_summary;
