@@ -3,14 +3,7 @@ layout: page
 title: 'Verb Tag Cloud'
 ---
 <h1>API Resources Verb Tag Cloud</h1>
-<table width="100%">
-  <tr>
-    <td align="center"><a href="/apis/"><strong>All</strong></a></td>
-    <td align="center"><a href="/apisjson/bycollection/"><strong>By Collection</strong></a></td>
-    <td align="center"><a href="/apisjson/bytag/"><strong>By Tag</strong></a></td>
-    <td align="center"><a href="/apisjson/verb-tag-cloud/"><strong>Verb Tag Cloud</strong></a></td>
-  </tr>
-</table>
+<p>This is a listing of all of the verbs used across the APIs available in <a href="/apis.json">this projects APIs.json</a>. Their sized is based upon the count of each verbs usage. You can also view <a href="/apis/"><strong>All</strong></a>, <a href="/apisjson/bycollection/"><strong>By Collection</strong></a>, or by <a href="/apisjson/bytag/"><strong>By Tag</strong></a>.</p>
 <script type="text/jscript">
 
 var $apiurl = "";
@@ -215,7 +208,6 @@ $apisjsonURL = "{{ site.url}}/apis.json";
 processAPIsJSON($apisjsonURL);
 
 </script>
-<p>This is a listing of all of the verbs used across the APIs available in <a href="/apis.json">this projects APIs.json</a>. Their sized is based upon the count of each verbs usage.</p>
 <div id="stack-cloud-wrapper" style="width 75%; height: 350px; border: 0px solid #000; margin-left: 50px; margin-right: 50px;">
   <div id="stack-cloud" class="wordcloud" style="height: 350px;"></div>
 </div>
