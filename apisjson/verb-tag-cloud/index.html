@@ -90,9 +90,9 @@ function processAPIsJSON($apisjsonURL)
                     $methodslug = $methodslug.toLowerCase();
 
                     $M = {};
-                    $M['tag'] = method;
-                    $M['name'] = method;
-                    $M['slug'] = methodslug;
+                    $M['tag'] = $method;
+                    $M['name'] = $method;
+                    $M['slug'] = $methodslug;
 
                     $tagsforcloud.push($M);
 
