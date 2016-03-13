@@ -155,9 +155,9 @@ function processAPIsJSON($apisjsonURL)
             				tag = val['tag'];
             				name = val['name'];
             				slug = val['slug'];
-            				companycount = val['company-count'];
+            				tagcount = val['count'];
 
-            				html = '<span data-weight="' + companycount + '"><a href="stack.html?tag=' + slug + '">' + name + '</a></span>';
+            				html = '<span data-weight="' + tagcount + '"><a href="stack.html?tag=' + slug + '">' + name + '</a></span>';
             				$('#stack-cloud').append(html);
 
             			});
