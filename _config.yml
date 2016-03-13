@@ -61,7 +61,7 @@ navigation:
     size2: 60
     padding: 2
     decorate: 0
-  - label1: APIs (All)
+  - label1: APIs
     link1: /apis/
     size1: 80
     extend: 1
