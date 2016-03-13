@@ -107,17 +107,13 @@ function processAPIsJSON($apisjsonURL)
                         }
                     });
 
-                    console.log("verb exist? " + $VerbExist);
-
+                    // Add It Because It Doesn't Exist
                     if($VerbExist==0)
                       {
                       $tagsforcloud['tags'].push($M);
                       }
-                    else
-                      {
-                      $tagsforcloud['tags'].push($M);
-                      }
 
+                    // Do Not Need Below, but wil keep
                     $method_summary = methodValue['summary'];
                     $tags = methodValue['tags'];
 
