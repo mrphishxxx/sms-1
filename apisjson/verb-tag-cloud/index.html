@@ -94,8 +94,27 @@ function processAPIsJSON($apisjsonURL)
                     $M['tag'] = $method;
                     $M['name'] = $method;
                     $M['slug'] = $methodslug;
+                    $M['count'] = 1;
 
-                    $tagsforcloud['tags'].push($M);
+                    $VerbExist = 0;
+                    $.each($tagsforcloud['tags'], function(key, value) {
+                      if(value['tag'] == method)
+                        {
+                        $VerbExist = 1;
+                        $verbcount = $tagsforcloud['tags'][key]['count'];
+                        $verbcount = $verbcount + 1;
+                        $tagsforcloud['tags'][key]['count'] = $verbcount ;
+                        }
+                    });
+                    console.log("verb exist? " + $VerbExist);
+                    if(VerbExist==0)
+                      {
+                      $tagsforcloud['tags'].push($M);
+                      }
+                    else
+                      {
+                      $tagsforcloud['tags'].push($M);
+                      }
 
                     $method_summary = methodValue['summary'];
                     $tags = methodValue['tags'];
