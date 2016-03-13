@@ -87,6 +87,7 @@ function processAPIsJSON($apisjsonURL)
                   $.each(pathValue, function(methodKey, methodValue) {
 
                     $method = methodKey;
+                    $method = $method.toUpperCase();
                     $methodslug = $method.replace(/ /g,"-");
                     $methodslug = $methodslug.toLowerCase();
 
@@ -130,7 +131,7 @@ function processAPIsJSON($apisjsonURL)
 
                       $T = {};
                       $T['summary'] = $method_summary;
-                      $T['method'] = $method.toUpperCase();
+                      $T['method'] = $method;
                       $T['path'] = $path_name;
                       $T['url'] = $url;
                       $T['host'] = $host;
