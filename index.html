@@ -14,7 +14,7 @@ title: {{ site.title }}
 
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Top Links</strong></p>
     <ul class="featurelist">
-      {% for org in site.data.organizations limit: 5 %}
+      {% for org in site.data.organizations limit:5 %}
         <li><a href="{{ org.website }}">{{ org.name }}</a></li>
       {% endfor %}
     </ul>
@@ -25,7 +25,7 @@ title: {{ site.title }}
     <ul class="newslist">
       {% assign totalpost = 4 %}
       {% assign countpost = 1 %}
-      {% for post in site.posts limit: 75 %}
+      {% for post in site.posts limit:75 %}
         {% if post.title != null %}
           {% if countpost < totalpost %}
             <li><a href="{{ post.source }}">{{ post.title }}</a></li>
