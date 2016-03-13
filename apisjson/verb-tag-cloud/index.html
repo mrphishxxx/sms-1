@@ -8,7 +8,7 @@ title: 'Verb Tag Cloud'
 var $apiurl = "";
 var $Pallette = {};
 var $FullCount = 0;
-var $tagsforcloud = array();
+var $tagsforcloud['tags'] = {};
 
 function processAPIsJSON($apisjsonURL)
 {
@@ -86,8 +86,15 @@ function processAPIsJSON($apisjsonURL)
                   $.each(pathValue, function(methodKey, methodValue) {
 
                     $method = methodKey;
+                    $methodslug = $method.replace(/ /g,"-");
+                    $methodslug = $methodslug.toLowerCase();
 
-                    array_push(tagsforcloud,$method);
+                    $M = {};
+                    $M['tag'] = method;
+                    $M['name'] = method;
+                    $M['slug'] = methodslug;
+
+                    $tagsforcloud['tags'].push($M);
 
                     $method_summary = methodValue['summary'];
                     $tags = methodValue['tags'];
