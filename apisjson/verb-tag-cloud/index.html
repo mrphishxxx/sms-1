@@ -98,7 +98,7 @@ function processAPIsJSON($apisjsonURL)
 
                     $VerbExist = 0;
                     $.each($tagsforcloud['tags'], function(key, value) {
-                      if(value['tag'] == method)
+                      if(value['tag'] == $method)
                         {
                         $VerbExist = 1;
                         $verbcount = $tagsforcloud['tags'][key]['count'];
