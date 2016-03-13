@@ -97,6 +97,7 @@ function processAPIsJSON($apisjsonURL)
                     $M['name'] = $method;
                     $M['slug'] = $methodslug;
                     $M['count'] = 1;
+                    $M['percentage'] = 0;
 
                     $VerbExist = 0;
                     $.each($tagsforcloud['tags'], function(key, value) {
@@ -152,16 +153,37 @@ function processAPIsJSON($apisjsonURL)
                   //$viewer = JSON.stringify($Pallette, null, 4);
                   //document.getElementById("jsonViewerDetails").value = $viewer;
 
+                  // Let's get max
+                  $Max = 0;
+                  $.each($tagsforcloud['tags'], function(key, val) {
+            				$tagcount = val['count'];
+                    if($tagcount > $Max){ $Max = $tagcount; }
+            			});
+
+                  // Set percentages
+                  $.each($tagsforcloud['tags'], function(key, val) {
+            				$tagcount = val['count'];
+                    //$percentage = (($tagcount - 1) / ($Max - 1));
+                    $percentage = ($tagcount / $Max) * 100;
+                    //$percentage = ($percentage / 10) * 100;
+                    $percentage = Math.round($percentage);
+
+                    $tagsforcloud['tags'][key]['percentage'] = $percentage;
+            			});
+
                   $.each($tagsforcloud['tags'], function(key, val) {
 
-            				tag = val['tag'];
-            				name = val['name'];
-            				slug = val['slug'];
-            				tagcount = val['count'];
+            				$tag = val['tag'];
+            				$name = val['name'];
+            				$slug = val['slug'];
+            				$tagcount = val['count'];
+                    $tagpercentage = val['percentage'];
 
-            				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + tagcount + ' times">' + name + '</a> (' + tagcount + ' times)</span>';
+                    console.log("count/perc: " + $tagcount + "/" + $tagpercentage);
+
+            				html = '<span style="padding: 5px; text-align: center;"><a href="#" title="used ' + $tagcount + ' times">' + $name + '</a> (' + $tagcount + ' times)</span>';
             				$('#stack-toc').append(html);
-                    html = '<span data-weight="' + tagcount + '"><a href="#" title="used ' + tagcount + ' times">' + name + '</a></span>';
+                    html = '<span data-weight="' + $tagpercentage + '"><a href="#" name="' + $name + '">' + $name + '</a></span>';
                     $('#stack-cloud').append(html);
 
             			});
@@ -169,7 +191,7 @@ function processAPIsJSON($apisjsonURL)
             			$("#stack-cloud").awesomeCloud({
             				"size" : {
             					"grid" : 7,
-            					"factor" : 4
+            					"factor" : 2
             				},
             				"options" : {
             					"color" : "random-dark",
@@ -210,8 +232,8 @@ $apisjsonURL = "{{ site.url}}/apis.json";
 processAPIsJSON($apisjsonURL);
 
 </script>
-<div id="stack-cloud-wrapper" style="width 75%; border: 0px solid #000; margin-left: 0px; margin-right: 50px;">
+<div id="stack-cloud-wrapper" style="width 75%; border: 0px solid #000; margin-left: 0px; margin-right: 150px;">
   <div id="stack-toc" style="text-align: center; width=100%; border: 0px solid #000;"></div>
-  <div id="stack-cloud" class="wordcloud" style="height: 250px;"></div>
+  <div id="stack-cloud" class="wordcloud" style="height: 300px;"></div>
 </div>
 <p>This is a simple example of how APIs.json can be used to better understand the often large surface area of the APIs we are increasingly depending on.</p>
