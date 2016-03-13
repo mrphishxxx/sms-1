@@ -148,7 +148,32 @@ function processAPIsJSON($apisjsonURL)
                 if($FullCount==0){
                   $viewer = JSON.stringify($Pallette, null, 4);
                   document.getElementById("jsonViewerDetails").value = $viewer;
-                  console.log($tagsforcloud);
+
+                  $.each(tagsforcloud['tags'], function(key, val) {
+
+            				tag = val['tag'];
+            				name = val['name'];
+            				slug = val['slug'];
+            				companycount = val['company-count'];
+
+            				html = '<span data-weight="' + companycount + '"><a href="stack.html?tag=' + slug + '">' + name + '</a></span>';
+            				$('#stack-cloud').append(html);
+
+            			});
+
+            			$("#stack-cloud").awesomeCloud({
+            				"size" : {
+            					"grid" : 7,
+            					"factor" : 3
+            				},
+            				"options" : {
+            					"color" : "random-dark",
+            					"rotationRatio" : 0
+            				},
+            				"font" : "'Times New Roman', Times, serif",
+            				"shape" : "circle"
+            			});
+
                 }
 
               });
@@ -181,6 +206,5 @@ processAPIsJSON($apisjsonURL);
 
 </script>
 <p>This is a listing of API resources available in <a href="/apis.json">this projects APIs.json</a>, organized by tag.</p>
-<div id="jsonBrowser"></div>
-<!-- For Viewing-->
-<textarea rows="10" cols="100" id="jsonViewerDetails" style="display: none;"></textarea>
+
+<div id="stack-cloud" class="wordcloud" style="height: 400px;"></div>
