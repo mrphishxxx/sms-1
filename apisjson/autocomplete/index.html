@@ -93,6 +93,7 @@ function processAPIsJSON($apisjsonURL)
                   $.each(pathValue, function(methodKey, methodValue) {
 
                     $method = methodKey;
+                    $method = $method.toUpperCase();
 
                     $methodexist = 0;
                     $.each($verbArray, function(key, value) { if(value == $method){ $methodexist = 1; }});
@@ -159,6 +160,6 @@ processAPIsJSON($apisjsonURL);
 
 <form action="#p" method="get">
   <p><strong>Path:</strong> <input id="paths" type="text" style="width: 350px; font-size: 14px;" name="Paths" value="" /></p>
-  <p><strong>Verb:</strong> <input id="verbs" type="text" style="width: 200px; font-size: 14px;" name="Verbs" value="" /></p>
+  <p><strong>Verb:</strong> <input id="verbs" type="text" style="width: 50px; font-size: 14px;" name="Verbs" value="" /></p>
   <p><strong>Tags:</strong> <input id="tags" type="text" style="width: 300px; font-size: 14px;" name="Tag" value="" /></p>
 </form>
