@@ -86,16 +86,16 @@ function processAPIsJSON($apisjsonURL)
 
                   $path_name = pathKey;
 
-                $pathexist = 0;
-                $.each($verbArray, function(key, value) {if(value == $path_name){ $pathexist = 1; }});
-                if($pathexist==0) {  $pathArray.push($path_name); }
+                  $pathexist = 0;
+                  $.each($verbArray, function(key, value) {if(value == $path_name){ $pathexist = 1; }});
+                  if($pathexist==0) {  $pathArray.push($path_name); }
 
                   $.each(pathValue, function(methodKey, methodValue) {
 
                     $method = methodKey;
 
-                  $methodexist = 0;
-                  $.each($verbArray, function(key, value) { if(value == $method){ $methodexist = 1; }});
+                    $methodexist = 0;
+                    $.each($verbArray, function(key, value) { if(value == $method){ $methodexist = 1; }});
                     if($methodexist==0) { $verbArray.push($method); }
 
                     $method_summary = methodValue['summary'];
@@ -123,23 +123,17 @@ function processAPIsJSON($apisjsonURL)
                 $FullCount = $FullCount - 1;
                 if($FullCount==0){
 
-          $pathArray.sort();
-          console.log($pathArray);
+                  $pathArray.sort();
+                  $verbArray.sort();
+                  $tagArray.sort();
 
-          $verbArray.sort();
-          console.log($verbArray);
-
-          $tagArray.sort();
-          console.log($tagArray);
-
-          // Load AutoComplete
-          $(function() {
-            $( "#paths" ).autocomplete({ source: $pathArray });
-            $( "#verbs" ).autocomplete({ source: $verbArray });
-            $( "#tags" ).autocomplete({ source: $tagArray });
-          });
-
-        }
+                  // Load AutoComplete
+                  $(function() {
+                    $( "#paths" ).autocomplete({ source: $pathArray });
+                    $( "#verbs" ).autocomplete({ source: $verbArray });
+                    $( "#tags" ).autocomplete({ source: $tagArray });
+                  });
+                }
               });
             }
           });
@@ -147,19 +141,13 @@ function processAPIsJSON($apisjsonURL)
       });
 
       loadIt2.complete(function() {
-
         $FullCount = $FullCount - 1;
-
       });
-
     });
-
   });
 
   loadIt.complete(function() {
-
     $FullCount = $FullCount - 1;
-
   });
 
 }
@@ -170,7 +158,7 @@ processAPIsJSON($apisjsonURL);
 </script>
 
 <form action="#p" method="get">
-<input id="paths" type="text" style="width: 250px;" name="Paths" value="" /><br />
-<input id="verbs" type="text" style="width: 100px;" name="Verbs" value="" /><br />
-<input id="tags" type="text" style="width: 200px;" name="Tag" value="" /><br />
+  <p><strong>Path:</strong> <input id="paths" type="text" style="width: 350px; font-size: 14px;" name="Paths" value="" /></p>
+  <p><strong>Verb:</strong> <input id="verbs" type="text" style="width: 200px; font-size: 14px;" name="Verbs" value="" /></p>
+  <p><strong>Tags:</strong> <input id="tags" type="text" style="width: 300px; font-size: 14px;" name="Tag" value="" /></p>
 </form>
