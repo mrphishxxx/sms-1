@@ -12,13 +12,11 @@ markdown:     rdiscount
 permalink:    pretty
 pygments:     true
 
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:year/:month/:day/:title/
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 paginate: 500
-paginate_path: "/news/page:num"
-
-production_url : http://sms.stack.network
+paginate_path: "/news/page:num/"
 
 categories_path : /categories.html
 tags_path : /tags.html
@@ -32,10 +30,10 @@ masthead_font_size: 75
 masthead_title: '{"SMS APIs"}'
 
 # Feature
-feature_title: API Design Providers Guide
-feature_link: http://apis.how/xzca4kr2wb
-feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/3scale/report-image-api-design.png
-feature_image_width: 45
+feature_title: API Guide
+feature_link: http://apievangelist.com
+feature_image_source: https://s3.amazonaws.com/kinlane-productions/whitepapers/api-guides-loading.jpg
+feature_image_width: 50
 
 # Project
 project_image: https://s3.amazonaws.com/kinlane-productions/api-stack/icons/bw-sms.png
@@ -107,6 +105,11 @@ footernavigation:
     link: http://kinlane.com/contacts/
 
 # sponsors
-sponsors_margin_top: 15
-sponsors_padding_top: 10
+sponsors_margin_top: 3
+sponsors_padding_top: 3
 sponsors_json_url: https://s3.amazonaws.com/kinlane-productions/json/sponsors.json
+
+# support
+support_title: Support My SMS API Reshipping
+support_header: I depend on the support of my partners to fund my work as an independent analysts. I have been monitoring the world of APIs since July of 2010 through the support of my partners, and a handful of writing or consulting projects along the way. If you find what I do valuable, please help support me by purchasing my guides, giving below, or if there are specific aspects of SMS APIs you'd like me to focus on, let me know, and maybe we can find a way to provide you with what you are looking for.
+support_footer: I pay my bills by consulting on API projects, and writing white papers and guides. You can find much of my reSMS freely available across my website(s). Let me know how I can make my search API research more valuable to you. Thank you for your support, and feel free to ping me directly if you have more questions.
